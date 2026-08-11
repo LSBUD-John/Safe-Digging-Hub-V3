@@ -1,0 +1,114 @@
+[
+  {
+    "ID": "LG001",
+    "Title": "Health and Safety at Work etc. Act 1974",
+    "Type": "Legislation",
+    "Jurisdiction": "England/Scotland/Wales",
+    "Relevance": "General duties",
+    "Official URL": "https://www.legislation.gov.uk/ukpga/1974/37/contents"
+  },
+  {
+    "ID": "LG002",
+    "Title": "CDM Regulations 2015",
+    "Type": "Legislation",
+    "Jurisdiction": "England/Scotland/Wales",
+    "Relevance": "Client/designer/contractor duties",
+    "Official URL": "https://www.hse.gov.uk/construction/cdm/2015/summary.htm"
+  },
+  {
+    "ID": "LG003",
+    "Title": "HSG47",
+    "Type": "Official guidance",
+    "Jurisdiction": "Great Britain",
+    "Relevance": "Underground services safe system",
+    "Official URL": "https://www.hse.gov.uk/pubns/books/hsg47.htm"
+  },
+  {
+    "ID": "LG004",
+    "Title": "GS6",
+    "Type": "Official guidance",
+    "Jurisdiction": "Great Britain",
+    "Relevance": "Overhead-line controls",
+    "Official URL": "https://www.hse.gov.uk/pubns/gs6.htm"
+  },
+  {
+    "ID": "LG005",
+    "Title": "PAS 128:2022",
+    "Type": "Standard",
+    "Jurisdiction": "UK",
+    "Relevance": "Utility detection and mapping",
+    "Official URL": "https://knowledge.bsigroup.com/products/pas-128-underground-utility-detection-verification-and-location-specification"
+  },
+  {
+    "ID": "LG006",
+    "Title": "New Roads and Street Works Act 1991",
+    "Type": "Legislation",
+    "Jurisdiction": "England/Wales",
+    "Relevance": "Street works framework",
+    "Official URL": "https://www.legislation.gov.uk/ukpga/1991/22/contents"
+  },
+  {
+    "ID": "LG007",
+    "Title": "Street Works (NI) Order 1995",
+    "Type": "Legislation",
+    "Jurisdiction": "Northern Ireland",
+    "Relevance": "NI street works",
+    "Official URL": "https://www.legislation.gov.uk/nisi/1995/3210/contents"
+  },
+  {
+    "ID": "LG008",
+    "Title": "Pipelines Safety Regulations 1996",
+    "Type": "Legislation",
+    "Jurisdiction": "Great Britain",
+    "Relevance": "Pipeline integrity/damage prevention",
+    "Official URL": "https://www.legislation.gov.uk/uksi/1996/825/contents"
+  },
+  {
+    "ID": "LG009",
+    "Title": "Building Act 1984",
+    "Type": "Legislation / context",
+    "Jurisdiction": "England/Wales",
+    "Relevance": "Building-control framework",
+    "Official URL": "https://www.legislation.gov.uk/ukpga/1984/55/contents"
+  },
+  {
+    "ID": "LG010",
+    "Title": "GPDO 2015",
+    "Type": "Legislation",
+    "Jurisdiction": "England",
+    "Relevance": "Permitted development rights",
+    "Official URL": "https://www.legislation.gov.uk/uksi/2015/596/contents"
+  },
+  {
+    "ID": "LG011",
+    "Title": "Access to Neighbouring Land Act 1992",
+    "Type": "Legislation / signpost",
+    "Jurisdiction": "England/Wales",
+    "Relevance": "Potential access for preservation works",
+    "Official URL": "https://www.legislation.gov.uk/ukpga/1992/23/contents"
+  },
+  {
+    "ID": "LG012",
+    "Title": "Land Registry title information",
+    "Type": "Official information",
+    "Jurisdiction": "England/Wales",
+    "Relevance": "Ownership/general-boundary context",
+    "Official URL": "https://www.gov.uk/search-property-information-land-registry"
+  },
+  {
+    "ID": "LG013",
+    "Title": "Party Wall etc. Act 1996",
+    "Type": "Legislation / signpost",
+    "Jurisdiction": "England/Wales",
+    "Relevance": "Neighbouring works context",
+    "Official URL": "https://www.legislation.gov.uk/ukpga/1996/40/contents"
+  },
+  {
+    "ID": "LG014",
+    "Title": "Welsh Language Standards",
+    "Type": "Language/service standard",
+    "Jurisdiction": "Wales",
+    "Relevance": "Bilingual service design",
+    "Official URL": "https://www.welshlanguagecommissioner.wales/regulation/welsh-language-standards"
+  }
+]

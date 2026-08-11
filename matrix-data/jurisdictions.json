@@ -1,0 +1,42 @@
+[
+  {
+    "ID": "J001",
+    "Nation": "England",
+    "Street works": "Street Manager for eligible street-works users",
+    "Platforms/resources": "NUAR eligible users; LSBUD/OneCall; USAG",
+    "Environmental regulator": "Environment Agency",
+    "Language": "English",
+    "Legal context": "NRSWA 1991; CDM 2015",
+    "Official URL": "https://www.gov.uk/guidance/plan-and-manage-roadworks"
+  },
+  {
+    "ID": "J002",
+    "Nation": "Scotland",
+    "Street works": "Scottish Road Works Register",
+    "Platforms/resources": "Vault eligible users; LSBUD/OneCall; USAG",
+    "Environmental regulator": "SEPA",
+    "Language": "English; Gaelic considerations",
+    "Legal context": "Scottish road works; CDM 2015",
+    "Official URL": "https://roadworks.scot/"
+  },
+  {
+    "ID": "J003",
+    "Nation": "Wales",
+    "Street works": "Welsh Government street-works arrangements",
+    "Platforms/resources": "NUAR eligible users; LSBUD/OneCall; USAG",
+    "Environmental regulator": "Natural Resources Wales",
+    "Language": "English and Welsh",
+    "Legal context": "NRSWA; CDM; Welsh language duties",
+    "Official URL": "https://www.gov.wales/national-approach-road-and-street-works"
+  },
+  {
+    "ID": "J004",
+    "Nation": "Northern Ireland",
+    "Street works": "Street Works (NI) Order regime",
+    "Platforms/resources": "NUAR eligible users; LSBUD/OneCall; USAG",
+    "Environmental regulator": "NIEA / DAERA",
+    "Language": "English; Irish/Ulster-Scots considerations",
+    "Legal context": "Street Works (NI) Order 1995",
+    "Official URL": "https://www.infrastructure-ni.gov.uk/"
+  }
+]

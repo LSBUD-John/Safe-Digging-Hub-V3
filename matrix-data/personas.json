@@ -1,0 +1,402 @@
+[
+  {
+    "ID": "P001",
+    "Persona": "Householder / member of public",
+    "Group": "Public / domestic",
+    "Authority": "Direct buyer",
+    "Commercial potential": "Low",
+    "Needs / wants": "Plain-English guidance; boundaries; utility plans; planning/building obligations",
+    "Pain points": "Uncertain private services; neighbour access; unfamiliar terminology",
+    "Likely recommendations": "Householder checklist; OneCall; planning applications API"
+  },
+  {
+    "ID": "P002",
+    "Persona": "Small builder",
+    "Group": "Contractor / trades",
+    "Authority": "Direct buyer",
+    "Commercial potential": "Medium",
+    "Needs / wants": "Fast utility information; safe method; practical guidance",
+    "Pain points": "Programme and cost pressure; incomplete private services",
+    "Likely recommendations": "OneCall; Top-Up; survey quote"
+  },
+  {
+    "ID": "P003",
+    "Persona": "Fencing contractor",
+    "Group": "Contractor / trades",
+    "Authority": "Buyer / doer",
+    "Commercial potential": "Medium",
+    "Needs / wants": "Shallow utilities; boundaries; service connections",
+    "Pain points": "Post-hole strikes; rural/private supplies",
+    "Likely recommendations": "Fencing guide; OneCall; Top-Up"
+  },
+  {
+    "ID": "P004",
+    "Persona": "Hedging / landscaping contractor",
+    "Group": "Contractor / trades",
+    "Authority": "Buyer / doer",
+    "Commercial potential": "Medium",
+    "Needs / wants": "Overhead constraints; underground utility assets; TPO/ecology; plant loading",
+    "Pain points": "Roots; private supplies; MEWP/OHPL risk",
+    "Likely recommendations": "OneCall; GS6 guidance; environmental checks"
+  },
+  {
+    "ID": "P005",
+    "Persona": "Drainage contractor",
+    "Group": "Contractor / trades",
+    "Authority": "Buyer / doer",
+    "Commercial potential": "Medium",
+    "Needs / wants": "Sewer/drain routes; watercourses; contamination; dewatering",
+    "Pain points": "Unknown drains; wet ground; discharge",
+    "Likely recommendations": "OneCall; Open Water; environmental report"
+  },
+  {
+    "ID": "P006",
+    "Persona": "Groundworks contractor",
+    "Group": "Contractor / civils",
+    "Authority": "Project buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Comprehensive utility information; survey and verification",
+    "Pain points": "Plan accuracy; strike liability; ground support",
+    "Likely recommendations": "OneCall; Digital Insight; PAS128; vacuum excavation"
+  },
+  {
+    "ID": "P007",
+    "Persona": "Civils contractor",
+    "Group": "Contractor / civils",
+    "Authority": "Project buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Programme protection; large/linear sites; plant loading",
+    "Pain points": "Complex sites; crossings; vibration",
+    "Likely recommendations": "Digital Insight; Large Site; surveys"
+  },
+  {
+    "ID": "P008",
+    "Persona": "Highways contractor",
+    "Group": "Contractor / civils",
+    "Authority": "Framework buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Street-works process; dense utility corridor",
+    "Pain points": "Traffic constraints; permits; reinstatement",
+    "Likely recommendations": "OneCall; permit guidance; Digital Insight"
+  },
+  {
+    "ID": "P009",
+    "Persona": "Utility contractor",
+    "Group": "Utility / asset owner",
+    "Authority": "Operational buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Fast repeatable searches; operator responses",
+    "Pain points": "Live assets; emergency pressure",
+    "Likely recommendations": "OneCall; Digital Insight; history"
+  },
+  {
+    "ID": "P010",
+    "Persona": "Utility company / asset owner",
+    "Group": "Utility / asset owner",
+    "Authority": "Organisation buyer",
+    "Commercial potential": "Very high",
+    "Needs / wants": "Governance; plant protection; near-miss learning",
+    "Pain points": "High volumes; data quality",
+    "Likely recommendations": "Pro; USAG reporting; API"
+  },
+  {
+    "ID": "P011",
+    "Persona": "Council highways operative",
+    "Group": "Public sector",
+    "Authority": "Operational doer",
+    "Commercial potential": "Via manager",
+    "Needs / wants": "Safe work instructions; permits; asset data",
+    "Pain points": "Limited authority; operational exposure",
+    "Likely recommendations": "Guidance; manager escalation; OneCall"
+  },
+  {
+    "ID": "P012",
+    "Persona": "Council planner",
+    "Group": "Public sector",
+    "Authority": "Influencer / gatekeeper",
+    "Commercial potential": "Medium",
+    "Needs / wants": "Planning and infrastructure constraints",
+    "Pain points": "Multiple systems and authorities",
+    "Likely recommendations": "Planning API; conceptual mapping"
+  },
+  {
+    "ID": "P013",
+    "Persona": "Architect",
+    "Group": "Professional / design",
+    "Authority": "Specifier / buyer",
+    "Commercial potential": "Medium",
+    "Needs / wants": "Early utilities and constraints; service capacity",
+    "Pain points": "Late discoveries; client advice",
+    "Likely recommendations": "Capacity Check; mapping; OneCall"
+  },
+  {
+    "ID": "P014",
+    "Persona": "Planning consultant",
+    "Group": "Professional / design",
+    "Authority": "Specifier / buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Planning context; surplus electricity / substation capacity; connection feasibility",
+    "Pain points": "Early viability uncertainty",
+    "Likely recommendations": "Electricity Capacity Check; Planning Applications API; conceptual mapping"
+  },
+  {
+    "ID": "P015",
+    "Persona": "Ecologist",
+    "Group": "Environmental",
+    "Authority": "Specialist buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Protected sites; water; trees; seasonal controls",
+    "Pain points": "Not utility-first; fragmented environmental data",
+    "Likely recommendations": "Environmental report; Open Water"
+  },
+  {
+    "ID": "P016",
+    "Persona": "Environmental consultant",
+    "Group": "Environmental",
+    "Authority": "Specialist buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Environmental regulator and site constraints",
+    "Pain points": "Nation differences; incomplete context",
+    "Likely recommendations": "Environmental report; Open Water"
+  },
+  {
+    "ID": "P017",
+    "Persona": "Land surveyor",
+    "Group": "Survey / professional",
+    "Authority": "Buyer / provider",
+    "Commercial potential": "Medium",
+    "Needs / wants": "Base mapping; site survey context",
+    "Pain points": "Poor client brief; unknown utilities",
+    "Likely recommendations": "Conceptual mapping; Select Surveys"
+  },
+  {
+    "ID": "P018",
+    "Persona": "Utility surveyor / PAS128 provider",
+    "Group": "Survey / professional",
+    "Authority": "Service provider",
+    "Commercial potential": "Partner",
+    "Needs / wants": "Soil constitution; weather; moisture; salinity; made ground; GPR/EML suitability",
+    "Pain points": "Wet clay, saline or saturated ground can reduce detection confidence",
+    "Likely recommendations": "OneCall records; competent multi-method survey; physical verification"
+  },
+  {
+    "ID": "P019",
+    "Persona": "C2 pack collator",
+    "Group": "Pack / evidence",
+    "Authority": "Operational gatekeeper",
+    "Commercial potential": "Via manager",
+    "Needs / wants": "Coverage; responses; expiry; evidence",
+    "Pain points": "Missing owners; categorisation; renewal",
+    "Likely recommendations": "OneCall; Top-Up; reminders"
+  },
+  {
+    "ID": "P020",
+    "Persona": "C2 pack manager / approver",
+    "Group": "Pack / evidence",
+    "Authority": "Approver / buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Quality, cost and coverage controls",
+    "Pain points": "Missed risks; operational inconsistency",
+    "Likely recommendations": "Digital Insight; Pro; team history"
+  },
+  {
+    "ID": "P021",
+    "Persona": "Senior contractor manager",
+    "Group": "Management",
+    "Authority": "Strategic buyer",
+    "Commercial potential": "Very high",
+    "Needs / wants": "Governance; industry learning; supplier routes",
+    "Pain points": "Not a routine search user",
+    "Likely recommendations": "Pro; surveys; USAG learning"
+  },
+  {
+    "ID": "P022",
+    "Persona": "Health and safety manager",
+    "Group": "Management",
+    "Authority": "Influencer / budget holder",
+    "Commercial potential": "High",
+    "Needs / wants": "Training; near-miss reporting; audit",
+    "Pain points": "Unsafe use of plans; inconsistent practice",
+    "Likely recommendations": "Training; USAG; Pro"
+  },
+  {
+    "ID": "P023",
+    "Persona": "Procurement manager",
+    "Group": "Management",
+    "Authority": "Commercial buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Comparable services; scope and pricing",
+    "Pain points": "Unclear value and specifications",
+    "Likely recommendations": "Quote routes; Pro; service bundles"
+  },
+  {
+    "ID": "P024",
+    "Persona": "Estate / facilities manager",
+    "Group": "Property / estate",
+    "Authority": "Organisation buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Repeat works; private networks; overhead assets",
+    "Pain points": "Multiple sites and contractors",
+    "Likely recommendations": "Pro; OneCall; conceptual mapping"
+  },
+  {
+    "ID": "P025",
+    "Persona": "Landowner / land agent",
+    "Group": "Property / estate",
+    "Authority": "Buyer / influencer",
+    "Commercial potential": "High",
+    "Needs / wants": "Wayleaves; easements; title restrictions; asset access; development feasibility",
+    "Pain points": "Legal rights differ from physical asset location",
+    "Likely recommendations": "Land-rights guide; mapping; OneCall; Capacity Check"
+  },
+  {
+    "ID": "P026",
+    "Persona": "Developer",
+    "Group": "Developer / investor",
+    "Authority": "Commercial buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Utilities; planning; grid capacity; constraints",
+    "Pain points": "Late risk affects viability",
+    "Likely recommendations": "Digital Insight; Capacity Check; Planning API"
+  },
+  {
+    "ID": "P027",
+    "Persona": "Vacuum excavation contractor",
+    "Group": "Partner / provider",
+    "Authority": "Service provider",
+    "Commercial potential": "Partner",
+    "Needs / wants": "Qualified leads and site context",
+    "Pain points": "Engaged too late",
+    "Likely recommendations": "Service request / partner handoff"
+  },
+  {
+    "ID": "P028",
+    "Persona": "Insurance / claims / risk user",
+    "Group": "Risk / insurance",
+    "Authority": "Influencer / buyer",
+    "Commercial potential": "Medium",
+    "Needs / wants": "Strike and near-miss evidence",
+    "Pain points": "Incomplete incident records",
+    "Likely recommendations": "USAG reports; evidence pack"
+  },
+  {
+    "ID": "P029",
+    "Persona": "Training / compliance lead",
+    "Group": "Training / compliance",
+    "Authority": "Training buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Reusable role-based training",
+    "Pain points": "Competency inconsistency",
+    "Likely recommendations": "Training library; Pro"
+  },
+  {
+    "ID": "P030",
+    "Persona": "Farmer / agricultural land manager",
+    "Group": "Agricultural / rural",
+    "Authority": "Buyer / doer",
+    "Commercial potential": "Medium",
+    "Needs / wants": "Field drains; pipelines; overhead lines; wayleaves; fencing",
+    "Pain points": "Large machinery; private supplies",
+    "Likely recommendations": "OneCall; wayleave guide; open-water guidance"
+  },
+  {
+    "ID": "P031",
+    "Persona": "Tree surgeon / arborist",
+    "Group": "Contractor / trades",
+    "Authority": "Buyer / doer",
+    "Commercial potential": "Medium",
+    "Needs / wants": "OHPL; roots; TPO; plant loading",
+    "Pain points": "Stump and overhead-line risk",
+    "Likely recommendations": "GS6; OneCall; environmental checks"
+  },
+  {
+    "ID": "P032",
+    "Persona": "Emergency works coordinator",
+    "Group": "Utility / emergency",
+    "Authority": "Operational buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Rapid information and emergency contacts",
+    "Pain points": "Time pressure; incomplete information",
+    "Likely recommendations": "Emergency search; response guidance"
+  },
+  {
+    "ID": "P033",
+    "Persona": "Emergency services responder",
+    "Group": "Emergency services",
+    "Authority": "Operational / public authority",
+    "Commercial potential": "Public service",
+    "Needs / wants": "Utility isolation; cordons; access routes; flooding/contamination",
+    "Pain points": "Information under emergency conditions",
+    "Likely recommendations": "Emergency contacts; asset-owner links"
+  },
+  {
+    "ID": "P034",
+    "Persona": "Military / defence estate user",
+    "Group": "Defence / secure estate",
+    "Authority": "Organisation buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Secure private networks; airfields; controlled access",
+    "Pain points": "Sensitive data and specialist hazards",
+    "Likely recommendations": "Controlled workflow; bespoke mapping"
+  },
+  {
+    "ID": "P035",
+    "Persona": "Rail infrastructure manager",
+    "Group": "Transport",
+    "Authority": "Organisation buyer",
+    "Commercial potential": "Very high",
+    "Needs / wants": "Trackside utilities; signalling; traction power; possessions",
+    "Pain points": "Critical operational continuity",
+    "Likely recommendations": "Private records; OneCall; survey"
+  },
+  {
+    "ID": "P036",
+    "Persona": "Metro / underground operator",
+    "Group": "Transport",
+    "Authority": "Organisation buyer",
+    "Commercial potential": "Very high",
+    "Needs / wants": "Tunnels; stations; power; private networks",
+    "Pain points": "Confined and critical infrastructure",
+    "Likely recommendations": "Controlled records; surveys"
+  },
+  {
+    "ID": "P037",
+    "Persona": "Tram / light rail operator",
+    "Group": "Transport",
+    "Authority": "Organisation buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Street-running infrastructure and traction power",
+    "Pain points": "Highway and rail interfaces",
+    "Likely recommendations": "Street works; utility search"
+  },
+  {
+    "ID": "P038",
+    "Persona": "Canal / navigation authority",
+    "Group": "Transport / water",
+    "Authority": "Organisation buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Water structures; towpaths; buried utilities",
+    "Pain points": "Water and asset interfaces",
+    "Likely recommendations": "Open Water; environmental checks"
+  },
+  {
+    "ID": "P039",
+    "Persona": "Port / ferry terminal operator",
+    "Group": "Transport / maritime",
+    "Authority": "Organisation buyer",
+    "Commercial potential": "High",
+    "Needs / wants": "Heavy loads; quays; private networks",
+    "Pain points": "Saline ground; critical operations",
+    "Likely recommendations": "Digital Insight; surveys"
+  },
+  {
+    "ID": "P040",
+    "Persona": "Airport operator",
+    "Group": "Transport / aviation",
+    "Authority": "Organisation buyer",
+    "Commercial potential": "Very high",
+    "Needs / wants": "Airside assets; lighting; fuel; secure networks",
+    "Pain points": "Operational and security constraints",
+    "Likely recommendations": "Controlled mapping; surveys"
+  }
+]

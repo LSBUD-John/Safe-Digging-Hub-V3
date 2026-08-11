@@ -1,0 +1,107 @@
+[
+  {
+    "ID": "M001",
+    "Method": "Open excavation / trenching",
+    "Physical effects": "Penetration; cover change; support removal",
+    "Follow-up inputs": "Depth; length; number of excavations",
+    "Controls": "HSG47; temporary works"
+  },
+  {
+    "ID": "M002",
+    "Method": "Hand digging / trial hole",
+    "Physical effects": "Penetration",
+    "Follow-up inputs": "Tools; proximity; asset material",
+    "Controls": "HSG47; owner guidance"
+  },
+  {
+    "ID": "M003",
+    "Method": "Horizontal drilling / moling",
+    "Physical effects": "Trenchless penetration; vibration",
+    "Follow-up inputs": "Entry/exit; route; steering",
+    "Controls": "PAS128; owner consent"
+  },
+  {
+    "ID": "M004",
+    "Method": "Piling",
+    "Physical effects": "Penetration; vibration; loading",
+    "Follow-up inputs": "Pile type; proximity",
+    "Controls": "Engineering review"
+  },
+  {
+    "ID": "M005",
+    "Method": "Vibratory compaction",
+    "Physical effects": "Vibration; dynamic loading",
+    "Follow-up inputs": "Plant; duration; ground",
+    "Controls": "Monitoring; method review"
+  },
+  {
+    "ID": "M006",
+    "Method": "Crane / outrigger setup",
+    "Physical effects": "Concentrated surface load",
+    "Follow-up inputs": "Loads; mats; depth",
+    "Controls": "Ground-loading assessment"
+  },
+  {
+    "ID": "M007",
+    "Method": "Heavy vehicle parking / access",
+    "Physical effects": "Surface loading",
+    "Follow-up inputs": "Mass; route; ground",
+    "Controls": "Route controls; owner advice"
+  },
+  {
+    "ID": "M008",
+    "Method": "Spoil / material storage",
+    "Physical effects": "Sustained load; access obstruction",
+    "Follow-up inputs": "Height; duration; location",
+    "Controls": "Relocate; assess load"
+  },
+  {
+    "ID": "M009",
+    "Method": "Topsoil stripping / regrading",
+    "Physical effects": "Cover reduction/increase",
+    "Follow-up inputs": "Levels; asset depth",
+    "Controls": "Survey; protection/diversion"
+  },
+  {
+    "ID": "M010",
+    "Method": "Dewatering",
+    "Physical effects": "Support loss; settlement; discharge",
+    "Follow-up inputs": "Water; ground; outlet",
+    "Controls": "Temporary works; environmental consent"
+  },
+  {
+    "ID": "M011",
+    "Method": "Tree lopping / MEWP",
+    "Physical effects": "OHPL encroachment; ground loading",
+    "Follow-up inputs": "Line distance; outriggers",
+    "Controls": "GS6; network operator"
+  },
+  {
+    "ID": "M012",
+    "Method": "Stump grinding / root removal",
+    "Physical effects": "Penetration; asset movement",
+    "Follow-up inputs": "Root depth; services",
+    "Controls": "Search; controlled exposure"
+  },
+  {
+    "ID": "M013",
+    "Method": "Vacuum excavation",
+    "Physical effects": "Exposure; contamination",
+    "Follow-up inputs": "Asset; nozzle; spoil",
+    "Controls": "Competent method"
+  },
+  {
+    "ID": "M014",
+    "Method": "Desktop information gathering",
+    "Physical effects": "Information uncertainty",
+    "Follow-up inputs": "Purpose; future date",
+    "Controls": "Information Only; refresh"
+  },
+  {
+    "ID": "M015",
+    "Method": "GPR / EML detection",
+    "Physical effects": "Electromagnetic / radar survey",
+    "Follow-up inputs": "Soil moisture; clay; salinity; surface; weather; asset material",
+    "Controls": "Competent multi-method scope; verify limitations"
+  }
+]
