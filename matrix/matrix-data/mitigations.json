@@ -1,0 +1,114 @@
+[
+  {
+    "ID": "MT001",
+    "Mitigation": "Obtain current utility information",
+    "Stage": "Planning",
+    "When applied": "Before site-specific work",
+    "Action / service": "OneCall/LSBUD; NUAR/Vault where eligible; owners",
+    "Limitations": "Does not prove exact position/depth"
+  },
+  {
+    "ID": "MT002",
+    "Mitigation": "Contact non-participating asset owners / Top-Up",
+    "Stage": "Information completeness",
+    "When applied": "Where coverage gaps remain",
+    "Action / service": "Top-Up Search; direct owner contacts",
+    "Limitations": "Record unresolved gaps"
+  },
+  {
+    "ID": "MT003",
+    "Mitigation": "Site reconnaissance",
+    "Stage": "Locate",
+    "When applied": "Before work",
+    "Action / service": "Surface features; meters; cabinets; chambers",
+    "Limitations": "Mark observations; do not assume routes are exact"
+  },
+  {
+    "ID": "MT004",
+    "Mitigation": "Utility detection survey",
+    "Stage": "Locate / verify",
+    "When applied": "When uncertainty or consequence is high",
+    "Action / service": "PAS128/GPR/EML quote",
+    "Limitations": "Technique limitations must be understood"
+  },
+  {
+    "ID": "MT005",
+    "Mitigation": "Physical verification / trial holes",
+    "Stage": "Verify",
+    "When applied": "Before high-risk penetration",
+    "Action / service": "Hand digging / vacuum excavation",
+    "Limitations": "Competent method and owner guidance"
+  },
+  {
+    "ID": "MT006",
+    "Mitigation": "Control heavy loading",
+    "Stage": "Protect",
+    "When applied": "Before plant routes/storage",
+    "Action / service": "Loading assessment; mats; exclusion zones",
+    "Limitations": "Operator agreement may be required"
+  },
+  {
+    "ID": "MT007",
+    "Mitigation": "Control cover changes",
+    "Stage": "Protect",
+    "When applied": "Before grading/resurfacing",
+    "Action / service": "Survey levels; engineered protection/diversion",
+    "Limitations": "Do not change cover without review"
+  },
+  {
+    "ID": "MT008",
+    "Mitigation": "Temporary works and trench support",
+    "Stage": "Protect",
+    "When applied": "Deep/adjacent excavation",
+    "Action / service": "Temporary works design; inspections",
+    "Limitations": "Consider buried assets outside excavation"
+  },
+  {
+    "ID": "MT009",
+    "Mitigation": "Vibration assessment and monitoring",
+    "Stage": "Protect",
+    "When applied": "Piling/breaking/compaction",
+    "Action / service": "Method change; monitoring; owner consultation",
+    "Limitations": "No generic safe distance"
+  },
+  {
+    "ID": "MT010",
+    "Mitigation": "Overhead-line controls",
+    "Stage": "Protect",
+    "When applied": "OHPL present / possible",
+    "Action / service": "GS6; exclusion; owner isolation/diversion",
+    "Limitations": "Flashover possible without contact"
+  },
+  {
+    "ID": "MT011",
+    "Mitigation": "Environmental and consent review",
+    "Stage": "Compliance",
+    "When applied": "Water/trees/protected sites",
+    "Action / service": "EA/SEPA/NRW/NIEA; planning authority",
+    "Limitations": "Nation-specific"
+  },
+  {
+    "ID": "MT012",
+    "Mitigation": "Emergency readiness",
+    "Stage": "Respond",
+    "When applied": "Before work",
+    "Action / service": "Emergency numbers; stop-work actions",
+    "Limitations": "Assume services live"
+  },
+  {
+    "ID": "MT013",
+    "Mitigation": "Repeat or refresh search",
+    "Stage": "Information currency",
+    "When applied": "Within 28 days of start where advised",
+    "Action / service": "Reminder / resubmit",
+    "Limitations": "Record search dates"
+  },
+  {
+    "ID": "MT014",
+    "Mitigation": "User confirms OneCall route",
+    "Stage": "Governance",
+    "When applied": "Before handoff",
+    "Action / service": "Suggested routes + manual selection",
+    "Limitations": "No automatic final categorisation"
+  }
+]

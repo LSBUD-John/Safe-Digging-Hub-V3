@@ -1,0 +1,46 @@
+[
+  {
+    "ID": "J001",
+    "Nation": "England",
+    "Street works process": "Street Manager for eligible England street-works users",
+    "Asset data context": "NUAR for eligible users; LSBUD/OneCall; asset owners",
+    "Environmental regulator": "Environment Agency",
+    "Language": "English",
+    "Legal context": "NRSWA 1991; CDM 2015; HSWA 1974",
+    "Official link": "https://www.gov.uk/guidance/plan-and-manage-roadworks",
+    "Notes": "Verify current process by activity"
+  },
+  {
+    "ID": "J002",
+    "Nation": "Scotland",
+    "Street works process": "Scottish Road Works Register",
+    "Asset data context": "Vault for eligible SRWR users; LSBUD/OneCall; asset owners",
+    "Environmental regulator": "SEPA",
+    "Language": "English; Gaelic where appropriate",
+    "Legal context": "Scottish roads legislation; CDM 2015; HSWA 1974",
+    "Official link": "https://roadworks.scot/",
+    "Notes": "NUAR not applicable; Vault context"
+  },
+  {
+    "ID": "J003",
+    "Nation": "Wales",
+    "Street works process": "Welsh Government street-works arrangements",
+    "Asset data context": "NUAR for eligible users; LSBUD/OneCall; asset owners",
+    "Environmental regulator": "Natural Resources Wales",
+    "Language": "English and Welsh",
+    "Legal context": "NRSWA 1991; CDM 2015; Welsh language duties where applicable",
+    "Official link": "https://www.gov.wales/national-approach-road-and-street-works",
+    "Notes": "Bilingual by design"
+  },
+  {
+    "ID": "J004",
+    "Nation": "Northern Ireland",
+    "Street works process": "Street Works (Northern Ireland) Order 1995 regime",
+    "Asset data context": "NUAR for eligible users; LSBUD/OneCall; asset owners",
+    "Environmental regulator": "NIEA / DAERA",
+    "Language": "English; Irish and Ulster-Scots considerations",
+    "Legal context": "Street Works (NI) Order 1995; NI pipeline regulations",
+    "Official link": "https://www.infrastructure-ni.gov.uk/",
+    "Notes": "Do not show Street Manager"
+  }
+]

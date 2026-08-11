@@ -1,0 +1,145 @@
+[
+  {
+    "ID": "LG001",
+    "Title": "Health and Safety at Work etc. Act 1974",
+    "Type": "Legislation",
+    "Jurisdiction": "England; Scotland; Wales",
+    "Plain-English relevance": "General duties to employees and others affected by work",
+    "Audience / dutyholders": "Employers; self-employed; managers",
+    "Official URL": "https://www.legislation.gov.uk/ukpga/1974/37/contents",
+    "Hub treatment": "Plain-English summary; official source",
+    "Criticality": "Safety critical"
+  },
+  {
+    "ID": "LG002",
+    "Title": "Construction (Design and Management) Regulations 2015",
+    "Type": "Legislation",
+    "Jurisdiction": "England; Scotland; Wales",
+    "Plain-English relevance": "Client, designer and contractor duties across project life cycle",
+    "Audience / dutyholders": "Clients; designers; principal designers; contractors",
+    "Official URL": "https://www.hse.gov.uk/construction/cdm/2015/summary.htm",
+    "Hub treatment": "Dutyholder-specific guidance",
+    "Criticality": "Safety critical"
+  },
+  {
+    "ID": "LG003",
+    "Title": "HSG47 Avoiding danger from underground services",
+    "Type": "Official guidance",
+    "Jurisdiction": "Great Britain",
+    "Plain-English relevance": "Plan work; locate and identify services; excavate safely",
+    "Audience / dutyholders": "All excavation dutyholders",
+    "Official URL": "https://www.hse.gov.uk/pubns/books/hsg47.htm",
+    "Hub treatment": "Hub summary + official link",
+    "Criticality": "Safety critical"
+  },
+  {
+    "ID": "LG004",
+    "Title": "GS6 Avoiding danger from overhead power lines",
+    "Type": "Official guidance",
+    "Jurisdiction": "Great Britain",
+    "Plain-English relevance": "Controls for work near overhead lines",
+    "Audience / dutyholders": "Tree work; plant; lifting; site managers",
+    "Official URL": "https://www.hse.gov.uk/pubns/gs6.htm",
+    "Hub treatment": "Cross-link with underground risks",
+    "Criticality": "Safety critical"
+  },
+  {
+    "ID": "LG005",
+    "Title": "PAS 128:2022",
+    "Type": "Standard",
+    "Jurisdiction": "UK",
+    "Plain-English relevance": "Utility detection, verification, location and deliverables",
+    "Audience / dutyholders": "Surveyors; clients; designers",
+    "Official URL": "https://knowledge.bsigroup.com/products/pas-128-underground-utility-detection-verification-and-location-specification",
+    "Hub treatment": "Do not reproduce copyrighted standard",
+    "Criticality": "Technical"
+  },
+  {
+    "ID": "LG006",
+    "Title": "New Roads and Street Works Act 1991",
+    "Type": "Legislation",
+    "Jurisdiction": "England; Wales",
+    "Plain-English relevance": "Street-works framework",
+    "Audience / dutyholders": "Utilities; highway authorities; contractors",
+    "Official URL": "https://www.legislation.gov.uk/ukpga/1991/22/contents",
+    "Hub treatment": "Nation-specific process links",
+    "Criticality": "Regulatory"
+  },
+  {
+    "ID": "LG007",
+    "Title": "Street Manager",
+    "Type": "Official service/process",
+    "Jurisdiction": "England",
+    "Plain-English relevance": "Plan, manage and record road/street works for eligible users",
+    "Audience / dutyholders": "Highway authorities; utilities; contractors",
+    "Official URL": "https://www.gov.uk/guidance/plan-and-manage-roadworks",
+    "Hub treatment": "England only",
+    "Criticality": "Operational"
+  },
+  {
+    "ID": "LG008",
+    "Title": "Scottish Road Works Register / Vault",
+    "Type": "Official service/process",
+    "Jurisdiction": "Scotland",
+    "Plain-English relevance": "Road works management and apparatus information",
+    "Audience / dutyholders": "Roads authorities; utilities; eligible users",
+    "Official URL": "https://roadworks.scot/",
+    "Hub treatment": "NUAR not applicable in Scotland",
+    "Criticality": "Operational"
+  },
+  {
+    "ID": "LG009",
+    "Title": "Street Works (Northern Ireland) Order 1995",
+    "Type": "Legislation",
+    "Jurisdiction": "Northern Ireland",
+    "Plain-English relevance": "NI street-works licences, register, notices and coordination",
+    "Audience / dutyholders": "Undertakers; DfI; contractors",
+    "Official URL": "https://www.legislation.gov.uk/nisi/1995/3210/contents",
+    "Hub treatment": "Do not show Street Manager",
+    "Criticality": "Regulatory"
+  },
+  {
+    "ID": "LG010",
+    "Title": "Pipelines Safety Regulations 1996",
+    "Type": "Legislation",
+    "Jurisdiction": "Great Britain",
+    "Plain-English relevance": "Pipeline integrity, incidents and prevention of damage",
+    "Audience / dutyholders": "Pipeline operators; contractors",
+    "Official URL": "https://www.legislation.gov.uk/uksi/1996/825/contents",
+    "Hub treatment": "Escalate high-pressure / dangerous-fluid pipelines",
+    "Criticality": "Safety critical"
+  },
+  {
+    "ID": "LG011",
+    "Title": "Pipelines Safety Regulations (Northern Ireland) 1997",
+    "Type": "Legislation",
+    "Jurisdiction": "Northern Ireland",
+    "Plain-English relevance": "NI pipeline integrity and prevention of damage",
+    "Audience / dutyholders": "Pipeline operators; contractors",
+    "Official URL": "https://www.legislation.gov.uk/nisr/1997/193/contents/made",
+    "Hub treatment": "NI-specific",
+    "Criticality": "Safety critical"
+  },
+  {
+    "ID": "LG012",
+    "Title": "Welsh Language Standards / bilingual service design",
+    "Type": "Language / service standard",
+    "Jurisdiction": "Wales",
+    "Plain-English relevance": "Welsh should not be treated less favourably where duties apply",
+    "Audience / dutyholders": "Service owners; content designers",
+    "Official URL": "https://digitalpublicservices.gov.wales/guidance-and-standards/recommended-standards/standards-catalogue/welsh-language-standards-code-practice",
+    "Hub treatment": "Professional Welsh for safety-critical content",
+    "Criticality": "Compliance"
+  },
+  {
+    "ID": "LG013",
+    "Title": "WCAG 2.2 AA",
+    "Type": "Accessibility standard",
+    "Jurisdiction": "UK",
+    "Plain-English relevance": "Accessible digital services and content",
+    "Audience / dutyholders": "Product; design; engineering; content",
+    "Official URL": "https://www.w3.org/TR/WCAG22/",
+    "Hub treatment": "Overlays do not replace accessible design",
+    "Criticality": "Compliance"
+  }
+]
