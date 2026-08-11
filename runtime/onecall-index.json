@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-11T15:25:38.303Z",
+  "records": [
+    {
+      "id": "OC001",
+      "label": "Information gathering / early planning",
+      "source": {
+        "ID": "OC001",
+        "Purpose / intent": "Information gathering / early planning",
+        "Enquiry Type": "Information Only",
+        "Category / Work Type": "All suggestions",
+        "Rule": "Purpose sets Enquiry Type"
+      }
+    },
+    {
+      "id": "OC002",
+      "label": "Works >28 days away",
+      "source": {
+        "ID": "OC002",
+        "Purpose / intent": "Works >28 days away",
+        "Enquiry Type": "Information Only",
+        "Category / Work Type": "All suggestions",
+        "Rule": "Delay Planned Works or repeat within 28 days"
+      }
+    },
+    {
+      "id": "OC003",
+      "label": "Works within 28 days",
+      "source": {
+        "ID": "OC003",
+        "Purpose / intent": "Works within 28 days",
+        "Enquiry Type": "Planned Works",
+        "Category / Work Type": "All suggestions",
+        "Rule": "Confirm dates"
+      }
+    },
+    {
+      "id": "OC004",
+      "label": "Emergency",
+      "source": {
+        "ID": "OC004",
+        "Purpose / intent": "Emergency",
+        "Enquiry Type": "Emergency",
+        "Category / Work Type": "All suggestions",
+        "Rule": "Confirm emergency criteria"
+      }
+    },
+    {
+      "id": "OC005",
+      "label": "House extension information",
+      "source": {
+        "ID": "OC005",
+        "Purpose / intent": "House extension information",
+        "Enquiry Type": "Information Only",
+        "Category / Work Type": "Domestic Works (General public) / Domestic building project",
+        "Rule": "Default householder information route"
+      }
+    },
+    {
+      "id": "OC006",
+      "label": "Utility local excavation",
+      "source": {
+        "ID": "OC006",
+        "Purpose / intent": "Utility local excavation",
+        "Enquiry Type": "Purpose-led",
+        "Category / Work Type": "Utility Works / Single excavation site (1.5m or shallower)",
+        "Rule": "Default where no deeper/multiple/linear/trenchless information"
+      }
+    },
+    {
+      "id": "OC007",
+      "label": "Utility route highway",
+      "source": {
+        "ID": "OC007",
+        "Purpose / intent": "Utility route highway",
+        "Enquiry Type": "Purpose-led",
+        "Category / Work Type": "Utility Works / Linear project in highway",
+        "Rule": "Route=highway"
+      }
+    },
+    {
+      "id": "OC008",
+      "label": "Utility trenchless",
+      "source": {
+        "ID": "OC008",
+        "Purpose / intent": "Utility trenchless",
+        "Enquiry Type": "Purpose-led",
+        "Category / Work Type": "Utility Works / Horizontal drilling/moling/tunnelling/pipe jacking",
+        "Rule": "Method=trenchless"
+      }
+    },
+    {
+      "id": "OC009",
+      "label": "Tree lopping",
+      "source": {
+        "ID": "OC009",
+        "Purpose / intent": "Tree lopping",
+        "Enquiry Type": "Purpose-led",
+        "Category / Work Type": "Woodland / Lopping & topping",
+        "Rule": "No stump removal assumed"
+      }
+    }
+  ]
+}

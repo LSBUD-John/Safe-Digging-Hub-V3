@@ -1,0 +1,3082 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-11T15:25:38.302Z",
+  "byIntent": {
+    "I001": {
+      "personaIds": [
+        "P001",
+        "P002",
+        "P013",
+        "P022"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R002",
+        "R016"
+      ],
+      "libraryIds": [
+        "L004",
+        "L014"
+      ],
+      "serviceIds": []
+    },
+    "I002": {
+      "personaIds": [
+        "P001",
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P021",
+        "P022",
+        "P027",
+        "P030",
+        "P031"
+      ],
+      "methodIds": [
+        "M002"
+      ],
+      "riskIds": [
+        "R002",
+        "R003"
+      ],
+      "libraryIds": [
+        "L004",
+        "L014"
+      ],
+      "serviceIds": []
+    },
+    "I003": {
+      "personaIds": [
+        "P001",
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P010",
+        "P018",
+        "P021",
+        "P027",
+        "P031",
+        "P032",
+        "P033",
+        "P037"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R004",
+        "R006",
+        "R008",
+        "R015",
+        "R016",
+        "R017"
+      ],
+      "libraryIds": [
+        "L002",
+        "L013"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S010"
+      ]
+    },
+    "I004": {
+      "personaIds": [
+        "P001",
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P010",
+        "P018",
+        "P021",
+        "P027",
+        "P031",
+        "P032",
+        "P033",
+        "P037"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R004",
+        "R011",
+        "R016",
+        "R019"
+      ],
+      "libraryIds": [
+        "L002",
+        "L012",
+        "L013"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S007",
+        "S010"
+      ]
+    },
+    "I005": {
+      "personaIds": [
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P021",
+        "P027",
+        "P031",
+        "P032",
+        "P033"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R004",
+        "R017",
+        "R018"
+      ],
+      "libraryIds": [
+        "L002",
+        "L013"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S010"
+      ]
+    },
+    "I006": {
+      "personaIds": [
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P010",
+        "P011",
+        "P014",
+        "P015",
+        "P016",
+        "P020",
+        "P021",
+        "P022",
+        "P023",
+        "P024",
+        "P025",
+        "P026",
+        "P027",
+        "P029",
+        "P031",
+        "P032",
+        "P034",
+        "P035",
+        "P036",
+        "P037",
+        "P038",
+        "P039",
+        "P040"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R006",
+        "R007",
+        "R008"
+      ],
+      "libraryIds": [
+        "L009"
+      ],
+      "serviceIds": []
+    },
+    "I007": {
+      "personaIds": [
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P010",
+        "P011",
+        "P012",
+        "P014",
+        "P015",
+        "P016",
+        "P020",
+        "P021",
+        "P022",
+        "P023",
+        "P024",
+        "P025",
+        "P026",
+        "P029",
+        "P032",
+        "P034",
+        "P035",
+        "P036",
+        "P037",
+        "P038",
+        "P039",
+        "P040"
+      ],
+      "methodIds": [
+        "M011"
+      ],
+      "riskIds": [
+        "R011",
+        "R021"
+      ],
+      "libraryIds": [
+        "L008"
+      ],
+      "serviceIds": []
+    },
+    "I008": {
+      "personaIds": [
+        "P011",
+        "P019",
+        "P020",
+        "P021",
+        "P022",
+        "P023",
+        "P024",
+        "P030",
+        "P035"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R003",
+        "R004"
+      ],
+      "libraryIds": [
+        "L002",
+        "L007",
+        "L013"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S010",
+        "S014"
+      ]
+    },
+    "I009": {
+      "personaIds": [
+        "P002",
+        "P006",
+        "P017",
+        "P018",
+        "P035"
+      ],
+      "methodIds": [
+        "M015"
+      ],
+      "riskIds": [
+        "R001",
+        "R004",
+        "R014"
+      ],
+      "libraryIds": [
+        "L002",
+        "L006",
+        "L010",
+        "L013"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S006",
+        "S010"
+      ]
+    },
+    "I010": {
+      "personaIds": [
+        "P001",
+        "P011",
+        "P019",
+        "P020",
+        "P021",
+        "P022",
+        "P023",
+        "P024",
+        "P025",
+        "P030",
+        "P031",
+        "P034",
+        "P035"
+      ],
+      "methodIds": [
+        "M011"
+      ],
+      "riskIds": [
+        "R002",
+        "R011",
+        "R020",
+        "R021"
+      ],
+      "libraryIds": [
+        "L004",
+        "L006",
+        "L008",
+        "L010",
+        "L011",
+        "L013",
+        "L014"
+      ],
+      "serviceIds": [
+        "S004",
+        "S012"
+      ]
+    },
+    "I011": {
+      "personaIds": [
+        "P001",
+        "P011",
+        "P019",
+        "P020",
+        "P021",
+        "P022",
+        "P023",
+        "P024",
+        "P025",
+        "P030",
+        "P031",
+        "P034",
+        "P035"
+      ],
+      "methodIds": [
+        "M011",
+        "M012"
+      ],
+      "riskIds": [
+        "R002",
+        "R011",
+        "R020",
+        "R021"
+      ],
+      "libraryIds": [
+        "L004",
+        "L006",
+        "L008",
+        "L010",
+        "L011",
+        "L013",
+        "L014"
+      ],
+      "serviceIds": [
+        "S004",
+        "S012"
+      ]
+    },
+    "I012": {
+      "personaIds": [
+        "P001",
+        "P002",
+        "P006",
+        "P011",
+        "P012",
+        "P013",
+        "P016",
+        "P017",
+        "P019",
+        "P020",
+        "P021",
+        "P022",
+        "P023",
+        "P024",
+        "P025",
+        "P027",
+        "P028",
+        "P030",
+        "P031",
+        "P032",
+        "P034",
+        "P035",
+        "P036",
+        "P037",
+        "P038",
+        "P040"
+      ],
+      "methodIds": [
+        "M011"
+      ],
+      "riskIds": [
+        "R002",
+        "R006",
+        "R011",
+        "R020",
+        "R021"
+      ],
+      "libraryIds": [
+        "L004",
+        "L006",
+        "L008",
+        "L009",
+        "L010",
+        "L011",
+        "L013",
+        "L014"
+      ],
+      "serviceIds": [
+        "S004",
+        "S012"
+      ]
+    },
+    "I013": {
+      "personaIds": [
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P021",
+        "P027",
+        "P030",
+        "P031"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R019"
+      ],
+      "libraryIds": [
+        "L012"
+      ],
+      "serviceIds": [
+        "S007"
+      ]
+    },
+    "I014": {
+      "personaIds": [
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P021",
+        "P027",
+        "P030",
+        "P031"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R020"
+      ],
+      "libraryIds": [
+        "L006",
+        "L008",
+        "L010",
+        "L011",
+        "L012",
+        "L013",
+        "L014"
+      ],
+      "serviceIds": [
+        "S004",
+        "S007",
+        "S012"
+      ]
+    },
+    "I015": {
+      "personaIds": [
+        "P006",
+        "P007",
+        "P008",
+        "P026"
+      ],
+      "methodIds": [
+        "M004"
+      ],
+      "riskIds": [
+        "R009",
+        "R016"
+      ],
+      "libraryIds": [],
+      "serviceIds": []
+    },
+    "I016": {
+      "personaIds": [
+        "P001",
+        "P002",
+        "P004",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P010",
+        "P018",
+        "P032",
+        "P033",
+        "P037"
+      ],
+      "methodIds": [
+        "M003"
+      ],
+      "riskIds": [
+        "R001",
+        "R003",
+        "R004",
+        "R016"
+      ],
+      "libraryIds": [
+        "L002",
+        "L013"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S010"
+      ]
+    },
+    "I017": {
+      "personaIds": [
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P011",
+        "P019",
+        "P020",
+        "P021",
+        "P022",
+        "P023",
+        "P024",
+        "P027",
+        "P030",
+        "P031",
+        "P035"
+      ],
+      "methodIds": [
+        "M006"
+      ],
+      "riskIds": [
+        "R006",
+        "R014"
+      ],
+      "libraryIds": [
+        "L009"
+      ],
+      "serviceIds": []
+    },
+    "I018": {
+      "personaIds": [
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P021",
+        "P027",
+        "P031"
+      ],
+      "methodIds": [
+        "M007",
+        "M008"
+      ],
+      "riskIds": [
+        "R006",
+        "R008",
+        "R014"
+      ],
+      "libraryIds": [
+        "L009"
+      ],
+      "serviceIds": [
+        "S002",
+        "S005",
+        "S006",
+        "S009"
+      ]
+    },
+    "I019": {
+      "personaIds": [
+        "P005",
+        "P006",
+        "P011",
+        "P018",
+        "P024",
+        "P030",
+        "P032",
+        "P037",
+        "P039"
+      ],
+      "methodIds": [
+        "M009"
+      ],
+      "riskIds": [
+        "R006",
+        "R007",
+        "R008",
+        "R010",
+        "R011",
+        "R012",
+        "R018"
+      ],
+      "libraryIds": [
+        "L004",
+        "L008",
+        "L009",
+        "L010"
+      ],
+      "serviceIds": []
+    },
+    "I020": {
+      "personaIds": [
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P021",
+        "P026",
+        "P027",
+        "P031"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R014"
+      ],
+      "libraryIds": [],
+      "serviceIds": [
+        "S002",
+        "S005",
+        "S006",
+        "S009"
+      ]
+    },
+    "I021": {
+      "personaIds": [
+        "P001",
+        "P002",
+        "P022"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R002"
+      ],
+      "libraryIds": [
+        "L004",
+        "L014"
+      ],
+      "serviceIds": []
+    },
+    "I022": {
+      "personaIds": [
+        "P002",
+        "P006",
+        "P009",
+        "P010",
+        "P012",
+        "P013",
+        "P016",
+        "P017",
+        "P020",
+        "P022",
+        "P023",
+        "P024",
+        "P025",
+        "P026",
+        "P027",
+        "P028",
+        "P030",
+        "P031",
+        "P032",
+        "P034",
+        "P036",
+        "P037",
+        "P038",
+        "P040"
+      ],
+      "methodIds": [
+        "M008"
+      ],
+      "riskIds": [
+        "R002",
+        "R008",
+        "R013",
+        "R020",
+        "R024"
+      ],
+      "libraryIds": [
+        "L006",
+        "L008",
+        "L010",
+        "L011",
+        "L013",
+        "L014",
+        "L015"
+      ],
+      "serviceIds": [
+        "S004",
+        "S012",
+        "S013"
+      ]
+    },
+    "I023": {
+      "personaIds": [
+        "P004",
+        "P005",
+        "P015",
+        "P016",
+        "P031",
+        "P034",
+        "P038"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R014",
+        "R021",
+        "R024"
+      ],
+      "libraryIds": [
+        "L014"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S005",
+        "S006",
+        "S008",
+        "S009",
+        "S011",
+        "S012",
+        "S014"
+      ]
+    },
+    "I024": {
+      "personaIds": [
+        "P001",
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P010",
+        "P012",
+        "P018",
+        "P021",
+        "P022",
+        "P027",
+        "P031",
+        "P032",
+        "P033",
+        "P037"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R002",
+        "R004",
+        "R019",
+        "R024"
+      ],
+      "libraryIds": [
+        "L002",
+        "L004",
+        "L011",
+        "L012",
+        "L013",
+        "L014"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S010",
+        "S012"
+      ]
+    },
+    "I025": {
+      "personaIds": [
+        "P009",
+        "P032",
+        "P033"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R004",
+        "R017"
+      ],
+      "libraryIds": [
+        "L002",
+        "L013"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S010"
+      ]
+    },
+    "I026": {
+      "personaIds": [
+        "P002",
+        "P005",
+        "P006",
+        "P011",
+        "P017",
+        "P018",
+        "P035",
+        "P039"
+      ],
+      "methodIds": [
+        "M001",
+        "M002",
+        "M013"
+      ],
+      "riskIds": [
+        "R001",
+        "R002",
+        "R004",
+        "R010",
+        "R011",
+        "R012",
+        "R018"
+      ],
+      "libraryIds": [
+        "L002",
+        "L010",
+        "L013"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S006",
+        "S009",
+        "S010"
+      ]
+    },
+    "I027": {
+      "personaIds": [
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P021",
+        "P027",
+        "P031"
+      ],
+      "methodIds": [
+        "M001",
+        "M013"
+      ],
+      "riskIds": [
+        "R001",
+        "R004"
+      ],
+      "libraryIds": [
+        "L002",
+        "L013"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S009",
+        "S010"
+      ]
+    },
+    "I028": {
+      "personaIds": [
+        "P005",
+        "P006",
+        "P011",
+        "P018",
+        "P024",
+        "P032",
+        "P037",
+        "P039"
+      ],
+      "methodIds": [
+        "M001",
+        "M013"
+      ],
+      "riskIds": [
+        "R003",
+        "R010",
+        "R011",
+        "R012",
+        "R018"
+      ],
+      "libraryIds": [
+        "L004",
+        "L008",
+        "L010",
+        "L012"
+      ],
+      "serviceIds": [
+        "S007",
+        "S009"
+      ]
+    },
+    "I029": {
+      "personaIds": [
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P011",
+        "P016",
+        "P017",
+        "P019",
+        "P020",
+        "P021",
+        "P022",
+        "P023",
+        "P024",
+        "P027",
+        "P030",
+        "P031",
+        "P035"
+      ],
+      "methodIds": [
+        "M008"
+      ],
+      "riskIds": [
+        "R006",
+        "R008",
+        "R014"
+      ],
+      "libraryIds": [
+        "L009"
+      ],
+      "serviceIds": [
+        "S002",
+        "S005",
+        "S006",
+        "S009"
+      ]
+    },
+    "I030": {
+      "personaIds": [
+        "P001",
+        "P002",
+        "P004",
+        "P006",
+        "P008",
+        "P009",
+        "P010",
+        "P012",
+        "P013",
+        "P016",
+        "P017",
+        "P018",
+        "P020",
+        "P022",
+        "P023",
+        "P024",
+        "P025",
+        "P026",
+        "P027",
+        "P028",
+        "P030",
+        "P031",
+        "P032",
+        "P033",
+        "P034",
+        "P036",
+        "P037",
+        "P038",
+        "P040"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R002",
+        "R004",
+        "R005",
+        "R011",
+        "R020",
+        "R024"
+      ],
+      "libraryIds": [
+        "L002",
+        "L003",
+        "L006",
+        "L008",
+        "L010",
+        "L011",
+        "L013",
+        "L014"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S010",
+        "S012"
+      ]
+    },
+    "I031": {
+      "personaIds": [
+        "P002",
+        "P006",
+        "P009",
+        "P010",
+        "P012",
+        "P013",
+        "P016",
+        "P017",
+        "P020",
+        "P022",
+        "P023",
+        "P024",
+        "P025",
+        "P026",
+        "P027",
+        "P028",
+        "P030",
+        "P031",
+        "P032",
+        "P034",
+        "P036",
+        "P037",
+        "P038",
+        "P040"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R002",
+        "R004",
+        "R020",
+        "R024"
+      ],
+      "libraryIds": [
+        "L002",
+        "L006",
+        "L008",
+        "L010",
+        "L011",
+        "L013",
+        "L014"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S010",
+        "S012"
+      ]
+    },
+    "I032": {
+      "personaIds": [
+        "P001",
+        "P002",
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P010",
+        "P018",
+        "P021",
+        "P027",
+        "P031",
+        "P032",
+        "P033",
+        "P037"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R003",
+        "R004",
+        "R005",
+        "R019"
+      ],
+      "libraryIds": [
+        "L002",
+        "L003",
+        "L011",
+        "L012",
+        "L013",
+        "L015"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S007",
+        "S008",
+        "S010",
+        "S013",
+        "S014"
+      ]
+    },
+    "I033": {
+      "personaIds": [
+        "P002",
+        "P006",
+        "P012",
+        "P013",
+        "P017",
+        "P018",
+        "P026",
+        "P035"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R014",
+        "R021",
+        "R024"
+      ],
+      "libraryIds": [
+        "L014"
+      ],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S005",
+        "S006",
+        "S008",
+        "S009",
+        "S011",
+        "S012"
+      ]
+    }
+  },
+  "records": {
+    "personas": {
+      "P001": {
+        "id": "P001",
+        "label": "Householder / member of public",
+        "source": {
+          "ID": "P001",
+          "Persona": "Householder / member of public",
+          "Group": "Public / domestic",
+          "Authority": "Direct buyer",
+          "Commercial potential": "Low",
+          "Needs / wants": "Plain-English guidance; boundaries; utility plans; planning/building obligations",
+          "Pain points": "Uncertain private services; neighbour access; unfamiliar terminology",
+          "Likely recommendations": "Householder checklist; OneCall; planning applications API"
+        }
+      },
+      "P002": {
+        "id": "P002",
+        "label": "Small builder",
+        "source": {
+          "ID": "P002",
+          "Persona": "Small builder",
+          "Group": "Contractor / trades",
+          "Authority": "Direct buyer",
+          "Commercial potential": "Medium",
+          "Needs / wants": "Fast utility information; safe method; practical guidance",
+          "Pain points": "Programme and cost pressure; incomplete private services",
+          "Likely recommendations": "OneCall; Top-Up; survey quote"
+        }
+      },
+      "P003": {
+        "id": "P003",
+        "label": "Fencing contractor",
+        "source": {
+          "ID": "P003",
+          "Persona": "Fencing contractor",
+          "Group": "Contractor / trades",
+          "Authority": "Buyer / doer",
+          "Commercial potential": "Medium",
+          "Needs / wants": "Shallow utilities; boundaries; service connections",
+          "Pain points": "Post-hole strikes; rural/private supplies",
+          "Likely recommendations": "Fencing guide; OneCall; Top-Up"
+        }
+      },
+      "P004": {
+        "id": "P004",
+        "label": "Hedging / landscaping contractor",
+        "source": {
+          "ID": "P004",
+          "Persona": "Hedging / landscaping contractor",
+          "Group": "Contractor / trades",
+          "Authority": "Buyer / doer",
+          "Commercial potential": "Medium",
+          "Needs / wants": "Overhead constraints; underground utility assets; TPO/ecology; plant loading",
+          "Pain points": "Roots; private supplies; MEWP/OHPL risk",
+          "Likely recommendations": "OneCall; GS6 guidance; environmental checks"
+        }
+      },
+      "P005": {
+        "id": "P005",
+        "label": "Drainage contractor",
+        "source": {
+          "ID": "P005",
+          "Persona": "Drainage contractor",
+          "Group": "Contractor / trades",
+          "Authority": "Buyer / doer",
+          "Commercial potential": "Medium",
+          "Needs / wants": "Sewer/drain routes; watercourses; contamination; dewatering",
+          "Pain points": "Unknown drains; wet ground; discharge",
+          "Likely recommendations": "OneCall; Open Water; environmental report"
+        }
+      },
+      "P006": {
+        "id": "P006",
+        "label": "Groundworks contractor",
+        "source": {
+          "ID": "P006",
+          "Persona": "Groundworks contractor",
+          "Group": "Contractor / civils",
+          "Authority": "Project buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Comprehensive utility information; survey and verification",
+          "Pain points": "Plan accuracy; strike liability; ground support",
+          "Likely recommendations": "OneCall; Digital Insight; PAS128; vacuum excavation"
+        }
+      },
+      "P007": {
+        "id": "P007",
+        "label": "Civils contractor",
+        "source": {
+          "ID": "P007",
+          "Persona": "Civils contractor",
+          "Group": "Contractor / civils",
+          "Authority": "Project buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Programme protection; large/linear sites; plant loading",
+          "Pain points": "Complex sites; crossings; vibration",
+          "Likely recommendations": "Digital Insight; Large Site; surveys"
+        }
+      },
+      "P008": {
+        "id": "P008",
+        "label": "Highways contractor",
+        "source": {
+          "ID": "P008",
+          "Persona": "Highways contractor",
+          "Group": "Contractor / civils",
+          "Authority": "Framework buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Street-works process; dense utility corridor",
+          "Pain points": "Traffic constraints; permits; reinstatement",
+          "Likely recommendations": "OneCall; permit guidance; Digital Insight"
+        }
+      },
+      "P009": {
+        "id": "P009",
+        "label": "Utility contractor",
+        "source": {
+          "ID": "P009",
+          "Persona": "Utility contractor",
+          "Group": "Utility / asset owner",
+          "Authority": "Operational buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Fast repeatable searches; operator responses",
+          "Pain points": "Live assets; emergency pressure",
+          "Likely recommendations": "OneCall; Digital Insight; history"
+        }
+      },
+      "P010": {
+        "id": "P010",
+        "label": "Utility company / asset owner",
+        "source": {
+          "ID": "P010",
+          "Persona": "Utility company / asset owner",
+          "Group": "Utility / asset owner",
+          "Authority": "Organisation buyer",
+          "Commercial potential": "Very high",
+          "Needs / wants": "Governance; plant protection; near-miss learning",
+          "Pain points": "High volumes; data quality",
+          "Likely recommendations": "Pro; USAG reporting; API"
+        }
+      },
+      "P011": {
+        "id": "P011",
+        "label": "Council highways operative",
+        "source": {
+          "ID": "P011",
+          "Persona": "Council highways operative",
+          "Group": "Public sector",
+          "Authority": "Operational doer",
+          "Commercial potential": "Via manager",
+          "Needs / wants": "Safe work instructions; permits; asset data",
+          "Pain points": "Limited authority; operational exposure",
+          "Likely recommendations": "Guidance; manager escalation; OneCall"
+        }
+      },
+      "P012": {
+        "id": "P012",
+        "label": "Council planner",
+        "source": {
+          "ID": "P012",
+          "Persona": "Council planner",
+          "Group": "Public sector",
+          "Authority": "Influencer / gatekeeper",
+          "Commercial potential": "Medium",
+          "Needs / wants": "Planning and infrastructure constraints",
+          "Pain points": "Multiple systems and authorities",
+          "Likely recommendations": "Planning API; conceptual mapping"
+        }
+      },
+      "P013": {
+        "id": "P013",
+        "label": "Architect",
+        "source": {
+          "ID": "P013",
+          "Persona": "Architect",
+          "Group": "Professional / design",
+          "Authority": "Specifier / buyer",
+          "Commercial potential": "Medium",
+          "Needs / wants": "Early utilities and constraints; service capacity",
+          "Pain points": "Late discoveries; client advice",
+          "Likely recommendations": "Capacity Check; mapping; OneCall"
+        }
+      },
+      "P014": {
+        "id": "P014",
+        "label": "Planning consultant",
+        "source": {
+          "ID": "P014",
+          "Persona": "Planning consultant",
+          "Group": "Professional / design",
+          "Authority": "Specifier / buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Planning context; surplus electricity / substation capacity; connection feasibility",
+          "Pain points": "Early viability uncertainty",
+          "Likely recommendations": "Electricity Capacity Check; Planning Applications API; conceptual mapping"
+        }
+      },
+      "P015": {
+        "id": "P015",
+        "label": "Ecologist",
+        "source": {
+          "ID": "P015",
+          "Persona": "Ecologist",
+          "Group": "Environmental",
+          "Authority": "Specialist buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Protected sites; water; trees; seasonal controls",
+          "Pain points": "Not utility-first; fragmented environmental data",
+          "Likely recommendations": "Environmental report; Open Water"
+        }
+      },
+      "P016": {
+        "id": "P016",
+        "label": "Environmental consultant",
+        "source": {
+          "ID": "P016",
+          "Persona": "Environmental consultant",
+          "Group": "Environmental",
+          "Authority": "Specialist buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Environmental regulator and site constraints",
+          "Pain points": "Nation differences; incomplete context",
+          "Likely recommendations": "Environmental report; Open Water"
+        }
+      },
+      "P017": {
+        "id": "P017",
+        "label": "Land surveyor",
+        "source": {
+          "ID": "P017",
+          "Persona": "Land surveyor",
+          "Group": "Survey / professional",
+          "Authority": "Buyer / provider",
+          "Commercial potential": "Medium",
+          "Needs / wants": "Base mapping; site survey context",
+          "Pain points": "Poor client brief; unknown utilities",
+          "Likely recommendations": "Conceptual mapping; Select Surveys"
+        }
+      },
+      "P018": {
+        "id": "P018",
+        "label": "Utility surveyor / PAS128 provider",
+        "source": {
+          "ID": "P018",
+          "Persona": "Utility surveyor / PAS128 provider",
+          "Group": "Survey / professional",
+          "Authority": "Service provider",
+          "Commercial potential": "Partner",
+          "Needs / wants": "Soil constitution; weather; moisture; salinity; made ground; GPR/EML suitability",
+          "Pain points": "Wet clay, saline or saturated ground can reduce detection confidence",
+          "Likely recommendations": "OneCall records; competent multi-method survey; physical verification"
+        }
+      },
+      "P019": {
+        "id": "P019",
+        "label": "C2 pack collator",
+        "source": {
+          "ID": "P019",
+          "Persona": "C2 pack collator",
+          "Group": "Pack / evidence",
+          "Authority": "Operational gatekeeper",
+          "Commercial potential": "Via manager",
+          "Needs / wants": "Coverage; responses; expiry; evidence",
+          "Pain points": "Missing owners; categorisation; renewal",
+          "Likely recommendations": "OneCall; Top-Up; reminders"
+        }
+      },
+      "P020": {
+        "id": "P020",
+        "label": "C2 pack manager / approver",
+        "source": {
+          "ID": "P020",
+          "Persona": "C2 pack manager / approver",
+          "Group": "Pack / evidence",
+          "Authority": "Approver / buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Quality, cost and coverage controls",
+          "Pain points": "Missed risks; operational inconsistency",
+          "Likely recommendations": "Digital Insight; Pro; team history"
+        }
+      },
+      "P021": {
+        "id": "P021",
+        "label": "Senior contractor manager",
+        "source": {
+          "ID": "P021",
+          "Persona": "Senior contractor manager",
+          "Group": "Management",
+          "Authority": "Strategic buyer",
+          "Commercial potential": "Very high",
+          "Needs / wants": "Governance; industry learning; supplier routes",
+          "Pain points": "Not a routine search user",
+          "Likely recommendations": "Pro; surveys; USAG learning"
+        }
+      },
+      "P022": {
+        "id": "P022",
+        "label": "Health and safety manager",
+        "source": {
+          "ID": "P022",
+          "Persona": "Health and safety manager",
+          "Group": "Management",
+          "Authority": "Influencer / budget holder",
+          "Commercial potential": "High",
+          "Needs / wants": "Training; near-miss reporting; audit",
+          "Pain points": "Unsafe use of plans; inconsistent practice",
+          "Likely recommendations": "Training; USAG; Pro"
+        }
+      },
+      "P023": {
+        "id": "P023",
+        "label": "Procurement manager",
+        "source": {
+          "ID": "P023",
+          "Persona": "Procurement manager",
+          "Group": "Management",
+          "Authority": "Commercial buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Comparable services; scope and pricing",
+          "Pain points": "Unclear value and specifications",
+          "Likely recommendations": "Quote routes; Pro; service bundles"
+        }
+      },
+      "P024": {
+        "id": "P024",
+        "label": "Estate / facilities manager",
+        "source": {
+          "ID": "P024",
+          "Persona": "Estate / facilities manager",
+          "Group": "Property / estate",
+          "Authority": "Organisation buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Repeat works; private networks; overhead assets",
+          "Pain points": "Multiple sites and contractors",
+          "Likely recommendations": "Pro; OneCall; conceptual mapping"
+        }
+      },
+      "P025": {
+        "id": "P025",
+        "label": "Landowner / land agent",
+        "source": {
+          "ID": "P025",
+          "Persona": "Landowner / land agent",
+          "Group": "Property / estate",
+          "Authority": "Buyer / influencer",
+          "Commercial potential": "High",
+          "Needs / wants": "Wayleaves; easements; title restrictions; asset access; development feasibility",
+          "Pain points": "Legal rights differ from physical asset location",
+          "Likely recommendations": "Land-rights guide; mapping; OneCall; Capacity Check"
+        }
+      },
+      "P026": {
+        "id": "P026",
+        "label": "Developer",
+        "source": {
+          "ID": "P026",
+          "Persona": "Developer",
+          "Group": "Developer / investor",
+          "Authority": "Commercial buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Utilities; planning; grid capacity; constraints",
+          "Pain points": "Late risk affects viability",
+          "Likely recommendations": "Digital Insight; Capacity Check; Planning API"
+        }
+      },
+      "P027": {
+        "id": "P027",
+        "label": "Vacuum excavation contractor",
+        "source": {
+          "ID": "P027",
+          "Persona": "Vacuum excavation contractor",
+          "Group": "Partner / provider",
+          "Authority": "Service provider",
+          "Commercial potential": "Partner",
+          "Needs / wants": "Qualified leads and site context",
+          "Pain points": "Engaged too late",
+          "Likely recommendations": "Service request / partner handoff"
+        }
+      },
+      "P028": {
+        "id": "P028",
+        "label": "Insurance / claims / risk user",
+        "source": {
+          "ID": "P028",
+          "Persona": "Insurance / claims / risk user",
+          "Group": "Risk / insurance",
+          "Authority": "Influencer / buyer",
+          "Commercial potential": "Medium",
+          "Needs / wants": "Strike and near-miss evidence",
+          "Pain points": "Incomplete incident records",
+          "Likely recommendations": "USAG reports; evidence pack"
+        }
+      },
+      "P029": {
+        "id": "P029",
+        "label": "Training / compliance lead",
+        "source": {
+          "ID": "P029",
+          "Persona": "Training / compliance lead",
+          "Group": "Training / compliance",
+          "Authority": "Training buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Reusable role-based training",
+          "Pain points": "Competency inconsistency",
+          "Likely recommendations": "Training library; Pro"
+        }
+      },
+      "P030": {
+        "id": "P030",
+        "label": "Farmer / agricultural land manager",
+        "source": {
+          "ID": "P030",
+          "Persona": "Farmer / agricultural land manager",
+          "Group": "Agricultural / rural",
+          "Authority": "Buyer / doer",
+          "Commercial potential": "Medium",
+          "Needs / wants": "Field drains; pipelines; overhead lines; wayleaves; fencing",
+          "Pain points": "Large machinery; private supplies",
+          "Likely recommendations": "OneCall; wayleave guide; open-water guidance"
+        }
+      },
+      "P031": {
+        "id": "P031",
+        "label": "Tree surgeon / arborist",
+        "source": {
+          "ID": "P031",
+          "Persona": "Tree surgeon / arborist",
+          "Group": "Contractor / trades",
+          "Authority": "Buyer / doer",
+          "Commercial potential": "Medium",
+          "Needs / wants": "OHPL; roots; TPO; plant loading",
+          "Pain points": "Stump and overhead-line risk",
+          "Likely recommendations": "GS6; OneCall; environmental checks"
+        }
+      },
+      "P032": {
+        "id": "P032",
+        "label": "Emergency works coordinator",
+        "source": {
+          "ID": "P032",
+          "Persona": "Emergency works coordinator",
+          "Group": "Utility / emergency",
+          "Authority": "Operational buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Rapid information and emergency contacts",
+          "Pain points": "Time pressure; incomplete information",
+          "Likely recommendations": "Emergency search; response guidance"
+        }
+      },
+      "P033": {
+        "id": "P033",
+        "label": "Emergency services responder",
+        "source": {
+          "ID": "P033",
+          "Persona": "Emergency services responder",
+          "Group": "Emergency services",
+          "Authority": "Operational / public authority",
+          "Commercial potential": "Public service",
+          "Needs / wants": "Utility isolation; cordons; access routes; flooding/contamination",
+          "Pain points": "Information under emergency conditions",
+          "Likely recommendations": "Emergency contacts; asset-owner links"
+        }
+      },
+      "P034": {
+        "id": "P034",
+        "label": "Military / defence estate user",
+        "source": {
+          "ID": "P034",
+          "Persona": "Military / defence estate user",
+          "Group": "Defence / secure estate",
+          "Authority": "Organisation buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Secure private networks; airfields; controlled access",
+          "Pain points": "Sensitive data and specialist hazards",
+          "Likely recommendations": "Controlled workflow; bespoke mapping"
+        }
+      },
+      "P035": {
+        "id": "P035",
+        "label": "Rail infrastructure manager",
+        "source": {
+          "ID": "P035",
+          "Persona": "Rail infrastructure manager",
+          "Group": "Transport",
+          "Authority": "Organisation buyer",
+          "Commercial potential": "Very high",
+          "Needs / wants": "Trackside utilities; signalling; traction power; possessions",
+          "Pain points": "Critical operational continuity",
+          "Likely recommendations": "Private records; OneCall; survey"
+        }
+      },
+      "P036": {
+        "id": "P036",
+        "label": "Metro / underground operator",
+        "source": {
+          "ID": "P036",
+          "Persona": "Metro / underground operator",
+          "Group": "Transport",
+          "Authority": "Organisation buyer",
+          "Commercial potential": "Very high",
+          "Needs / wants": "Tunnels; stations; power; private networks",
+          "Pain points": "Confined and critical infrastructure",
+          "Likely recommendations": "Controlled records; surveys"
+        }
+      },
+      "P037": {
+        "id": "P037",
+        "label": "Tram / light rail operator",
+        "source": {
+          "ID": "P037",
+          "Persona": "Tram / light rail operator",
+          "Group": "Transport",
+          "Authority": "Organisation buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Street-running infrastructure and traction power",
+          "Pain points": "Highway and rail interfaces",
+          "Likely recommendations": "Street works; utility search"
+        }
+      },
+      "P038": {
+        "id": "P038",
+        "label": "Canal / navigation authority",
+        "source": {
+          "ID": "P038",
+          "Persona": "Canal / navigation authority",
+          "Group": "Transport / water",
+          "Authority": "Organisation buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Water structures; towpaths; buried utilities",
+          "Pain points": "Water and asset interfaces",
+          "Likely recommendations": "Open Water; environmental checks"
+        }
+      },
+      "P039": {
+        "id": "P039",
+        "label": "Port / ferry terminal operator",
+        "source": {
+          "ID": "P039",
+          "Persona": "Port / ferry terminal operator",
+          "Group": "Transport / maritime",
+          "Authority": "Organisation buyer",
+          "Commercial potential": "High",
+          "Needs / wants": "Heavy loads; quays; private networks",
+          "Pain points": "Saline ground; critical operations",
+          "Likely recommendations": "Digital Insight; surveys"
+        }
+      },
+      "P040": {
+        "id": "P040",
+        "label": "Airport operator",
+        "source": {
+          "ID": "P040",
+          "Persona": "Airport operator",
+          "Group": "Transport / aviation",
+          "Authority": "Organisation buyer",
+          "Commercial potential": "Very high",
+          "Needs / wants": "Airside assets; lighting; fuel; secure networks",
+          "Pain points": "Operational and security constraints",
+          "Likely recommendations": "Controlled mapping; surveys"
+        }
+      }
+    },
+    "methods": {
+      "M001": {
+        "id": "M001",
+        "label": "Open excavation / trenching",
+        "source": {
+          "ID": "M001",
+          "Method": "Open excavation / trenching",
+          "Physical effects": "Penetration; cover change; support removal",
+          "Follow-up inputs": "Depth; length; number of excavations",
+          "Controls": "HSG47; temporary works"
+        }
+      },
+      "M002": {
+        "id": "M002",
+        "label": "Hand digging / trial hole",
+        "source": {
+          "ID": "M002",
+          "Method": "Hand digging / trial hole",
+          "Physical effects": "Penetration",
+          "Follow-up inputs": "Tools; proximity; asset material",
+          "Controls": "HSG47; owner guidance"
+        }
+      },
+      "M003": {
+        "id": "M003",
+        "label": "Horizontal drilling / moling",
+        "source": {
+          "ID": "M003",
+          "Method": "Horizontal drilling / moling",
+          "Physical effects": "Trenchless penetration; vibration",
+          "Follow-up inputs": "Entry/exit; route; steering",
+          "Controls": "PAS128; owner consent"
+        }
+      },
+      "M004": {
+        "id": "M004",
+        "label": "Piling",
+        "source": {
+          "ID": "M004",
+          "Method": "Piling",
+          "Physical effects": "Penetration; vibration; loading",
+          "Follow-up inputs": "Pile type; proximity",
+          "Controls": "Engineering review"
+        }
+      },
+      "M005": {
+        "id": "M005",
+        "label": "Vibratory compaction",
+        "source": {
+          "ID": "M005",
+          "Method": "Vibratory compaction",
+          "Physical effects": "Vibration; dynamic loading",
+          "Follow-up inputs": "Plant; duration; ground",
+          "Controls": "Monitoring; method review"
+        }
+      },
+      "M006": {
+        "id": "M006",
+        "label": "Crane / outrigger setup",
+        "source": {
+          "ID": "M006",
+          "Method": "Crane / outrigger setup",
+          "Physical effects": "Concentrated surface load",
+          "Follow-up inputs": "Loads; mats; depth",
+          "Controls": "Ground-loading assessment"
+        }
+      },
+      "M007": {
+        "id": "M007",
+        "label": "Heavy vehicle parking / access",
+        "source": {
+          "ID": "M007",
+          "Method": "Heavy vehicle parking / access",
+          "Physical effects": "Surface loading",
+          "Follow-up inputs": "Mass; route; ground",
+          "Controls": "Route controls; owner advice"
+        }
+      },
+      "M008": {
+        "id": "M008",
+        "label": "Spoil / material storage",
+        "source": {
+          "ID": "M008",
+          "Method": "Spoil / material storage",
+          "Physical effects": "Sustained load; access obstruction",
+          "Follow-up inputs": "Height; duration; location",
+          "Controls": "Relocate; assess load"
+        }
+      },
+      "M009": {
+        "id": "M009",
+        "label": "Topsoil stripping / regrading",
+        "source": {
+          "ID": "M009",
+          "Method": "Topsoil stripping / regrading",
+          "Physical effects": "Cover reduction/increase",
+          "Follow-up inputs": "Levels; asset depth",
+          "Controls": "Survey; protection/diversion"
+        }
+      },
+      "M010": {
+        "id": "M010",
+        "label": "Dewatering",
+        "source": {
+          "ID": "M010",
+          "Method": "Dewatering",
+          "Physical effects": "Support loss; settlement; discharge",
+          "Follow-up inputs": "Water; ground; outlet",
+          "Controls": "Temporary works; environmental consent"
+        }
+      },
+      "M011": {
+        "id": "M011",
+        "label": "Tree lopping / MEWP",
+        "source": {
+          "ID": "M011",
+          "Method": "Tree lopping / MEWP",
+          "Physical effects": "OHPL encroachment; ground loading",
+          "Follow-up inputs": "Line distance; outriggers",
+          "Controls": "GS6; network operator"
+        }
+      },
+      "M012": {
+        "id": "M012",
+        "label": "Stump grinding / root removal",
+        "source": {
+          "ID": "M012",
+          "Method": "Stump grinding / root removal",
+          "Physical effects": "Penetration; asset movement",
+          "Follow-up inputs": "Root depth; services",
+          "Controls": "Search; controlled exposure"
+        }
+      },
+      "M013": {
+        "id": "M013",
+        "label": "Vacuum excavation",
+        "source": {
+          "ID": "M013",
+          "Method": "Vacuum excavation",
+          "Physical effects": "Exposure; contamination",
+          "Follow-up inputs": "Asset; nozzle; spoil",
+          "Controls": "Competent method"
+        }
+      },
+      "M014": {
+        "id": "M014",
+        "label": "Desktop information gathering",
+        "source": {
+          "ID": "M014",
+          "Method": "Desktop information gathering",
+          "Physical effects": "Information uncertainty",
+          "Follow-up inputs": "Purpose; future date",
+          "Controls": "Information Only; refresh"
+        }
+      },
+      "M015": {
+        "id": "M015",
+        "label": "GPR / EML detection",
+        "source": {
+          "ID": "M015",
+          "Method": "GPR / EML detection",
+          "Physical effects": "Electromagnetic / radar survey",
+          "Follow-up inputs": "Soil moisture; clay; salinity; surface; weather; asset material",
+          "Controls": "Competent multi-method scope; verify limitations"
+        }
+      }
+    },
+    "risks": {
+      "R001": {
+        "id": "R001",
+        "label": "Insufficiently comprehensive utility search",
+        "source": {
+          "ID": "R001",
+          "Risk": "Insufficiently comprehensive utility search",
+          "Triggers": "No search; incomplete coverage; private/non-member assets omitted",
+          "Consequences": "Strike; outage; false confidence",
+          "Severity": "Critical",
+          "Mitigation / response": "OneCall + Top-Up/direct owners; include access routes"
+        }
+      },
+      "R002": {
+        "id": "R002",
+        "label": "Unsafe digging practice / failure to use information",
+        "source": {
+          "ID": "R002",
+          "Risk": "Unsafe digging practice / failure to use information",
+          "Triggers": "Plans not reviewed; no marking/detection/trial holes; owner advice ignored",
+          "Consequences": "Strike despite records being obtained",
+          "Severity": "Critical",
+          "Mitigation / response": "Brief team; plans at workface; locate, verify and dig safely"
+        }
+      },
+      "R003": {
+        "id": "R003",
+        "label": "Direct strike / puncture",
+        "source": {
+          "ID": "R003",
+          "Risk": "Direct strike / puncture",
+          "Triggers": "Digging; drilling; posts; anchors",
+          "Consequences": "Fatal injury; fire; flooding; outage",
+          "Severity": "Critical",
+          "Mitigation / response": "Stop if location uncertain"
+        }
+      },
+      "R004": {
+        "id": "R004",
+        "label": "Utility near miss",
+        "source": {
+          "ID": "R004",
+          "Risk": "Utility near miss",
+          "Triggers": "Unexpected asset; exclusion breach; narrowly avoided strike",
+          "Consequences": "Warning of system failure",
+          "Severity": "High",
+          "Mitigation / response": "Stop, learn, correct controls, report internally and consider USAG"
+        }
+      },
+      "R005": {
+        "id": "R005",
+        "label": "Shallow private service connection",
+        "source": {
+          "ID": "R005",
+          "Risk": "Shallow private service connection",
+          "Triggers": "Boundaries; meter-to-building routes",
+          "Consequences": "Injury; property/supply damage",
+          "Severity": "High",
+          "Mitigation / response": "Trace likely route; locate; verify"
+        }
+      },
+      "R006": {
+        "id": "R006",
+        "label": "Surface loading over asset",
+        "source": {
+          "ID": "R006",
+          "Risk": "Surface loading over asset",
+          "Triggers": "Plant; crane; spoil; compound",
+          "Consequences": "Deflection; cracking; joint failure",
+          "Severity": "High",
+          "Mitigation / response": "Assess load/depth; relocate/protect"
+        }
+      },
+      "R007": {
+        "id": "R007",
+        "label": "Reduced depth of cover",
+        "source": {
+          "ID": "R007",
+          "Risk": "Reduced depth of cover",
+          "Triggers": "Topsoil strip; planing; grading",
+          "Consequences": "Loss of protection",
+          "Severity": "High",
+          "Mitigation / response": "Confirm depth; owner agreement"
+        }
+      },
+      "R008": {
+        "id": "R008",
+        "label": "Increased cover / inaccessible asset",
+        "source": {
+          "ID": "R008",
+          "Risk": "Increased cover / inaccessible asset",
+          "Triggers": "Fill; building-over; storage",
+          "Consequences": "Overload; maintenance obstruction",
+          "Severity": "High",
+          "Mitigation / response": "Preserve access; owner agreement"
+        }
+      },
+      "R009": {
+        "id": "R009",
+        "label": "Vibration damage",
+        "source": {
+          "ID": "R009",
+          "Risk": "Vibration damage",
+          "Triggers": "Piling; breakers; rollers",
+          "Consequences": "Joint movement; brittle asset failure",
+          "Severity": "High",
+          "Mitigation / response": "Consult owner; monitor/change method"
+        }
+      },
+      "R010": {
+        "id": "R010",
+        "label": "Loss of ground support",
+        "source": {
+          "ID": "R010",
+          "Risk": "Loss of ground support",
+          "Triggers": "Deep trench; dewatering",
+          "Consequences": "Spanning; bending; collapse",
+          "Severity": "High",
+          "Mitigation / response": "Temporary works; support; monitor"
+        }
+      },
+      "R011": {
+        "id": "R011",
+        "label": "Overhead electricity / flashover",
+        "source": {
+          "ID": "R011",
+          "Risk": "Overhead electricity / flashover",
+          "Triggers": "Tree work; cranes; tippers",
+          "Consequences": "Fatal shock/burns",
+          "Severity": "Critical",
+          "Mitigation / response": "GS6; network operator"
+        }
+      },
+      "R012": {
+        "id": "R012",
+        "label": "Ground conditions reduce detection confidence",
+        "source": {
+          "ID": "R012",
+          "Risk": "Ground conditions reduce detection confidence",
+          "Triggers": "Wet clay; saline/saturated ground; reinforcement",
+          "Consequences": "Missed/mislocated services",
+          "Severity": "High",
+          "Mitigation / response": "Competent survey scope; combine methods; verify"
+        }
+      },
+      "R013": {
+        "id": "R013",
+        "label": "Plans incomplete or missing assets",
+        "source": {
+          "ID": "R013",
+          "Risk": "Plans incomplete or missing assets",
+          "Triggers": "Private assets; abandoned assets; data gaps",
+          "Consequences": "False confidence",
+          "Severity": "High",
+          "Mitigation / response": "Top-Up; owner contact; survey"
+        }
+      },
+      "R014": {
+        "id": "R014",
+        "label": "Plans out of date",
+        "source": {
+          "ID": "R014",
+          "Risk": "Plans out of date",
+          "Triggers": "Early search; changed site",
+          "Consequences": "Incorrect planning information",
+          "Severity": "Medium/High",
+          "Mitigation / response": "Refresh/repeat search"
+        }
+      },
+      "R015": {
+        "id": "R015",
+        "label": "Recorded asset location inaccurate",
+        "source": {
+          "ID": "R015",
+          "Risk": "Recorded asset location inaccurate",
+          "Triggers": "Schematic/poor records; moved assets",
+          "Consequences": "Strike away from plotted line",
+          "Severity": "Critical",
+          "Mitigation / response": "Treat plans as indicative; detect and verify"
+        }
+      },
+      "R016": {
+        "id": "R016",
+        "label": "Abandoned or unidentified buried object",
+        "source": {
+          "ID": "R016",
+          "Risk": "Abandoned or unidentified buried object",
+          "Triggers": "Unknown pipe/cable/tank/foundation/UXO",
+          "Consequences": "Unknown hazardous condition",
+          "Severity": "High",
+          "Mitigation / response": "Treat as live/hazardous; stop and identify"
+        }
+      },
+      "R017": {
+        "id": "R017",
+        "label": "Emergency time pressure",
+        "source": {
+          "ID": "R017",
+          "Risk": "Emergency time pressure",
+          "Triggers": "Burst main; blocked sewer",
+          "Consequences": "Skipped controls",
+          "Severity": "High",
+          "Mitigation / response": "Emergency critical path and contacts"
+        }
+      },
+      "R018": {
+        "id": "R018",
+        "label": "Contamination / sewage exposure",
+        "source": {
+          "ID": "R018",
+          "Risk": "Contamination / sewage exposure",
+          "Triggers": "Leaking sewer; contaminated ground",
+          "Consequences": "Health/environmental harm",
+          "Severity": "High",
+          "Mitigation / response": "COSHH; PPE; containment"
+        }
+      },
+      "R019": {
+        "id": "R019",
+        "label": "Open-water proximity",
+        "source": {
+          "ID": "R019",
+          "Risk": "Open-water proximity",
+          "Triggers": "Any activity near canal, river, ditch, reservoir or coast",
+          "Consequences": "Drowning; flooding; pollution",
+          "Severity": "High",
+          "Mitigation / response": "Edge/rescue controls; regulator guidance"
+        }
+      },
+      "R020": {
+        "id": "R020",
+        "label": "Dewatering / discharge impact",
+        "source": {
+          "ID": "R020",
+          "Risk": "Dewatering / discharge impact",
+          "Triggers": "Pumping and discharge",
+          "Consequences": "Settlement; pollution; consent breach",
+          "Severity": "High",
+          "Mitigation / response": "Temporary works and regulator review"
+        }
+      },
+      "R021": {
+        "id": "R021",
+        "label": "Tree / ecology constraint",
+        "source": {
+          "ID": "R021",
+          "Risk": "Tree / ecology constraint",
+          "Triggers": "TPO; protected habitat/species",
+          "Consequences": "Legal/environmental harm",
+          "Severity": "Medium/High",
+          "Mitigation / response": "Permissions and ecology review"
+        }
+      },
+      "R022": {
+        "id": "R022",
+        "label": "Incorrect OneCall categorisation",
+        "source": {
+          "ID": "R022",
+          "Risk": "Incorrect OneCall categorisation",
+          "Triggers": "Wrong purpose/category/type",
+          "Consequences": "Incorrect or incomplete responses",
+          "Severity": "High",
+          "Mitigation / response": "Help choosing; equal suggestions; user confirmation"
+        }
+      },
+      "R023": {
+        "id": "R023",
+        "label": "Missing C2 responses",
+        "source": {
+          "ID": "R023",
+          "Risk": "Missing C2 responses",
+          "Triggers": "Fragmented sources",
+          "Consequences": "Incomplete pack",
+          "Severity": "High",
+          "Mitigation / response": "Top-Up; chase owners; log gaps"
+        }
+      },
+      "R024": {
+        "id": "R024",
+        "label": "Permission mistaken for safe-to-dig proof",
+        "source": {
+          "ID": "R024",
+          "Risk": "Permission mistaken for safe-to-dig proof",
+          "Triggers": "Wayleave/permit/planning exists",
+          "Consequences": "Work starts without locating assets",
+          "Severity": "High",
+          "Mitigation / response": "Separate legal consent from physical verification"
+        }
+      }
+    },
+    "mitigations": {
+      "MT001": {
+        "id": "MT001",
+        "label": "Obtain comprehensive utility information",
+        "source": {
+          "ID": "MT001",
+          "Mitigation": "Obtain comprehensive utility information",
+          "Stage": "Planning",
+          "When": "Before site-specific work",
+          "Action": "OneCall; Top-Up; direct asset-owner contact",
+          "Limitation": "Plans are indicative"
+        }
+      },
+      "MT002": {
+        "id": "MT002",
+        "label": "Make plans available and brief the team",
+        "source": {
+          "ID": "MT002",
+          "Mitigation": "Make plans available and brief the team",
+          "Stage": "Planning / workface",
+          "When": "Before ground disturbance",
+          "Action": "Plans at workface; toolbox talk; owner instructions",
+          "Limitation": "Check revision and mapped area"
+        }
+      },
+      "MT003": {
+        "id": "MT003",
+        "label": "Site reconnaissance and mark-up",
+        "source": {
+          "ID": "MT003",
+          "Mitigation": "Site reconnaissance and mark-up",
+          "Stage": "Locate",
+          "When": "Before work",
+          "Action": "Covers; meters; cabinets; intake points; paint/flags",
+          "Limitation": "Observed routes are not proof"
+        }
+      },
+      "MT004": {
+        "id": "MT004",
+        "label": "Competent utility detection",
+        "source": {
+          "ID": "MT004",
+          "Mitigation": "Competent utility detection",
+          "Stage": "Locate",
+          "When": "Uncertainty/high consequence",
+          "Action": "PAS128/GPR/EML survey",
+          "Limitation": "Consider soil/weather/method limitations"
+        }
+      },
+      "MT005": {
+        "id": "MT005",
+        "label": "Physical verification",
+        "source": {
+          "ID": "MT005",
+          "Mitigation": "Physical verification",
+          "Stage": "Verify",
+          "When": "High-risk penetration/crossings",
+          "Action": "Trial holes / vacuum excavation",
+          "Limitation": "Treat unidentified assets as live"
+        }
+      },
+      "MT006": {
+        "id": "MT006",
+        "label": "Control plant loading and storage",
+        "source": {
+          "ID": "MT006",
+          "Mitigation": "Control plant loading and storage",
+          "Stage": "Protect",
+          "When": "Before compounds/routes/lifts",
+          "Action": "Exclusion zones; mats; engineering review",
+          "Limitation": "Owner agreement may be required"
+        }
+      },
+      "MT007": {
+        "id": "MT007",
+        "label": "Control cover changes",
+        "source": {
+          "ID": "MT007",
+          "Mitigation": "Control cover changes",
+          "Stage": "Protect",
+          "When": "Before grading/resurfacing",
+          "Action": "Level/depth survey; protection/diversion",
+          "Limitation": "Do not alter without review"
+        }
+      },
+      "MT008": {
+        "id": "MT008",
+        "label": "Temporary works and trench support",
+        "source": {
+          "ID": "MT008",
+          "Mitigation": "Temporary works and trench support",
+          "Stage": "Protect",
+          "When": "Deep/adjacent excavation",
+          "Action": "Temporary works design; inspections",
+          "Limitation": "Consider assets beyond trench"
+        }
+      },
+      "MT009": {
+        "id": "MT009",
+        "label": "Vibration assessment",
+        "source": {
+          "ID": "MT009",
+          "Mitigation": "Vibration assessment",
+          "Stage": "Protect",
+          "When": "Piling/breaking/compaction",
+          "Action": "Owner consultation; monitoring; method change",
+          "Limitation": "No generic safe distance"
+        }
+      },
+      "MT010": {
+        "id": "MT010",
+        "label": "Overhead-line controls",
+        "source": {
+          "ID": "MT010",
+          "Mitigation": "Overhead-line controls",
+          "Stage": "Protect",
+          "When": "OHPL present/possible",
+          "Action": "GS6; exclusion; isolation/diversion",
+          "Limitation": "Flashover without contact"
+        }
+      },
+      "MT011": {
+        "id": "MT011",
+        "label": "Open-water working controls",
+        "source": {
+          "ID": "MT011",
+          "Mitigation": "Open-water working controls",
+          "Stage": "Protect / emergency",
+          "When": "Near open water",
+          "Action": "Edge protection; rescue; flotation; weather/water monitoring",
+          "Limitation": "Nation-specific H&S/environment links"
+        }
+      },
+      "MT012": {
+        "id": "MT012",
+        "label": "Street-works permit / notice / licence check",
+        "source": {
+          "ID": "MT012",
+          "Mitigation": "Street-works permit / notice / licence check",
+          "Stage": "Compliance",
+          "When": "On or near roads/streets",
+          "Action": "Apply nation-specific process",
+          "Limitation": "England/Scotland/Wales/NI differ"
+        }
+      },
+      "MT013": {
+        "id": "MT013",
+        "label": "Provide additional information requested by asset owner",
+        "source": {
+          "ID": "MT013",
+          "Mitigation": "Provide additional information requested by asset owner",
+          "Stage": "Assessment",
+          "When": "Owner asks for method/load/depth/clearance data",
+          "Action": "Submit method, plans, programme and contacts",
+          "Limitation": "Do not proceed until response received"
+        }
+      },
+      "MT014": {
+        "id": "MT014",
+        "label": "Incident and near-miss reporting",
+        "source": {
+          "ID": "MT014",
+          "Mitigation": "Incident and near-miss reporting",
+          "Stage": "Learn",
+          "When": "Strike or near miss",
+          "Action": "Emergency/owner/internal reporting; USAG learning",
+          "Limitation": "USAG does not replace mandatory reporting"
+        }
+      },
+      "MT015": {
+        "id": "MT015",
+        "label": "Environmental / planning review",
+        "source": {
+          "ID": "MT015",
+          "Mitigation": "Environmental / planning review",
+          "Stage": "Compliance",
+          "When": "Water, trees, protected land, development",
+          "Action": "EA/SEPA/NRW/NIEA; planning authority",
+          "Limitation": "Nation specific"
+        }
+      },
+      "MT016": {
+        "id": "MT016",
+        "label": "Refresh search close to start date",
+        "source": {
+          "ID": "MT016",
+          "Mitigation": "Refresh search close to start date",
+          "Stage": "Information currency",
+          "When": "Search undertaken >28 days before start",
+          "Action": "Reminder/resubmit",
+          "Limitation": "Record dates and changes"
+        }
+      },
+      "MT017": {
+        "id": "MT017",
+        "label": "User confirms OneCall route",
+        "source": {
+          "ID": "MT017",
+          "Mitigation": "User confirms OneCall route",
+          "Stage": "Governance",
+          "When": "Before handoff",
+          "Action": "Suggestions + help + manual selection",
+          "Limitation": "Record selection method"
+        }
+      }
+    },
+    "library": {
+      "L001": {
+        "id": "L001",
+        "label": "Safe Digging Essentials",
+        "source": {
+          "ID": "L001",
+          "Title": "Safe Digging Essentials",
+          "Type": "PDF/Guidance",
+          "Audience": "All",
+          "Topic": "Safe system basics",
+          "Jurisdiction": "All",
+          "Status": "Complete",
+          "File": "LSBUD_Insight_Safe_Digging_Essentials.pdf"
+        }
+      },
+      "L002": {
+        "id": "L002",
+        "label": "Do I Need a Utility Search?",
+        "source": {
+          "ID": "L002",
+          "Title": "Do I Need a Utility Search?",
+          "Type": "PDF/Guidance",
+          "Audience": "All",
+          "Topic": "Search decision",
+          "Jurisdiction": "All",
+          "Status": "Complete",
+          "File": "LSBUD_Insight_Do_I_Need_a_Utility_Search.pdf"
+        }
+      },
+      "L003": {
+        "id": "L003",
+        "label": "Service Connection Risk Guide",
+        "source": {
+          "ID": "L003",
+          "Title": "Service Connection Risk Guide",
+          "Type": "PDF/Guidance",
+          "Audience": "Public/trades",
+          "Topic": "Private services",
+          "Jurisdiction": "All",
+          "Status": "Complete",
+          "File": "LSBUD_Insight_Service_Connection_Risk_Guide.pdf"
+        }
+      },
+      "L004": {
+        "id": "L004",
+        "label": "Householder Safe Digging Checklist",
+        "source": {
+          "ID": "L004",
+          "Title": "Householder Safe Digging Checklist",
+          "Type": "PDF/Checklist",
+          "Audience": "Householder",
+          "Topic": "Domestic works",
+          "Jurisdiction": "Nation aware",
+          "Status": "Complete",
+          "File": "householder_safe_digging_checklist.pdf"
+        }
+      },
+      "L005": {
+        "id": "L005",
+        "label": "HSG47 Plain-English Summary",
+        "source": {
+          "ID": "L005",
+          "Title": "HSG47 Plain-English Summary",
+          "Type": "Guidance",
+          "Audience": "Contractors/managers",
+          "Topic": "HSG47",
+          "Jurisdiction": "GB",
+          "Status": "PDF required",
+          "File": ""
+        }
+      },
+      "L006": {
+        "id": "L006",
+        "label": "PAS128 Client Guide",
+        "source": {
+          "ID": "L006",
+          "Title": "PAS128 Client Guide",
+          "Type": "Guidance",
+          "Audience": "Survey buyers",
+          "Topic": "Detection and confidence",
+          "Jurisdiction": "UK",
+          "Status": "PDF required",
+          "File": ""
+        }
+      },
+      "L007": {
+        "id": "L007",
+        "label": "C2 Pack Checklist",
+        "source": {
+          "ID": "L007",
+          "Title": "C2 Pack Checklist",
+          "Type": "Checklist",
+          "Audience": "C2 users",
+          "Topic": "Coverage/evidence",
+          "Jurisdiction": "Nation aware",
+          "Status": "PDF required",
+          "File": ""
+        }
+      },
+      "L008": {
+        "id": "L008",
+        "label": "Street Works by UK Nation",
+        "source": {
+          "ID": "L008",
+          "Title": "Street Works by UK Nation",
+          "Type": "Guidance",
+          "Audience": "Highways/utilities",
+          "Topic": "Permits and systems",
+          "Jurisdiction": "All four",
+          "Status": "PDF required",
+          "File": ""
+        }
+      },
+      "L009": {
+        "id": "L009",
+        "label": "Heavy Loading Over Buried Assets",
+        "source": {
+          "ID": "L009",
+          "Title": "Heavy Loading Over Buried Assets",
+          "Type": "Guidance",
+          "Audience": "Contractors/managers",
+          "Topic": "Plant/spoil/outriggers",
+          "Jurisdiction": "All",
+          "Status": "PDF required",
+          "File": ""
+        }
+      },
+      "L010": {
+        "id": "L010",
+        "label": "GPR and Ground Conditions Guide",
+        "source": {
+          "ID": "L010",
+          "Title": "GPR and Ground Conditions Guide",
+          "Type": "Guidance",
+          "Audience": "Surveyors/buyers",
+          "Topic": "Clay, salinity, moisture, weather",
+          "Jurisdiction": "All",
+          "Status": "PDF required",
+          "File": ""
+        }
+      },
+      "L011": {
+        "id": "L011",
+        "label": "Near Miss and Strike Reporting Guide",
+        "source": {
+          "ID": "L011",
+          "Title": "Near Miss and Strike Reporting Guide",
+          "Type": "Guidance",
+          "Audience": "All organisations",
+          "Topic": "Incident learning / USAG",
+          "Jurisdiction": "UK",
+          "Status": "PDF required",
+          "File": ""
+        }
+      },
+      "L012": {
+        "id": "L012",
+        "label": "Working Near Open Water",
+        "source": {
+          "ID": "L012",
+          "Title": "Working Near Open Water",
+          "Type": "Guidance",
+          "Audience": "All relevant users",
+          "Topic": "Drowning/flood/pollution",
+          "Jurisdiction": "Nation aware",
+          "Status": "PDF required",
+          "File": ""
+        }
+      },
+      "L013": {
+        "id": "L013",
+        "label": "Wayleaves, Easements and Utility Rights",
+        "source": {
+          "ID": "L013",
+          "Title": "Wayleaves, Easements and Utility Rights",
+          "Type": "Guidance",
+          "Audience": "Landowners/planners",
+          "Topic": "Land rights",
+          "Jurisdiction": "Nation aware",
+          "Status": "PDF required",
+          "File": ""
+        }
+      },
+      "L014": {
+        "id": "L014",
+        "label": "Householder Planning and Legal Checklist",
+        "source": {
+          "ID": "L014",
+          "Title": "Householder Planning and Legal Checklist",
+          "Type": "Guidance",
+          "Audience": "Householder",
+          "Topic": "Planning/building/neighbour/title",
+          "Jurisdiction": "Nation aware",
+          "Status": "PDF required",
+          "File": ""
+        }
+      },
+      "L015": {
+        "id": "L015",
+        "label": "Transport Infrastructure Safe-Digging Guide",
+        "source": {
+          "ID": "L015",
+          "Title": "Transport Infrastructure Safe-Digging Guide",
+          "Type": "Guidance",
+          "Audience": "Transport users",
+          "Topic": "Rail/metro/tram/port/airport/canal",
+          "Jurisdiction": "Nation aware",
+          "Status": "PDF required",
+          "File": ""
+        }
+      }
+    },
+    "legislation": {
+      "LG001": {
+        "id": "LG001",
+        "label": "Health and Safety at Work etc. Act 1974",
+        "source": {
+          "ID": "LG001",
+          "Title": "Health and Safety at Work etc. Act 1974",
+          "Type": "Legislation",
+          "Jurisdiction": "England/Scotland/Wales",
+          "Relevance": "General duties",
+          "Official URL": "https://www.legislation.gov.uk/ukpga/1974/37/contents"
+        }
+      },
+      "LG002": {
+        "id": "LG002",
+        "label": "CDM Regulations 2015",
+        "source": {
+          "ID": "LG002",
+          "Title": "CDM Regulations 2015",
+          "Type": "Legislation",
+          "Jurisdiction": "England/Scotland/Wales",
+          "Relevance": "Client/designer/contractor duties",
+          "Official URL": "https://www.hse.gov.uk/construction/cdm/2015/summary.htm"
+        }
+      },
+      "LG003": {
+        "id": "LG003",
+        "label": "HSG47",
+        "source": {
+          "ID": "LG003",
+          "Title": "HSG47",
+          "Type": "Official guidance",
+          "Jurisdiction": "Great Britain",
+          "Relevance": "Underground services safe system",
+          "Official URL": "https://www.hse.gov.uk/pubns/books/hsg47.htm"
+        }
+      },
+      "LG004": {
+        "id": "LG004",
+        "label": "GS6",
+        "source": {
+          "ID": "LG004",
+          "Title": "GS6",
+          "Type": "Official guidance",
+          "Jurisdiction": "Great Britain",
+          "Relevance": "Overhead-line controls",
+          "Official URL": "https://www.hse.gov.uk/pubns/gs6.htm"
+        }
+      },
+      "LG005": {
+        "id": "LG005",
+        "label": "PAS 128:2022",
+        "source": {
+          "ID": "LG005",
+          "Title": "PAS 128:2022",
+          "Type": "Standard",
+          "Jurisdiction": "UK",
+          "Relevance": "Utility detection and mapping",
+          "Official URL": "https://knowledge.bsigroup.com/products/pas-128-underground-utility-detection-verification-and-location-specification"
+        }
+      },
+      "LG006": {
+        "id": "LG006",
+        "label": "New Roads and Street Works Act 1991",
+        "source": {
+          "ID": "LG006",
+          "Title": "New Roads and Street Works Act 1991",
+          "Type": "Legislation",
+          "Jurisdiction": "England/Wales",
+          "Relevance": "Street works framework",
+          "Official URL": "https://www.legislation.gov.uk/ukpga/1991/22/contents"
+        }
+      },
+      "LG007": {
+        "id": "LG007",
+        "label": "Street Works (NI) Order 1995",
+        "source": {
+          "ID": "LG007",
+          "Title": "Street Works (NI) Order 1995",
+          "Type": "Legislation",
+          "Jurisdiction": "Northern Ireland",
+          "Relevance": "NI street works",
+          "Official URL": "https://www.legislation.gov.uk/nisi/1995/3210/contents"
+        }
+      },
+      "LG008": {
+        "id": "LG008",
+        "label": "Pipelines Safety Regulations 1996",
+        "source": {
+          "ID": "LG008",
+          "Title": "Pipelines Safety Regulations 1996",
+          "Type": "Legislation",
+          "Jurisdiction": "Great Britain",
+          "Relevance": "Pipeline integrity/damage prevention",
+          "Official URL": "https://www.legislation.gov.uk/uksi/1996/825/contents"
+        }
+      },
+      "LG009": {
+        "id": "LG009",
+        "label": "Building Act 1984",
+        "source": {
+          "ID": "LG009",
+          "Title": "Building Act 1984",
+          "Type": "Legislation / context",
+          "Jurisdiction": "England/Wales",
+          "Relevance": "Building-control framework",
+          "Official URL": "https://www.legislation.gov.uk/ukpga/1984/55/contents"
+        }
+      },
+      "LG010": {
+        "id": "LG010",
+        "label": "GPDO 2015",
+        "source": {
+          "ID": "LG010",
+          "Title": "GPDO 2015",
+          "Type": "Legislation",
+          "Jurisdiction": "England",
+          "Relevance": "Permitted development rights",
+          "Official URL": "https://www.legislation.gov.uk/uksi/2015/596/contents"
+        }
+      },
+      "LG011": {
+        "id": "LG011",
+        "label": "Access to Neighbouring Land Act 1992",
+        "source": {
+          "ID": "LG011",
+          "Title": "Access to Neighbouring Land Act 1992",
+          "Type": "Legislation / signpost",
+          "Jurisdiction": "England/Wales",
+          "Relevance": "Potential access for preservation works",
+          "Official URL": "https://www.legislation.gov.uk/ukpga/1992/23/contents"
+        }
+      },
+      "LG012": {
+        "id": "LG012",
+        "label": "Land Registry title information",
+        "source": {
+          "ID": "LG012",
+          "Title": "Land Registry title information",
+          "Type": "Official information",
+          "Jurisdiction": "England/Wales",
+          "Relevance": "Ownership/general-boundary context",
+          "Official URL": "https://www.gov.uk/search-property-information-land-registry"
+        }
+      },
+      "LG013": {
+        "id": "LG013",
+        "label": "Party Wall etc. Act 1996",
+        "source": {
+          "ID": "LG013",
+          "Title": "Party Wall etc. Act 1996",
+          "Type": "Legislation / signpost",
+          "Jurisdiction": "England/Wales",
+          "Relevance": "Neighbouring works context",
+          "Official URL": "https://www.legislation.gov.uk/ukpga/1996/40/contents"
+        }
+      },
+      "LG014": {
+        "id": "LG014",
+        "label": "Welsh Language Standards",
+        "source": {
+          "ID": "LG014",
+          "Title": "Welsh Language Standards",
+          "Type": "Language/service standard",
+          "Jurisdiction": "Wales",
+          "Relevance": "Bilingual service design",
+          "Official URL": "https://www.welshlanguagecommissioner.wales/regulation/welsh-language-standards"
+        }
+      }
+    },
+    "services": {
+      "S001": {
+        "id": "S001",
+        "label": "Library content",
+        "source": {
+          "ID": "S001",
+          "Service": "Library content",
+          "Action type": "Internal content",
+          "Access": "Guest",
+          "Site required": "No",
+          "Description / provider": "Read/download"
+        }
+      },
+      "S002": {
+        "id": "S002",
+        "label": "OneCall Utility Search",
+        "source": {
+          "ID": "S002",
+          "Service": "OneCall Utility Search",
+          "Action type": "Search/handoff",
+          "Access": "Login",
+          "Site required": "Yes",
+          "Description / provider": "Prepare route/site payload"
+        }
+      },
+      "S003": {
+        "id": "S003",
+        "label": "Top-Up Search",
+        "source": {
+          "ID": "S003",
+          "Service": "Top-Up Search",
+          "Action type": "Paid search",
+          "Access": "Login",
+          "Site required": "Yes",
+          "Description / provider": "Coverage gaps"
+        }
+      },
+      "S004": {
+        "id": "S004",
+        "label": "Digital Insight Service",
+        "source": {
+          "ID": "S004",
+          "Service": "Digital Insight Service",
+          "Action type": "Premium digital intelligence",
+          "Access": "Login/Pro",
+          "Site required": "Yes",
+          "Description / provider": "Curated utility and spatial data, constraints and next actions"
+        }
+      },
+      "S005": {
+        "id": "S005",
+        "label": "Large Site Search",
+        "source": {
+          "ID": "S005",
+          "Service": "Large Site Search",
+          "Action type": "Handoff",
+          "Access": "Login",
+          "Site required": "Yes",
+          "Description / provider": "WKT/area/route"
+        }
+      },
+      "S006": {
+        "id": "S006",
+        "label": "Select Surveys quote",
+        "source": {
+          "ID": "S006",
+          "Service": "Select Surveys quote",
+          "Action type": "Quote",
+          "Access": "Login",
+          "Site required": "Optional",
+          "Description / provider": "User/site/survey details"
+        }
+      },
+      "S007": {
+        "id": "S007",
+        "label": "Open Water Proximity Report",
+        "source": {
+          "ID": "S007",
+          "Service": "Open Water Proximity Report",
+          "Action type": "Report",
+          "Access": "Login",
+          "Site required": "Yes",
+          "Description / provider": "Location/buffer/jurisdiction"
+        }
+      },
+      "S008": {
+        "id": "S008",
+        "label": "Environmental Constraints Report",
+        "source": {
+          "ID": "S008",
+          "Service": "Environmental Constraints Report",
+          "Action type": "Report",
+          "Access": "Login",
+          "Site required": "Yes",
+          "Description / provider": "Location/activity/jurisdiction"
+        }
+      },
+      "S009": {
+        "id": "S009",
+        "label": "Vacuum Excavation request",
+        "source": {
+          "ID": "S009",
+          "Service": "Vacuum Excavation request",
+          "Action type": "Quote",
+          "Access": "Login",
+          "Site required": "Yes",
+          "Description / provider": "Site/method/access"
+        }
+      },
+      "S010": {
+        "id": "S010",
+        "label": "Electricity Capacity Check",
+        "source": {
+          "ID": "S010",
+          "Service": "Electricity Capacity Check",
+          "Action type": "External report",
+          "Access": "Login",
+          "Site required": "Yes",
+          "Description / provider": "Utility Intelligence: capacity, connection lead time, feasibility"
+        }
+      },
+      "S011": {
+        "id": "S011",
+        "label": "Conceptual Mapping",
+        "source": {
+          "ID": "S011",
+          "Service": "Conceptual Mapping",
+          "Action type": "External quote/handoff",
+          "Access": "Login",
+          "Site required": "Yes",
+          "Description / provider": "Idox Geospatial: base/concept/constraints mapping"
+        }
+      },
+      "S012": {
+        "id": "S012",
+        "label": "Planning Applications API",
+        "source": {
+          "ID": "S012",
+          "Service": "Planning Applications API",
+          "Action type": "Quick API / deeper report",
+          "Access": "Guest/Login",
+          "Site required": "Location",
+          "Description / provider": "Idox Geospatial: nearby applications for planners, contractors, householders and utilities"
+        }
+      },
+      "S013": {
+        "id": "S013",
+        "label": "USAG Strike Portal / learning",
+        "source": {
+          "ID": "S013",
+          "Service": "USAG Strike Portal / learning",
+          "Action type": "External resource",
+          "Access": "Organisation",
+          "Site required": "No",
+          "Description / provider": "Report strike data; near-miss learning/signposting"
+        }
+      },
+      "S014": {
+        "id": "S014",
+        "label": "Pro Account",
+        "source": {
+          "ID": "S014",
+          "Service": "Pro Account",
+          "Action type": "Subscription",
+          "Access": "Pro",
+          "Site required": "No",
+          "Description / provider": "Team/content/service entitlements"
+        }
+      }
+    },
+    "externalResources": {
+      "ER001": {
+        "id": "ER001",
+        "label": "USAG",
+        "source": {
+          "ID": "ER001",
+          "Resource": "USAG",
+          "Type": "Industry resource / reporting",
+          "Jurisdiction": "All four UK jurisdictions",
+          "Use": "Strike and near-miss learning; Strike Portal",
+          "URL": "https://www.utilitystrikeavoidancegroup.org/strike-portal/"
+        }
+      },
+      "ER002": {
+        "id": "ER002",
+        "label": "NUAR",
+        "source": {
+          "ID": "ER002",
+          "Resource": "NUAR",
+          "Type": "Asset-data platform",
+          "Jurisdiction": "England/Wales/Northern Ireland",
+          "Use": "Eligible asset owners and contractors",
+          "URL": "https://www.nuar.uk/"
+        }
+      },
+      "ER003": {
+        "id": "ER003",
+        "label": "Vault / Scottish Road Works Register",
+        "source": {
+          "ID": "ER003",
+          "Resource": "Vault / Scottish Road Works Register",
+          "Type": "Asset-data / road works",
+          "Jurisdiction": "Scotland",
+          "Use": "Eligible SRWR users",
+          "URL": "https://roadworks.scot/"
+        }
+      },
+      "ER004": {
+        "id": "ER004",
+        "label": "Street Manager",
+        "source": {
+          "ID": "ER004",
+          "Resource": "Street Manager",
+          "Type": "Street-works service",
+          "Jurisdiction": "England",
+          "Use": "Eligible authorities/utilities/contractors",
+          "URL": "https://www.gov.uk/guidance/plan-and-manage-roadworks"
+        }
+      },
+      "ER005": {
+        "id": "ER005",
+        "label": "Utility Intelligence",
+        "source": {
+          "ID": "ER005",
+          "Resource": "Utility Intelligence",
+          "Type": "Commercial data/report provider",
+          "Jurisdiction": "UK",
+          "Use": "Capacity Check and utility intelligence",
+          "URL": "https://utilityintel.co.uk/products/capacity-check"
+        }
+      },
+      "ER006": {
+        "id": "ER006",
+        "label": "Idox Geospatial",
+        "source": {
+          "ID": "ER006",
+          "Resource": "Idox Geospatial",
+          "Type": "Commercial geospatial provider",
+          "Jurisdiction": "UK",
+          "Use": "Conceptual mapping and Planning Applications API",
+          "URL": "https://idoxgeospatial.co.uk/"
+        }
+      },
+      "ER007": {
+        "id": "ER007",
+        "label": "Environment Agency",
+        "source": {
+          "ID": "ER007",
+          "Resource": "Environment Agency",
+          "Type": "Environmental regulator",
+          "Jurisdiction": "England",
+          "Use": "Water/flood/environment",
+          "URL": "https://www.gov.uk/government/organisations/environment-agency"
+        }
+      },
+      "ER008": {
+        "id": "ER008",
+        "label": "SEPA",
+        "source": {
+          "ID": "ER008",
+          "Resource": "SEPA",
+          "Type": "Environmental regulator",
+          "Jurisdiction": "Scotland",
+          "Use": "Water/flood/environment",
+          "URL": "https://www.sepa.org.uk/"
+        }
+      },
+      "ER009": {
+        "id": "ER009",
+        "label": "Natural Resources Wales",
+        "source": {
+          "ID": "ER009",
+          "Resource": "Natural Resources Wales",
+          "Type": "Environmental regulator",
+          "Jurisdiction": "Wales",
+          "Use": "Water/flood/environment",
+          "URL": "https://naturalresources.wales/"
+        }
+      },
+      "ER010": {
+        "id": "ER010",
+        "label": "NIEA / DAERA",
+        "source": {
+          "ID": "ER010",
+          "Resource": "NIEA / DAERA",
+          "Type": "Environmental regulator",
+          "Jurisdiction": "Northern Ireland",
+          "Use": "Water/environment",
+          "URL": "https://www.daera-ni.gov.uk/topics/environment"
+        }
+      }
+    }
+  }
+}

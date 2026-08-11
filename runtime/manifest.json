@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-11T15:25:38.303Z",
+  "sourceDirectory": "matrix-data",
+  "counts": {
+    "intents": 33,
+    "personas": 40,
+    "methods": 15,
+    "jurisdictions": 4,
+    "risks": 24,
+    "mitigations": 17,
+    "library": 15,
+    "legislation": 14,
+    "services": 14,
+    "externalResources": 10
+  }
+}
