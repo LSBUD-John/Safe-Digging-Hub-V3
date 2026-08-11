@@ -1,0 +1,152 @@
+[
+  {
+    "ID": "L001",
+    "Title": "Safe Digging Essentials",
+    "Type": "PDF/Guidance",
+    "Audience": "All",
+    "Topic": "Safe system basics",
+    "Jurisdiction": "All",
+    "Status": "Complete",
+    "File": "LSBUD_Insight_Safe_Digging_Essentials.pdf"
+  },
+  {
+    "ID": "L002",
+    "Title": "Do I Need a Utility Search?",
+    "Type": "PDF/Guidance",
+    "Audience": "All",
+    "Topic": "Search decision",
+    "Jurisdiction": "All",
+    "Status": "Complete",
+    "File": "LSBUD_Insight_Do_I_Need_a_Utility_Search.pdf"
+  },
+  {
+    "ID": "L003",
+    "Title": "Service Connection Risk Guide",
+    "Type": "PDF/Guidance",
+    "Audience": "Public/trades",
+    "Topic": "Private services",
+    "Jurisdiction": "All",
+    "Status": "Complete",
+    "File": "LSBUD_Insight_Service_Connection_Risk_Guide.pdf"
+  },
+  {
+    "ID": "L004",
+    "Title": "Householder Safe Digging Checklist",
+    "Type": "PDF/Checklist",
+    "Audience": "Householder",
+    "Topic": "Domestic works",
+    "Jurisdiction": "Nation aware",
+    "Status": "Complete",
+    "File": "householder_safe_digging_checklist.pdf"
+  },
+  {
+    "ID": "L005",
+    "Title": "HSG47 Plain-English Summary",
+    "Type": "Guidance",
+    "Audience": "Contractors/managers",
+    "Topic": "HSG47",
+    "Jurisdiction": "GB",
+    "Status": "PDF required",
+    "File": ""
+  },
+  {
+    "ID": "L006",
+    "Title": "PAS128 Client Guide",
+    "Type": "Guidance",
+    "Audience": "Survey buyers",
+    "Topic": "Detection and confidence",
+    "Jurisdiction": "UK",
+    "Status": "PDF required",
+    "File": ""
+  },
+  {
+    "ID": "L007",
+    "Title": "C2 Pack Checklist",
+    "Type": "Checklist",
+    "Audience": "C2 users",
+    "Topic": "Coverage/evidence",
+    "Jurisdiction": "Nation aware",
+    "Status": "PDF required",
+    "File": ""
+  },
+  {
+    "ID": "L008",
+    "Title": "Street Works by UK Nation",
+    "Type": "Guidance",
+    "Audience": "Highways/utilities",
+    "Topic": "Permits and systems",
+    "Jurisdiction": "All four",
+    "Status": "PDF required",
+    "File": ""
+  },
+  {
+    "ID": "L009",
+    "Title": "Heavy Loading Over Buried Assets",
+    "Type": "Guidance",
+    "Audience": "Contractors/managers",
+    "Topic": "Plant/spoil/outriggers",
+    "Jurisdiction": "All",
+    "Status": "PDF required",
+    "File": ""
+  },
+  {
+    "ID": "L010",
+    "Title": "GPR and Ground Conditions Guide",
+    "Type": "Guidance",
+    "Audience": "Surveyors/buyers",
+    "Topic": "Clay, salinity, moisture, weather",
+    "Jurisdiction": "All",
+    "Status": "PDF required",
+    "File": ""
+  },
+  {
+    "ID": "L011",
+    "Title": "Near Miss and Strike Reporting Guide",
+    "Type": "Guidance",
+    "Audience": "All organisations",
+    "Topic": "Incident learning / USAG",
+    "Jurisdiction": "UK",
+    "Status": "PDF required",
+    "File": ""
+  },
+  {
+    "ID": "L012",
+    "Title": "Working Near Open Water",
+    "Type": "Guidance",
+    "Audience": "All relevant users",
+    "Topic": "Drowning/flood/pollution",
+    "Jurisdiction": "Nation aware",
+    "Status": "PDF required",
+    "File": ""
+  },
+  {
+    "ID": "L013",
+    "Title": "Wayleaves, Easements and Utility Rights",
+    "Type": "Guidance",
+    "Audience": "Landowners/planners",
+    "Topic": "Land rights",
+    "Jurisdiction": "Nation aware",
+    "Status": "PDF required",
+    "File": ""
+  },
+  {
+    "ID": "L014",
+    "Title": "Householder Planning and Legal Checklist",
+    "Type": "Guidance",
+    "Audience": "Householder",
+    "Topic": "Planning/building/neighbour/title",
+    "Jurisdiction": "Nation aware",
+    "Status": "PDF required",
+    "File": ""
+  },
+  {
+    "ID": "L015",
+    "Title": "Transport Infrastructure Safe-Digging Guide",
+    "Type": "Guidance",
+    "Audience": "Transport users",
+    "Topic": "Rail/metro/tram/port/airport/canal",
+    "Jurisdiction": "Nation aware",
+    "Status": "PDF required",
+    "File": ""
+  }
+]

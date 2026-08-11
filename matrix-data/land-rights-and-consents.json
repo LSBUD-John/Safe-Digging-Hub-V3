@@ -1,0 +1,58 @@
+[
+  {
+    "ID": "LR001",
+    "Matter": "Wayleave",
+    "Type": "Agreement/right",
+    "Audience": "Landowner; utility",
+    "Relevance": "Utility apparatus/access rights",
+    "Action / caveat": "Check title and agreement; seek legal advice"
+  },
+  {
+    "ID": "LR002",
+    "Matter": "Easement",
+    "Type": "Property right",
+    "Audience": "Landowner; developer",
+    "Relevance": "Permanent rights affecting land",
+    "Action / caveat": "Do not infer from utility plan alone"
+  },
+  {
+    "ID": "LR003",
+    "Matter": "Title restriction / covenant",
+    "Type": "Title matter",
+    "Audience": "Householder; landowner; developer",
+    "Relevance": "May restrict works or require consent",
+    "Action / caveat": "Obtain title documents/advice"
+  },
+  {
+    "ID": "LR004",
+    "Matter": "Boundary ownership",
+    "Type": "Land/title matter",
+    "Audience": "Householder; landowner",
+    "Relevance": "Responsibility and access uncertainty",
+    "Action / caveat": "Title plan may show general boundary only"
+  },
+  {
+    "ID": "LR005",
+    "Matter": "Access to neighbouring land",
+    "Type": "Legal access issue",
+    "Audience": "Householder; contractor",
+    "Relevance": "Temporary access for preservation works",
+    "Action / caveat": "Act does not create automatic unrestricted access"
+  },
+  {
+    "ID": "LR006",
+    "Matter": "Street-works permit/notice/licence",
+    "Type": "Regulatory consent",
+    "Audience": "Highways/utilities",
+    "Relevance": "Nation-specific road/street process",
+    "Action / caveat": "Apply correct jurisdiction rules"
+  },
+  {
+    "ID": "LR007",
+    "Matter": "Asset-owner consent / assessment",
+    "Type": "Operator approval",
+    "Audience": "All works near protected assets",
+    "Relevance": "Additional method/loading/clearance details",
+    "Action / caveat": "Do not proceed until response received"
+  }
+]
