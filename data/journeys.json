@@ -1,0 +1,299 @@
+{
+  "house-extension": {
+    "label": "I am planning a house extension",
+    "questions": [
+      {
+        "id": "role",
+        "prompt": "Which best describes you?",
+        "options": [
+          "Householder",
+          "Builder or groundworks contractor",
+          "Architect or designer",
+          "Project manager"
+        ]
+      },
+      {
+        "id": "ground",
+        "prompt": "Will the work involve foundations, drainage, piling or other ground disturbance?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "id": "location",
+        "prompt": "Where will the work take place?",
+        "options": [
+          "England",
+          "Scotland",
+          "Wales",
+          "Northern Ireland",
+          "More than one nation"
+        ]
+      }
+    ],
+    "risks": [
+      "Private service connections",
+      "Foundation excavation",
+      "Plant or materials loading the ground",
+      "Building close to buried assets"
+    ],
+    "guidance": [
+      "Safe Digging Essentials",
+      "Do I Need a Utility Search?",
+      "Service Connection Risk Guide",
+      "Householder Safe Digging Checklist"
+    ],
+    "services": [
+      "Utility Search",
+      "Top-Up Search",
+      "Select Surveys quote"
+    ],
+    "utilityOptions": [
+      [
+        "Planned Works",
+        "Domestic Works (General public)",
+        "Domestic building project"
+      ],
+      [
+        "Planned Works",
+        "Development Projects",
+        "Housing"
+      ],
+      [
+        "Information Only",
+        "Planning Applications",
+        "Single property"
+      ]
+    ]
+  },
+  "pipework": {
+    "label": "I am installing new pipework",
+    "questions": [
+      {
+        "id": "role",
+        "prompt": "What is your role in the work?",
+        "options": [
+          "Site operative",
+          "Project manager",
+          "Designer",
+          "Utility company representative"
+        ]
+      },
+      {
+        "id": "route",
+        "prompt": "Where will most of the route be located?",
+        "options": [
+          "Within a highway",
+          "Cross-country or off-highway",
+          "Within one defined site",
+          "Not sure"
+        ]
+      },
+      {
+        "id": "method",
+        "prompt": "Which construction method is most likely?",
+        "options": [
+          "Open trench",
+          "Drilling, moling or pipe jacking",
+          "Multiple separate excavations",
+          "Not yet decided"
+        ]
+      },
+      {
+        "id": "location",
+        "prompt": "Where will the work take place?",
+        "options": [
+          "England",
+          "Scotland",
+          "Wales",
+          "Northern Ireland",
+          "More than one nation"
+        ]
+      }
+    ],
+    "risks": [
+      "Existing utility crossings",
+      "Loss of ground support",
+      "Heavy plant loading",
+      "Vibration or trenchless interaction"
+    ],
+    "guidance": [
+      "Safe Digging Essentials",
+      "HSG47 Plain-English Summary",
+      "PAS128 Summary Guide"
+    ],
+    "services": [
+      "Utility Search",
+      "Comprehensive Premium Search",
+      "Large Site Search",
+      "Select Surveys quote",
+      "Vacuum excavation"
+    ],
+    "utilityOptions": [
+      [
+        "Planned Works",
+        "Utility Works",
+        "Linear project in highway"
+      ],
+      [
+        "Planned Works",
+        "Utility Works",
+        "Linear project cross country"
+      ],
+      [
+        "Planned Works",
+        "Utility Works",
+        "Horizontal drilling/moling/tunnelling/pipe jacking"
+      ]
+    ]
+  },
+  "c2-pack": {
+    "label": "I collate C2 safe-dig packs",
+    "questions": [
+      {
+        "id": "role",
+        "prompt": "Which best describes your role?",
+        "options": [
+          "Pack collator",
+          "Pack manager or approver",
+          "Designer",
+          "Client representative"
+        ]
+      },
+      {
+        "id": "project",
+        "prompt": "What type of project is the pack for?",
+        "options": [
+          "Highway project",
+          "Utility project",
+          "Housing or development",
+          "Planning application",
+          "Drainage or watercourse works"
+        ]
+      },
+      {
+        "id": "location",
+        "prompt": "Where is the project?",
+        "options": [
+          "England",
+          "Scotland",
+          "Wales",
+          "Northern Ireland",
+          "More than one nation"
+        ]
+      }
+    ],
+    "risks": [
+      "Missing asset-owner responses",
+      "Search expiry",
+      "Incorrect project categorisation",
+      "Incomplete evidence trail"
+    ],
+    "guidance": [
+      "C2 Pack Checklist",
+      "Utility Plans Explained",
+      "Top-Up Search Explained"
+    ],
+    "services": [
+      "Utility Search",
+      "Top-Up Search",
+      "Comprehensive Premium Search",
+      "Saved history and reminders"
+    ],
+    "utilityOptions": [
+      [
+        "Information Only",
+        "Highways",
+        "C2 Enquiry (Stat Undertakers only)"
+      ],
+      [
+        "Information Only",
+        "Planning Applications",
+        "C2 Enquiry (Stat Undertakers only)"
+      ],
+      [
+        "Information Only",
+        "Utility Works",
+        "Choose work type from the underlying scheme"
+      ]
+    ]
+  },
+  "tree-work": {
+    "label": "I am lopping or removing trees",
+    "questions": [
+      {
+        "id": "ground",
+        "prompt": "Will the work include stump removal, root excavation, stakes or anchors?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "id": "overhead",
+        "prompt": "Are overhead power lines near the work or access route?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "id": "plant",
+        "prompt": "Will a MEWP, crane or heavy vehicle be used?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "id": "location",
+        "prompt": "Where will the work take place?",
+        "options": [
+          "England",
+          "Scotland",
+          "Wales",
+          "Northern Ireland",
+          "More than one nation"
+        ]
+      }
+    ],
+    "risks": [
+      "Overhead electricity",
+      "Root or stump interaction with buried services",
+      "Plant loading",
+      "Tree preservation and ecology constraints"
+    ],
+    "guidance": [
+      "Tree Work Near Power Lines",
+      "Service Connection Risk Guide",
+      "Tree Preservation Order Guide",
+      "Safe Digging Essentials"
+    ],
+    "services": [
+      "Utility Search when ground is disturbed",
+      "Environmental Constraints Report"
+    ],
+    "utilityOptions": [
+      [
+        "Planned Works",
+        "Woodland",
+        "Lopping & topping"
+      ],
+      [
+        "Planned Works",
+        "Woodland",
+        "Tree removal"
+      ],
+      [
+        "Planned Works",
+        "Domestic Works (General public)",
+        "Tree planting"
+      ]
+    ]
+  }
+}
