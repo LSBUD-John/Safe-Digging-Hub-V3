@@ -1,0 +1,92 @@
+[
+  {
+    "id": "Q_PURPOSE",
+    "prompt": "What do you need the information for?",
+    "type": "single-choice",
+    "priority": 100,
+    "appliesTo": {
+      "allIntents": true
+    },
+    "options": [
+      {
+        "id": "information",
+        "label": "Information gathering or early planning",
+        "sets": {
+          "purpose": "information",
+          "enquiryType": "Information Only"
+        }
+      },
+      {
+        "id": "planned-28",
+        "label": "Works starting within the next 28 days",
+        "sets": {
+          "purpose": "planned-near",
+          "enquiryType": "Planned Works"
+        }
+      },
+      {
+        "id": "planned-future",
+        "label": "Works starting more than 28 days away",
+        "sets": {
+          "purpose": "planned-future",
+          "enquiryType": "Information Only",
+          "repeatSearchAdvisory": true
+        }
+      },
+      {
+        "id": "emergency",
+        "label": "Emergency works",
+        "sets": {
+          "purpose": "emergency",
+          "enquiryType": "Emergency"
+        }
+      },
+      {
+        "id": "unsure",
+        "label": "Not sure",
+        "sets": {
+          "purpose": "unsure"
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q_JURISDICTION",
+    "prompt": "Where will the work take place?",
+    "type": "single-choice",
+    "priority": 90,
+    "deriveOptionsFrom": "jurisdictions"
+  },
+  {
+    "id": "Q_ROLE",
+    "prompt": "Which best describes your role?",
+    "type": "single-choice",
+    "priority": 80,
+    "deriveOptionsFrom": "personas",
+    "maximumOptions": 6
+  },
+  {
+    "id": "Q_PENETRATION",
+    "prompt": "Will the ground be broken, drilled or penetrated?",
+    "type": "yes-no-unsure",
+    "priority": 75
+  },
+  {
+    "id": "Q_LOADING",
+    "prompt": "Will heavy plant, cranes, outriggers, spoil or stored materials load the ground?",
+    "type": "yes-no-unsure",
+    "priority": 70
+  },
+  {
+    "id": "Q_OVERHEAD",
+    "prompt": "Are overhead lines near the work or access route?",
+    "type": "yes-no-unsure",
+    "priority": 70
+  },
+  {
+    "id": "Q_WATER",
+    "prompt": "Is the work close to open water, drainage or a risk of flooding?",
+    "type": "yes-no-unsure",
+    "priority": 65
+  }
+]
