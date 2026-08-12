@@ -1,41 +1,105 @@
 {
-  "version": 1,
-  "generatedAt": "2026-08-12T08:50:09.257Z",
+  "version": 2,
+  "generatedAt": "2026-08-12T08:54:05.573Z",
+  "relationshipMode": "controlled-explicit",
   "intents": [
     {
       "id": "I001",
       "label": "Plan a house extension",
-      "slug": "plan-a-house-extension",
       "matchPhrases": [
         "Plan a house extension",
         "extension",
         "foundations",
         "domestic building"
       ],
+      "context": "Domestic/development",
+      "physicalEffect": "Likely",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P001"
+      ],
+      "secondaryPersonaIds": [
+        "P002",
+        "P013"
+      ],
       "personaIds": [
         "P001",
         "P002",
-        "P013",
-        "P022"
+        "P013"
       ],
       "methodIds": [],
       "riskIds": [
-        "R002",
-        "R016"
+        "R001",
+        "R005",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT002",
+        "MT003"
       ],
       "libraryIds": [
+        "L001",
+        "L002",
+        "L003",
         "L004",
         "L014"
       ],
-      "serviceIds": [],
-      "context": "Domestic/development",
-      "physicalEffect": "Likely",
-      "sourceRowId": "I001"
+      "legislationIds": [
+        "LG009",
+        "LG010",
+        "LG011",
+        "LG012",
+        "LG013"
+      ],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S003",
+        "S012"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_PENETRATION",
+        "Q_LOADING"
+      ],
+      "conditional": [
+        {
+          "when": {
+            "answers.Q_PENETRATION": "yes"
+          },
+          "addRiskIds": [
+            "R002",
+            "R003"
+          ],
+          "addMitigationIds": [
+            "MT004",
+            "MT005"
+          ],
+          "addServiceIds": [
+            "S006"
+          ]
+        },
+        {
+          "when": {
+            "purpose": "planned-near"
+          },
+          "addRiskIds": [
+            "R014"
+          ],
+          "addMitigationIds": [
+            "MT016"
+          ]
+        }
+      ],
+      "excludedIds": {}
     },
     {
       "id": "I002",
       "label": "Install fence posts or gates",
-      "slug": "install-fence-posts-or-gates",
       "matchPhrases": [
         "Install fence posts or gates",
         "fence",
@@ -43,228 +107,332 @@
         "post holes",
         "boundary"
       ],
-      "personaIds": [
-        "P001",
-        "P002",
-        "P003",
-        "P004",
-        "P005",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P021",
-        "P022",
-        "P027",
-        "P030",
-        "P031"
-      ],
-      "methodIds": [
-        "M002"
-      ],
-      "riskIds": [
-        "R002",
-        "R003"
-      ],
-      "libraryIds": [
-        "L004",
-        "L014"
-      ],
-      "serviceIds": [],
       "context": "Domestic/agricultural",
       "physicalEffect": "Yes",
-      "sourceRowId": "I002"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P001",
+        "P003"
+      ],
+      "secondaryPersonaIds": [
+        "P030"
+      ],
+      "personaIds": [
+        "P001",
+        "P003",
+        "P030"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R003",
+        "R005",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT003",
+        "MT004",
+        "MT005"
+      ],
+      "libraryIds": [
+        "L001",
+        "L002",
+        "L003"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S003"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_PENETRATION"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I003",
       "label": "Repair a utility asset",
-      "slug": "repair-a-utility-asset",
       "matchPhrases": [
         "Repair a utility asset",
         "repair main",
         "repair cable",
         "repair utility"
       ],
-      "personaIds": [
-        "P001",
-        "P002",
-        "P003",
-        "P004",
-        "P005",
+      "context": "Utility",
+      "physicalEffect": "Yes",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P009"
+      ],
+      "secondaryPersonaIds": [
         "P006",
-        "P007",
-        "P008",
+        "P007"
+      ],
+      "personaIds": [
         "P009",
-        "P010",
-        "P018",
-        "P021",
-        "P027",
-        "P031",
-        "P032",
-        "P033",
-        "P037"
+        "P006",
+        "P007"
       ],
       "methodIds": [],
       "riskIds": [
         "R001",
-        "R004",
-        "R006",
-        "R008",
-        "R015",
-        "R016",
-        "R017"
+        "R002",
+        "R003",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT002",
+        "MT003",
+        "MT004",
+        "MT005"
       ],
       "libraryIds": [
+        "L001",
         "L002",
-        "L013"
+        "L005"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
         "S004",
-        "S010"
+        "S006",
+        "S009"
       ],
-      "context": "Utility",
-      "physicalEffect": "Yes",
-      "sourceRowId": "I003"
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_PENETRATION"
+      ],
+      "conditional": [
+        {
+          "when": {
+            "purpose": "emergency"
+          },
+          "addRiskIds": [
+            "R017"
+          ],
+          "addMitigationIds": [
+            "MT014"
+          ]
+        }
+      ],
+      "excludedIds": {}
     },
     {
       "id": "I004",
       "label": "Install new pipework",
-      "slug": "install-new-pipework",
       "matchPhrases": [
         "Install new pipework",
         "new pipe",
         "water company",
         "pipe installation"
       ],
-      "personaIds": [
-        "P001",
-        "P002",
-        "P003",
-        "P004",
-        "P005",
+      "context": "Utility",
+      "physicalEffect": "Yes",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P009"
+      ],
+      "secondaryPersonaIds": [
         "P006",
-        "P007",
-        "P008",
+        "P007"
+      ],
+      "personaIds": [
         "P009",
-        "P010",
-        "P018",
-        "P021",
-        "P027",
-        "P031",
-        "P032",
-        "P033",
-        "P037"
+        "P006",
+        "P007"
       ],
       "methodIds": [],
       "riskIds": [
         "R001",
-        "R004",
-        "R011",
-        "R016",
-        "R019"
+        "R002",
+        "R003",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT002",
+        "MT003",
+        "MT004",
+        "MT005"
       ],
       "libraryIds": [
+        "L001",
         "L002",
-        "L012",
-        "L013"
+        "L005",
+        "L006"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
         "S004",
-        "S007",
-        "S010"
+        "S005",
+        "S006",
+        "S009"
       ],
-      "context": "Utility",
-      "physicalEffect": "Yes",
-      "sourceRowId": "I004"
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_ROUTE",
+        "Q_METHOD",
+        "Q_DEPTH"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I005",
       "label": "Repair a leaking sewer",
-      "slug": "repair-a-leaking-sewer",
       "matchPhrases": [
         "Repair a leaking sewer",
         "leaking sewer",
         "blocked sewer",
         "sewer repair"
       ],
+      "context": "Utility/drainage",
+      "physicalEffect": "Yes",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P005"
+      ],
+      "secondaryPersonaIds": [
+        "P006",
+        "P007",
+        "P009"
+      ],
       "personaIds": [
-        "P002",
-        "P003",
-        "P004",
         "P005",
         "P006",
         "P007",
-        "P008",
-        "P009",
-        "P021",
-        "P027",
-        "P031",
-        "P032",
-        "P033"
+        "P009"
       ],
       "methodIds": [],
       "riskIds": [
         "R001",
-        "R004",
-        "R017",
         "R018"
       ],
-      "libraryIds": [
-        "L002",
-        "L013"
+      "mitigationIds": [
+        "MT001",
+        "MT002",
+        "MT003"
       ],
+      "libraryIds": [
+        "L001",
+        "L002",
+        "L005",
+        "L012"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
         "S004",
-        "S010"
+        "S006",
+        "S007"
       ],
-      "context": "Utility/drainage",
-      "physicalEffect": "Yes",
-      "sourceRowId": "I005"
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_EXCAVATION_PATTERN",
+        "Q_DEPTH",
+        "Q_DEWATERING",
+        "Q_WATER"
+      ],
+      "conditional": [
+        {
+          "when": {
+            "purpose": "emergency"
+          },
+          "addRiskIds": [
+            "R017"
+          ],
+          "addMitigationIds": [
+            "MT014"
+          ]
+        },
+        {
+          "when": {
+            "answers.Q_DEWATERING": "yes"
+          },
+          "addRiskIds": [
+            "R010",
+            "R019",
+            "R020"
+          ],
+          "addMitigationIds": [
+            "MT008",
+            "MT011",
+            "MT015"
+          ]
+        },
+        {
+          "when": {
+            "answers.Q_PENETRATION": "yes"
+          },
+          "addRiskIds": [
+            "R002",
+            "R003",
+            "R013",
+            "R015"
+          ],
+          "addMitigationIds": [
+            "MT004",
+            "MT005"
+          ]
+        }
+      ],
+      "excludedIds": {
+        "riskIds": [
+          "R004"
+        ],
+        "serviceIds": [
+          "S010"
+        ]
+      }
     },
     {
       "id": "I006",
       "label": "Resurface a road",
-      "slug": "resurface-a-road",
       "matchPhrases": [
         "Resurface a road",
         "resurfacing",
         "road planing"
       ],
-      "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
+      "context": "Highways",
+      "physicalEffect": "Cover change",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P008",
+        "P011"
+      ],
+      "secondaryPersonaIds": [
         "P006",
         "P007",
-        "P008",
-        "P009",
-        "P010",
-        "P011",
-        "P014",
-        "P015",
-        "P016",
-        "P020",
         "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P025",
-        "P026",
-        "P027",
-        "P029",
-        "P031",
-        "P032",
-        "P034",
-        "P035",
-        "P036",
-        "P037",
-        "P038",
-        "P039",
-        "P040"
+        "P022"
+      ],
+      "personaIds": [
+        "P008",
+        "P011",
+        "P006",
+        "P007",
+        "P021",
+        "P022"
       ],
       "methodIds": [],
       "riskIds": [
@@ -272,18 +440,39 @@
         "R007",
         "R008"
       ],
+      "mitigationIds": [
+        "MT001",
+        "MT002",
+        "MT006",
+        "MT007",
+        "MT012"
+      ],
       "libraryIds": [
+        "L001",
+        "L005",
+        "L008",
         "L009"
       ],
-      "serviceIds": [],
-      "context": "Highways",
-      "physicalEffect": "Cover change",
-      "sourceRowId": "I006"
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S004"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_PLANING",
+        "Q_DRAINAGE_CHANGES",
+        "Q_LOADING"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I007",
       "label": "Install street furniture",
-      "slug": "install-street-furniture",
       "matchPhrases": [
         "Install street furniture",
         "bollard",
@@ -296,95 +485,122 @@
         "bus shelter",
         "CCTV"
       ],
-      "personaIds": [
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P010",
-        "P011",
-        "P012",
-        "P014",
-        "P015",
-        "P016",
-        "P020",
-        "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P025",
-        "P026",
-        "P029",
-        "P032",
-        "P034",
-        "P035",
-        "P036",
-        "P037",
-        "P038",
-        "P039",
-        "P040"
-      ],
-      "methodIds": [
-        "M011"
-      ],
-      "riskIds": [
-        "R011",
-        "R021"
-      ],
-      "libraryIds": [
-        "L008"
-      ],
-      "serviceIds": [],
       "context": "Highways",
       "physicalEffect": "Yes",
-      "sourceRowId": "I007"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P008",
+        "P011"
+      ],
+      "secondaryPersonaIds": [
+        "P002",
+        "P009"
+      ],
+      "personaIds": [
+        "P008",
+        "P011",
+        "P002",
+        "P009"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R003",
+        "R005",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT003",
+        "MT004",
+        "MT005",
+        "MT012"
+      ],
+      "libraryIds": [
+        "L001",
+        "L002",
+        "L008"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S003"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_STREET_FURNITURE_TYPE",
+        "Q_CONNECTION_REQUIRED",
+        "Q_DEPTH"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I008",
       "label": "Compile a C2 pack",
-      "slug": "compile-a-c2-pack",
       "matchPhrases": [
         "Compile a C2 pack",
         "C2 pack",
         "utility pack",
         "tender pack"
       ],
+      "context": "Underlying project",
+      "physicalEffect": "Indirect",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P019",
+        "P020"
+      ],
+      "secondaryPersonaIds": [
+        "P021"
+      ],
       "personaIds": [
-        "P011",
         "P019",
         "P020",
-        "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P030",
-        "P035"
+        "P021"
       ],
       "methodIds": [],
       "riskIds": [
-        "R001",
-        "R003",
-        "R004"
+        "R013",
+        "R014",
+        "R022",
+        "R023"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT002",
+        "MT013",
+        "MT016",
+        "MT017"
       ],
       "libraryIds": [
         "L002",
         "L007",
-        "L013"
+        "L008"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
-        "S004",
-        "S010",
-        "S014"
+        "S003",
+        "S004"
       ],
-      "context": "Underlying project",
-      "physicalEffect": "Indirect",
-      "sourceRowId": "I008"
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_PROJECT_CONTEXT"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I009",
       "label": "Carry out a utility survey",
-      "slug": "carry-out-a-utility-survey",
       "matchPhrases": [
         "Carry out a utility survey",
         "utility survey",
@@ -392,565 +608,793 @@
         "EML",
         "PAS128"
       ],
-      "personaIds": [
-        "P002",
-        "P006",
-        "P017",
-        "P018",
-        "P035"
-      ],
-      "methodIds": [
-        "M015"
-      ],
-      "riskIds": [
-        "R001",
-        "R004",
-        "R014"
-      ],
-      "libraryIds": [
-        "L002",
-        "L006",
-        "L010",
-        "L013"
-      ],
-      "serviceIds": [
-        "S002",
-        "S004",
-        "S006",
-        "S010"
-      ],
       "context": "Survey",
       "physicalEffect": "Conditional",
-      "sourceRowId": "I009"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P018"
+      ],
+      "secondaryPersonaIds": [
+        "P017"
+      ],
+      "personaIds": [
+        "P018",
+        "P017"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R012",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT003",
+        "MT004",
+        "MT005"
+      ],
+      "libraryIds": [
+        "L005",
+        "L006",
+        "L010"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S006"
+      ],
+      "questionIds": [
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_SURVEY_GROUND",
+        "Q_SURFACE",
+        "Q_WEATHER",
+        "Q_TARGET_DEPTH"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I010",
       "label": "Lop or top trees",
-      "slug": "lop-or-top-trees",
       "matchPhrases": [
         "Lop or top trees",
         "lopping",
         "pruning",
         "topping"
       ],
-      "personaIds": [
-        "P001",
-        "P011",
-        "P019",
-        "P020",
-        "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P025",
-        "P030",
-        "P031",
-        "P034",
-        "P035"
-      ],
-      "methodIds": [
-        "M011"
-      ],
-      "riskIds": [
-        "R002",
-        "R011",
-        "R020",
-        "R021"
-      ],
-      "libraryIds": [
-        "L004",
-        "L006",
-        "L008",
-        "L010",
-        "L011",
-        "L013",
-        "L014"
-      ],
-      "serviceIds": [
-        "S004",
-        "S012"
-      ],
       "context": "Woodland/domestic",
       "physicalEffect": "Conditional",
-      "sourceRowId": "I010"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P031"
+      ],
+      "secondaryPersonaIds": [
+        "P001",
+        "P004",
+        "P024",
+        "P030"
+      ],
+      "personaIds": [
+        "P031",
+        "P001",
+        "P004",
+        "P024",
+        "P030"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R011",
+        "R021"
+      ],
+      "mitigationIds": [
+        "MT010",
+        "MT015"
+      ],
+      "libraryIds": [
+        "L001",
+        "L012"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S008"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_OVERHEAD",
+        "Q_LOADING",
+        "Q_GROUND_DISTURBANCE"
+      ],
+      "conditional": [
+        {
+          "when": {
+            "answers.Q_GROUND_DISTURBANCE": "yes"
+          },
+          "addRiskIds": [
+            "R001",
+            "R003",
+            "R005"
+          ],
+          "addMitigationIds": [
+            "MT001",
+            "MT004"
+          ],
+          "addServiceIds": [
+            "S002"
+          ]
+        }
+      ],
+      "excludedIds": {}
     },
     {
       "id": "I011",
       "label": "Remove a tree or stump",
-      "slug": "remove-a-tree-or-stump",
       "matchPhrases": [
         "Remove a tree or stump",
         "tree removal",
         "stump grinding",
         "root removal"
       ],
-      "personaIds": [
-        "P001",
-        "P011",
-        "P019",
-        "P020",
-        "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P025",
-        "P030",
-        "P031",
-        "P034",
-        "P035"
-      ],
-      "methodIds": [
-        "M011",
-        "M012"
-      ],
-      "riskIds": [
-        "R002",
-        "R011",
-        "R020",
-        "R021"
-      ],
-      "libraryIds": [
-        "L004",
-        "L006",
-        "L008",
-        "L010",
-        "L011",
-        "L013",
-        "L014"
-      ],
-      "serviceIds": [
-        "S004",
-        "S012"
-      ],
       "context": "Woodland/domestic",
       "physicalEffect": "Yes",
-      "sourceRowId": "I011"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P031"
+      ],
+      "secondaryPersonaIds": [
+        "P001",
+        "P004",
+        "P024",
+        "P030"
+      ],
+      "personaIds": [
+        "P031",
+        "P001",
+        "P004",
+        "P024",
+        "P030"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R003",
+        "R005",
+        "R011",
+        "R016",
+        "R021"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT010",
+        "MT015"
+      ],
+      "libraryIds": [
+        "L001",
+        "L003",
+        "L012"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S006",
+        "S008"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_STUMP_REMOVAL",
+        "Q_OVERHEAD",
+        "Q_LOADING"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I012",
       "label": "Plant trees or hedging",
-      "slug": "plant-trees-or-hedging",
       "matchPhrases": [
         "Plant trees or hedging",
         "tree planting",
         "hedging",
         "new planting"
       ],
-      "personaIds": [
-        "P001",
-        "P002",
-        "P006",
-        "P011",
-        "P012",
-        "P013",
-        "P016",
-        "P017",
-        "P019",
-        "P020",
-        "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P025",
-        "P027",
-        "P028",
-        "P030",
-        "P031",
-        "P032",
-        "P034",
-        "P035",
-        "P036",
-        "P037",
-        "P038",
-        "P040"
-      ],
-      "methodIds": [
-        "M011"
-      ],
-      "riskIds": [
-        "R002",
-        "R006",
-        "R011",
-        "R020",
-        "R021"
-      ],
-      "libraryIds": [
-        "L004",
-        "L006",
-        "L008",
-        "L009",
-        "L010",
-        "L011",
-        "L013",
-        "L014"
-      ],
-      "serviceIds": [
-        "S004",
-        "S012"
-      ],
       "context": "Domestic/agricultural/woodland",
       "physicalEffect": "Yes",
-      "sourceRowId": "I012"
-    },
-    {
-      "id": "I013",
-      "label": "Clear a ditch",
-      "slug": "clear-a-ditch",
-      "matchPhrases": [
-        "Clear a ditch",
-        "ditch clearance"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P004"
+      ],
+      "secondaryPersonaIds": [
+        "P001",
+        "P024",
+        "P025",
+        "P030",
+        "P031"
       ],
       "personaIds": [
-        "P002",
-        "P003",
         "P004",
-        "P005",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P021",
-        "P027",
+        "P001",
+        "P024",
+        "P025",
         "P030",
         "P031"
       ],
       "methodIds": [],
       "riskIds": [
-        "R019"
+        "R003",
+        "R005",
+        "R011",
+        "R021"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT010",
+        "MT015"
       ],
       "libraryIds": [
+        "L001",
+        "L003",
         "L012"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
-        "S007"
+        "S002",
+        "S008"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_PLANTING_DEPTH",
+        "Q_OVERHEAD"
+      ],
+      "conditional": [],
+      "excludedIds": {}
+    },
+    {
+      "id": "I013",
+      "label": "Clear a ditch",
+      "matchPhrases": [
+        "Clear a ditch",
+        "ditch clearance"
       ],
       "context": "Agricultural/watercourse",
       "physicalEffect": "Likely",
-      "sourceRowId": "I013"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P030",
+        "P005"
+      ],
+      "secondaryPersonaIds": [
+        "P038"
+      ],
+      "personaIds": [
+        "P030",
+        "P005",
+        "P038"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R003",
+        "R019",
+        "R020"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT011",
+        "MT015"
+      ],
+      "libraryIds": [
+        "L001",
+        "L012"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S007",
+        "S008"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_WATER",
+        "Q_MECHANICAL_PLANT"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I014",
       "label": "Install field drainage",
-      "slug": "install-field-drainage",
       "matchPhrases": [
         "Install field drainage",
         "field drainage",
         "land drain"
       ],
-      "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P021",
-        "P027",
+      "context": "Agricultural/watercourse",
+      "physicalEffect": "Yes",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
         "P030",
-        "P031"
+        "P005"
+      ],
+      "secondaryPersonaIds": [
+        "P025"
+      ],
+      "personaIds": [
+        "P030",
+        "P005",
+        "P025"
       ],
       "methodIds": [],
       "riskIds": [
+        "R001",
+        "R003",
+        "R019",
         "R020"
       ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT011",
+        "MT015"
+      ],
       "libraryIds": [
-        "L006",
-        "L008",
-        "L010",
-        "L011",
-        "L012",
-        "L013",
-        "L014"
+        "L001",
+        "L012"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
-        "S004",
+        "S002",
         "S007",
-        "S012"
+        "S008"
       ],
-      "context": "Agricultural/watercourse",
-      "physicalEffect": "Yes",
-      "sourceRowId": "I014"
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_DEPTH",
+        "Q_WATER"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I015",
       "label": "Undertake piling",
-      "slug": "undertake-piling",
       "matchPhrases": [
         "Undertake piling",
         "piling",
         "pile foundations"
       ],
-      "personaIds": [
-        "P006",
-        "P007",
-        "P008",
-        "P026"
-      ],
-      "methodIds": [
-        "M004"
-      ],
-      "riskIds": [
-        "R009",
-        "R016"
-      ],
-      "libraryIds": [],
-      "serviceIds": [],
       "context": "Development/highways",
       "physicalEffect": "Yes",
-      "sourceRowId": "I015"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P007"
+      ],
+      "secondaryPersonaIds": [
+        "P006",
+        "P026"
+      ],
+      "personaIds": [
+        "P007",
+        "P006",
+        "P026"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R003",
+        "R006",
+        "R009",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT006",
+        "MT009",
+        "MT013"
+      ],
+      "libraryIds": [
+        "L001",
+        "L005",
+        "L006",
+        "L009"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S006"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_PILE_TYPE",
+        "Q_VIBRATION",
+        "Q_LOADING"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I016",
       "label": "Drill, mole or pipe-jack",
-      "slug": "drill-mole-or-pipe-jack",
       "matchPhrases": [
         "Drill, mole or pipe-jack",
         "directional drilling",
         "moling",
         "pipe jacking"
       ],
-      "personaIds": [
-        "P001",
-        "P002",
-        "P004",
-        "P006",
-        "P007",
-        "P008",
+      "context": "Utility/development",
+      "physicalEffect": "Yes",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
         "P009",
-        "P010",
-        "P018",
-        "P032",
-        "P033",
-        "P037"
+        "P007"
       ],
-      "methodIds": [
-        "M003"
+      "secondaryPersonaIds": [
+        "P006"
       ],
+      "personaIds": [
+        "P009",
+        "P007",
+        "P006"
+      ],
+      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
-        "R004",
-        "R016"
+        "R009",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT009",
+        "MT013"
       ],
       "libraryIds": [
-        "L002",
-        "L013"
+        "L001",
+        "L005",
+        "L006"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
         "S004",
-        "S010"
+        "S006",
+        "S009"
       ],
-      "context": "Utility/development",
-      "physicalEffect": "Yes",
-      "sourceRowId": "I016"
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_ROUTE",
+        "Q_DEPTH"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I017",
       "label": "Place a crane or outriggers",
-      "slug": "place-a-crane-or-outriggers",
       "matchPhrases": [
         "Place a crane or outriggers",
         "crane",
         "outrigger",
         "lifting setup"
       ],
-      "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P011",
-        "P019",
-        "P020",
-        "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P027",
-        "P030",
-        "P031",
-        "P035"
-      ],
-      "methodIds": [
-        "M006"
-      ],
-      "riskIds": [
-        "R006",
-        "R014"
-      ],
-      "libraryIds": [
-        "L009"
-      ],
-      "serviceIds": [],
       "context": "Context-led",
       "physicalEffect": "Loading",
-      "sourceRowId": "I017"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P007"
+      ],
+      "secondaryPersonaIds": [
+        "P006",
+        "P008",
+        "P021"
+      ],
+      "personaIds": [
+        "P007",
+        "P006",
+        "P008",
+        "P021"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R006",
+        "R008",
+        "R011"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT006",
+        "MT010",
+        "MT013"
+      ],
+      "libraryIds": [
+        "L001",
+        "L009"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S004"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_LOADING",
+        "Q_OVERHEAD"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I018",
       "label": "Create a site compound",
-      "slug": "create-a-site-compound",
       "matchPhrases": [
         "Create a site compound",
         "site compound",
         "welfare units",
         "storage"
       ],
-      "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P021",
-        "P027",
-        "P031"
-      ],
-      "methodIds": [
-        "M007",
-        "M008"
-      ],
-      "riskIds": [
-        "R006",
-        "R008",
-        "R014"
-      ],
-      "libraryIds": [
-        "L009"
-      ],
-      "serviceIds": [
-        "S002",
-        "S005",
-        "S006",
-        "S009"
-      ],
       "context": "Context-led",
       "physicalEffect": "Loading/access",
-      "sourceRowId": "I018"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P006",
+        "P007"
+      ],
+      "secondaryPersonaIds": [
+        "P024"
+      ],
+      "personaIds": [
+        "P006",
+        "P007",
+        "P024"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R006",
+        "R008"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT006",
+        "MT013"
+      ],
+      "libraryIds": [
+        "L001",
+        "L009"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S004"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_LOADING",
+        "Q_ACCESS"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I019",
       "label": "Strip topsoil or regrade",
-      "slug": "strip-topsoil-or-regrade",
       "matchPhrases": [
         "Strip topsoil or regrade",
         "strip topsoil",
         "regrade",
         "reduce levels"
       ],
-      "personaIds": [
-        "P005",
-        "P006",
-        "P011",
-        "P018",
-        "P024",
-        "P030",
-        "P032",
-        "P037",
-        "P039"
-      ],
-      "methodIds": [
-        "M009"
-      ],
-      "riskIds": [
-        "R006",
-        "R007",
-        "R008",
-        "R010",
-        "R011",
-        "R012",
-        "R018"
-      ],
-      "libraryIds": [
-        "L004",
-        "L008",
-        "L009",
-        "L010"
-      ],
-      "serviceIds": [],
       "context": "Development/agricultural",
       "physicalEffect": "Cover change",
-      "sourceRowId": "I019"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P006"
+      ],
+      "secondaryPersonaIds": [
+        "P007",
+        "P030"
+      ],
+      "personaIds": [
+        "P006",
+        "P007",
+        "P030"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R003",
+        "R007",
+        "R008",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT007"
+      ],
+      "libraryIds": [
+        "L001",
+        "L009"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S006"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_LEVEL_CHANGE",
+        "Q_LOADING"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I020",
       "label": "Demolish a structure",
-      "slug": "demolish-a-structure",
       "matchPhrases": [
         "Demolish a structure",
         "demolition",
         "site clearance"
       ],
-      "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
+      "context": "Development",
+      "physicalEffect": "Likely",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P007"
+      ],
+      "secondaryPersonaIds": [
         "P006",
+        "P026"
+      ],
+      "personaIds": [
         "P007",
-        "P008",
-        "P009",
-        "P021",
-        "P026",
-        "P027",
-        "P031"
+        "P006",
+        "P026"
       ],
       "methodIds": [],
       "riskIds": [
-        "R014"
+        "R001",
+        "R003",
+        "R006",
+        "R009",
+        "R013",
+        "R015",
+        "R016"
       ],
-      "libraryIds": [],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT006",
+        "MT009"
+      ],
+      "libraryIds": [
+        "L001",
+        "L005",
+        "L009"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
-        "S005",
-        "S006",
-        "S009"
+        "S004",
+        "S006"
       ],
-      "context": "Development",
-      "physicalEffect": "Likely",
-      "sourceRowId": "I020"
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_DEMOLITION_METHOD",
+        "Q_LOADING"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I021",
       "label": "Build a driveway",
-      "slug": "build-a-driveway",
       "matchPhrases": [
         "Build a driveway",
         "driveway",
         "dropped kerb"
       ],
+      "context": "Domestic",
+      "physicalEffect": "Yes",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P001"
+      ],
+      "secondaryPersonaIds": [
+        "P002"
+      ],
       "personaIds": [
         "P001",
-        "P002",
-        "P022"
+        "P002"
       ],
       "methodIds": [],
       "riskIds": [
-        "R002"
+        "R001",
+        "R003",
+        "R005",
+        "R007",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT003",
+        "MT004",
+        "MT005",
+        "MT007"
       ],
       "libraryIds": [
-        "L004",
-        "L014"
+        "L001",
+        "L002",
+        "L003",
+        "L004"
       ],
-      "serviceIds": [],
-      "context": "Domestic",
-      "physicalEffect": "Yes",
-      "sourceRowId": "I021"
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S003"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_DROPPED_KERB",
+        "Q_DEPTH"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I022",
       "label": "Plan energy infrastructure",
-      "slug": "plan-energy-infrastructure",
       "matchPhrases": [
         "Plan energy infrastructure",
         "solar farm",
@@ -958,390 +1402,438 @@
         "battery storage",
         "data centre"
       ],
-      "personaIds": [
-        "P002",
-        "P006",
-        "P009",
-        "P010",
-        "P012",
-        "P013",
-        "P016",
-        "P017",
-        "P020",
-        "P022",
-        "P023",
-        "P024",
-        "P025",
-        "P026",
-        "P027",
-        "P028",
-        "P030",
-        "P031",
-        "P032",
-        "P034",
-        "P036",
-        "P037",
-        "P038",
-        "P040"
-      ],
-      "methodIds": [
-        "M008"
-      ],
-      "riskIds": [
-        "R002",
-        "R008",
-        "R013",
-        "R020",
-        "R024"
-      ],
-      "libraryIds": [
-        "L006",
-        "L008",
-        "L010",
-        "L011",
-        "L013",
-        "L014",
-        "L015"
-      ],
-      "serviceIds": [
-        "S004",
-        "S012",
-        "S013"
-      ],
       "context": "Development/planning",
       "physicalEffect": "Likely",
-      "sourceRowId": "I022"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P026"
+      ],
+      "secondaryPersonaIds": [
+        "P014",
+        "P025"
+      ],
+      "personaIds": [
+        "P026",
+        "P014",
+        "P025"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R019",
+        "R021",
+        "R024"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT015"
+      ],
+      "libraryIds": [
+        "L002",
+        "L013",
+        "L014"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S004",
+        "S010",
+        "S011",
+        "S012"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_ENERGY_TYPE",
+        "Q_CAPACITY_REQUIRED"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I023",
       "label": "Assess environmental constraints",
-      "slug": "assess-environmental-constraints",
       "matchPhrases": [
         "Assess environmental constraints",
         "ecology",
         "protected site",
         "environmental constraints"
       ],
+      "context": "Environment/planning",
+      "physicalEffect": "No initially",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P015",
+        "P016"
+      ],
+      "secondaryPersonaIds": [
+        "P014",
+        "P026"
+      ],
       "personaIds": [
-        "P004",
-        "P005",
         "P015",
         "P016",
-        "P031",
-        "P034",
-        "P038"
+        "P014",
+        "P026"
       ],
       "methodIds": [],
       "riskIds": [
-        "R014",
-        "R021",
-        "R024"
+        "R019",
+        "R021"
+      ],
+      "mitigationIds": [
+        "MT011",
+        "MT015"
       ],
       "libraryIds": [
-        "L014"
+        "L012"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
-        "S002",
-        "S004",
-        "S005",
-        "S006",
+        "S007",
         "S008",
-        "S009",
-        "S011",
-        "S012",
-        "S014"
+        "S011"
       ],
-      "context": "Environment/planning",
-      "physicalEffect": "No initially",
-      "sourceRowId": "I023"
+      "questionIds": [
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_WATER",
+        "Q_PROTECTED_SITE"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I024",
       "label": "Investigate planning applications",
-      "slug": "investigate-planning-applications",
       "matchPhrases": [
         "Investigate planning applications",
         "planning applications",
         "nearby development"
       ],
-      "personaIds": [
-        "P001",
-        "P002",
-        "P003",
-        "P004",
-        "P005",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P010",
-        "P012",
-        "P018",
-        "P021",
-        "P022",
-        "P027",
-        "P031",
-        "P032",
-        "P033",
-        "P037"
-      ],
-      "methodIds": [],
-      "riskIds": [
-        "R001",
-        "R002",
-        "R004",
-        "R019",
-        "R024"
-      ],
-      "libraryIds": [
-        "L002",
-        "L004",
-        "L011",
-        "L012",
-        "L013",
-        "L014"
-      ],
-      "serviceIds": [
-        "S002",
-        "S004",
-        "S010",
-        "S012"
-      ],
       "context": "Planning",
       "physicalEffect": "No",
-      "sourceRowId": "I024"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P014"
+      ],
+      "secondaryPersonaIds": [
+        "P001",
+        "P012",
+        "P026",
+        "P009"
+      ],
+      "personaIds": [
+        "P014",
+        "P001",
+        "P012",
+        "P026",
+        "P009"
+      ],
+      "methodIds": [],
+      "riskIds": [],
+      "mitigationIds": [],
+      "libraryIds": [
+        "L014"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S011",
+        "S012"
+      ],
+      "questionIds": [
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_SEARCH_RADIUS",
+        "Q_APPLICATION_STATUS"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I025",
       "label": "Start an emergency repair",
-      "slug": "start-an-emergency-repair",
       "matchPhrases": [
         "Start an emergency repair",
         "burst main",
         "urgent repair",
         "emergency"
       ],
-      "personaIds": [
+      "context": "Utility",
+      "physicalEffect": "Yes",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P032"
+      ],
+      "secondaryPersonaIds": [
+        "P005",
         "P009",
+        "P033"
+      ],
+      "personaIds": [
         "P032",
+        "P005",
+        "P009",
         "P033"
       ],
       "methodIds": [],
       "riskIds": [
         "R001",
-        "R004",
+        "R002",
+        "R003",
         "R017"
       ],
-      "libraryIds": [
-        "L002",
-        "L013"
+      "mitigationIds": [
+        "MT001",
+        "MT002",
+        "MT003",
+        "MT012",
+        "MT014"
       ],
+      "libraryIds": [
+        "L001",
+        "L005",
+        "L011"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
-        "S004",
-        "S010"
+        "S004"
       ],
-      "context": "Utility",
-      "physicalEffect": "Yes",
-      "sourceRowId": "I025"
+      "questionIds": [
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_EMERGENCY_TYPE",
+        "Q_PENETRATION"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I026",
       "label": "Excavate trial holes",
-      "slug": "excavate-trial-holes",
       "matchPhrases": [
         "Excavate trial holes",
         "trial hole",
         "potholing",
         "verification pit"
       ],
-      "personaIds": [
-        "P002",
-        "P005",
-        "P006",
-        "P011",
-        "P017",
-        "P018",
-        "P035",
-        "P039"
-      ],
-      "methodIds": [
-        "M001",
-        "M002",
-        "M013"
-      ],
-      "riskIds": [
-        "R001",
-        "R002",
-        "R004",
-        "R010",
-        "R011",
-        "R012",
-        "R018"
-      ],
-      "libraryIds": [
-        "L002",
-        "L010",
-        "L013"
-      ],
-      "serviceIds": [
-        "S002",
-        "S004",
-        "S006",
-        "S009",
-        "S010"
-      ],
       "context": "Utility/excavation",
       "physicalEffect": "Yes",
-      "sourceRowId": "I026"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P018",
+        "P017"
+      ],
+      "secondaryPersonaIds": [
+        "P006"
+      ],
+      "personaIds": [
+        "P018",
+        "P017",
+        "P006"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R003",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005"
+      ],
+      "libraryIds": [
+        "L001",
+        "L005",
+        "L006"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S006",
+        "S009"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_DEPTH"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I027",
       "label": "Vacuum excavate",
-      "slug": "vacuum-excavate",
       "matchPhrases": [
         "Vacuum excavate",
         "vac ex",
         "vacuum excavation"
       ],
-      "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P021",
-        "P027",
-        "P031"
-      ],
-      "methodIds": [
-        "M001",
-        "M013"
-      ],
-      "riskIds": [
-        "R001",
-        "R004"
-      ],
-      "libraryIds": [
-        "L002",
-        "L013"
-      ],
-      "serviceIds": [
-        "S002",
-        "S004",
-        "S009",
-        "S010"
-      ],
       "context": "Utility/highways",
       "physicalEffect": "Yes",
-      "sourceRowId": "I027"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P027"
+      ],
+      "secondaryPersonaIds": [
+        "P006",
+        "P007",
+        "P009"
+      ],
+      "personaIds": [
+        "P027",
+        "P006",
+        "P007",
+        "P009"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R003",
+        "R016",
+        "R018"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT005"
+      ],
+      "libraryIds": [
+        "L001",
+        "L005"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S009"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_CONTAMINATION",
+        "Q_ACCESS"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I028",
       "label": "Dewater an excavation",
-      "slug": "dewater-an-excavation",
       "matchPhrases": [
         "Dewater an excavation",
         "dewater",
         "pump excavation",
         "groundwater"
       ],
-      "personaIds": [
-        "P005",
-        "P006",
-        "P011",
-        "P018",
-        "P024",
-        "P032",
-        "P037",
-        "P039"
-      ],
-      "methodIds": [
-        "M001",
-        "M013"
-      ],
-      "riskIds": [
-        "R003",
-        "R010",
-        "R011",
-        "R012",
-        "R018"
-      ],
-      "libraryIds": [
-        "L004",
-        "L008",
-        "L010",
-        "L012"
-      ],
-      "serviceIds": [
-        "S007",
-        "S009"
-      ],
       "context": "Context-led",
       "physicalEffect": "Indirect",
-      "sourceRowId": "I028"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P006",
+        "P005"
+      ],
+      "secondaryPersonaIds": [
+        "P007"
+      ],
+      "personaIds": [
+        "P006",
+        "P005",
+        "P007"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R010",
+        "R019",
+        "R020"
+      ],
+      "mitigationIds": [
+        "MT008",
+        "MT011",
+        "MT015"
+      ],
+      "libraryIds": [
+        "L012"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S007",
+        "S008"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_WATER",
+        "Q_DISCHARGE"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I029",
       "label": "Store spoil or materials",
-      "slug": "store-spoil-or-materials",
       "matchPhrases": [
         "Store spoil or materials",
         "spoil heap",
         "stockpile",
         "material storage"
       ],
+      "context": "Context-led",
+      "physicalEffect": "Loading",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P006",
+        "P007"
+      ],
+      "secondaryPersonaIds": [
+        "P021"
+      ],
       "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
         "P006",
         "P007",
-        "P008",
-        "P009",
-        "P011",
-        "P016",
-        "P017",
-        "P019",
-        "P020",
-        "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P027",
-        "P030",
-        "P031",
-        "P035"
+        "P021"
       ],
-      "methodIds": [
-        "M008"
-      ],
+      "methodIds": [],
       "riskIds": [
         "R006",
-        "R008",
-        "R014"
+        "R008"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT006"
       ],
       "libraryIds": [
         "L009"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
-        "S005",
-        "S006",
-        "S009"
+        "S004"
       ],
-      "context": "Context-led",
-      "physicalEffect": "Loading",
-      "sourceRowId": "I029"
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_LOADING",
+        "Q_DURATION"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I030",
       "label": "Check electricity capacity",
-      "slug": "check-electricity-capacity",
       "matchPhrases": [
         "Check electricity capacity",
         "grid capacity",
@@ -1349,71 +1841,50 @@
         "connection feasibility",
         "surplus energy"
       ],
-      "personaIds": [
-        "P001",
-        "P002",
-        "P004",
-        "P006",
-        "P008",
-        "P009",
-        "P010",
-        "P012",
-        "P013",
-        "P016",
-        "P017",
-        "P018",
-        "P020",
-        "P022",
-        "P023",
-        "P024",
-        "P025",
-        "P026",
-        "P027",
-        "P028",
-        "P030",
-        "P031",
-        "P032",
-        "P033",
-        "P034",
-        "P036",
-        "P037",
-        "P038",
-        "P040"
-      ],
-      "methodIds": [],
-      "riskIds": [
-        "R001",
-        "R002",
-        "R004",
-        "R005",
-        "R011",
-        "R020",
-        "R024"
-      ],
-      "libraryIds": [
-        "L002",
-        "L003",
-        "L006",
-        "L008",
-        "L010",
-        "L011",
-        "L013",
-        "L014"
-      ],
-      "serviceIds": [
-        "S002",
-        "S004",
-        "S010",
-        "S012"
-      ],
       "context": "Planning/energy",
       "physicalEffect": "No",
-      "sourceRowId": "I030"
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P014",
+        "P026"
+      ],
+      "secondaryPersonaIds": [
+        "P013",
+        "P025",
+        "P009"
+      ],
+      "personaIds": [
+        "P014",
+        "P026",
+        "P013",
+        "P025",
+        "P009"
+      ],
+      "methodIds": [],
+      "riskIds": [],
+      "mitigationIds": [],
+      "libraryIds": [
+        "L014"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S010",
+        "S011",
+        "S012"
+      ],
+      "questionIds": [
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_DEMAND_PROFILE",
+        "Q_CONNECTION_TIMESCALE"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I031",
       "label": "Check wayleaves or easements",
-      "slug": "check-wayleaves-or-easements",
       "matchPhrases": [
         "Check wayleaves or easements",
         "wayleave",
@@ -1421,159 +1892,192 @@
         "utility rights",
         "title restrictions"
       ],
-      "personaIds": [
-        "P002",
-        "P006",
-        "P009",
-        "P010",
-        "P012",
-        "P013",
-        "P016",
-        "P017",
-        "P020",
-        "P022",
-        "P023",
+      "context": "Land rights",
+      "physicalEffect": "No",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P025"
+      ],
+      "secondaryPersonaIds": [
         "P024",
-        "P025",
         "P026",
-        "P027",
-        "P028",
+        "P014",
         "P030",
-        "P031",
-        "P032",
-        "P034",
-        "P036",
-        "P037",
-        "P038",
-        "P040"
+        "P010"
+      ],
+      "personaIds": [
+        "P025",
+        "P024",
+        "P026",
+        "P014",
+        "P030",
+        "P010"
       ],
       "methodIds": [],
       "riskIds": [
-        "R001",
-        "R002",
-        "R004",
-        "R020",
         "R024"
       ],
+      "mitigationIds": [],
       "libraryIds": [
         "L002",
-        "L006",
-        "L008",
-        "L010",
-        "L011",
         "L013",
         "L014"
       ],
+      "legislationIds": [
+        "LG011",
+        "LG012",
+        "LG013"
+      ],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
         "S004",
-        "S010",
-        "S012"
+        "S011"
       ],
-      "context": "Land rights",
-      "physicalEffect": "No",
-      "sourceRowId": "I031"
+      "questionIds": [
+        "Q_LAND_RIGHT_PURPOSE",
+        "Q_LAND_INTEREST",
+        "Q_JURISDICTION",
+        "Q_PHYSICAL_WORKS"
+      ],
+      "conditional": [
+        {
+          "when": {
+            "answers.Q_PHYSICAL_WORKS": "yes"
+          },
+          "addRiskIds": [
+            "R001",
+            "R013",
+            "R015"
+          ],
+          "addMitigationIds": [
+            "MT001"
+          ],
+          "addServiceIds": [
+            "S002",
+            "S012"
+          ]
+        }
+      ],
+      "excludedIds": {
+        "riskIds": [
+          "R002",
+          "R004",
+          "R020"
+        ],
+        "serviceIds": [
+          "S010"
+        ]
+      }
     },
     {
       "id": "I032",
       "label": "Report a strike or near miss",
-      "slug": "report-a-strike-or-near-miss",
       "matchPhrases": [
         "Report a strike or near miss",
         "utility strike",
         "near miss",
         "unexpected service"
       ],
-      "personaIds": [
-        "P001",
-        "P002",
-        "P003",
-        "P004",
-        "P005",
+      "context": "Incident",
+      "physicalEffect": "N/A",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P022",
+        "P010"
+      ],
+      "secondaryPersonaIds": [
         "P006",
         "P007",
         "P008",
         "P009",
+        "P028"
+      ],
+      "personaIds": [
+        "P022",
         "P010",
-        "P018",
-        "P021",
-        "P027",
-        "P031",
-        "P032",
-        "P033",
-        "P037"
+        "P006",
+        "P007",
+        "P008",
+        "P009",
+        "P028"
       ],
       "methodIds": [],
       "riskIds": [
-        "R001",
-        "R003",
-        "R004",
-        "R005",
-        "R019"
+        "R004"
+      ],
+      "mitigationIds": [
+        "MT014"
       ],
       "libraryIds": [
-        "L002",
-        "L003",
-        "L011",
-        "L012",
-        "L013",
-        "L015"
+        "L011"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [
+        "ER001"
       ],
       "serviceIds": [
-        "S002",
-        "S004",
-        "S007",
-        "S008",
-        "S010",
-        "S013",
-        "S014"
+        "S013"
       ],
-      "context": "Incident",
-      "physicalEffect": "N/A",
-      "sourceRowId": "I032"
+      "questionIds": [
+        "Q_INCIDENT_TYPE",
+        "Q_IMMEDIATE_DANGER",
+        "Q_JURISDICTION",
+        "Q_ASSET_TYPE"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     {
       "id": "I033",
       "label": "Create conceptual site mapping",
-      "slug": "create-conceptual-site-mapping",
       "matchPhrases": [
         "Create conceptual site mapping",
         "concept plan",
         "base mapping",
         "constraints map"
       ],
-      "personaIds": [
-        "P002",
-        "P006",
-        "P012",
+      "context": "Planning/geospatial",
+      "physicalEffect": "No",
+      "relationStatus": "draft-reviewed",
+      "primaryPersonaIds": [
+        "P014",
         "P013",
+        "P026"
+      ],
+      "secondaryPersonaIds": [
+        "P012",
         "P017",
-        "P018",
+        "P025"
+      ],
+      "personaIds": [
+        "P014",
+        "P013",
         "P026",
-        "P035"
+        "P012",
+        "P017",
+        "P025"
       ],
       "methodIds": [],
-      "riskIds": [
-        "R014",
-        "R021",
-        "R024"
-      ],
+      "riskIds": [],
+      "mitigationIds": [],
       "libraryIds": [
         "L014"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
-        "S002",
-        "S004",
-        "S005",
-        "S006",
-        "S008",
-        "S009",
         "S011",
         "S012"
       ],
-      "context": "Planning/geospatial",
-      "physicalEffect": "No",
-      "sourceRowId": "I033"
+      "questionIds": [
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_MAPPING_PURPOSE",
+        "Q_OUTPUT_FORMAT"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     }
   ],
   "phraseMap": {
@@ -1979,5 +2483,141 @@
     "constraints map": [
       "I033"
     ]
+  },
+  "clarificationRules": {
+    "version": 1,
+    "genericContextTerms": [
+      "road",
+      "highway",
+      "carriageway",
+      "footway",
+      "verge",
+      "site",
+      "land",
+      "property",
+      "garden",
+      "field",
+      "development",
+      "utility",
+      "water",
+      "near",
+      "beside",
+      "working",
+      "work"
+    ],
+    "activityVerbs": [
+      "build",
+      "check",
+      "clear",
+      "demolish",
+      "dig",
+      "drill",
+      "empty",
+      "excavate",
+      "install",
+      "investigate",
+      "locate",
+      "lop",
+      "map",
+      "mole",
+      "pile",
+      "plan",
+      "plant",
+      "remove",
+      "repair",
+      "report",
+      "resurface",
+      "store",
+      "strip",
+      "survey",
+      "top",
+      "verify"
+    ],
+    "minimumConfirmation": {
+      "distinctivePhraseScore": 70,
+      "minimumActivitySignals": 1,
+      "rejectContextOnly": true
+    },
+    "contextRules": [
+      {
+        "id": "CR_ROAD",
+        "terms": [
+          "road",
+          "highway",
+          "carriageway",
+          "footway",
+          "verge",
+          "beside a road",
+          "near a road"
+        ],
+        "requiresClarificationWithoutActivity": true,
+        "question": "What activity will you be carrying out on or beside the road?",
+        "optionIntentIds": [
+          "I003",
+          "I004",
+          "I006",
+          "I007",
+          "I010",
+          "I013",
+          "I017",
+          "I026",
+          "I033"
+        ]
+      },
+      {
+        "id": "CR_LAND",
+        "terms": [
+          "land",
+          "field",
+          "site",
+          "property"
+        ],
+        "requiresClarificationWithoutActivity": true,
+        "question": "What do you need to do or find out about the land?",
+        "optionIntentIds": [
+          "I001",
+          "I002",
+          "I014",
+          "I022",
+          "I023",
+          "I024",
+          "I030",
+          "I031",
+          "I033"
+        ]
+      },
+      {
+        "id": "CR_DRAINAGE",
+        "terms": [
+          "drainage",
+          "drain",
+          "sewer",
+          "gulley",
+          "gully"
+        ],
+        "requiresClarificationWithoutActivity": true,
+        "question": "Which drainage activity best describes the work?",
+        "optionIntentIds": [
+          "I005",
+          "I013",
+          "I014",
+          "I028"
+        ]
+      }
+    ],
+    "spellingAliases": {
+      "efect": "effect",
+      "loping": "lopping",
+      "utillity": "utility",
+      "reparing": "repairing",
+      "gully": "gulley"
+    },
+    "neverInferFromContextOnly": [
+      "I006"
+    ],
+    "governance": {
+      "owner": "Product owner",
+      "lastReviewed": "2026-08-12"
+    }
   }
 }

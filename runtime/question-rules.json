@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generatedAt": "2026-08-12T08:50:09.258Z",
+  "version": 2,
+  "generatedAt": "2026-08-12T08:54:05.576Z",
   "questions": [
     {
       "id": "Q_PURPOSE",
@@ -91,6 +91,227 @@
       "prompt": "Is the work close to open water, drainage or a risk of flooding?",
       "type": "yes-no-unsure",
       "priority": 65
+    },
+    {
+      "id": "Q_LAND_RIGHT_PURPOSE",
+      "prompt": "What are you trying to establish?",
+      "type": "single-choice",
+      "priority": 110,
+      "showWhen": {
+        "intentIds": [
+          "I031"
+        ]
+      },
+      "options": [
+        {
+          "id": "existence",
+          "label": "Whether a wayleave or easement exists"
+        },
+        {
+          "id": "rights",
+          "label": "What rights a utility company has over the land"
+        },
+        {
+          "id": "development",
+          "label": "Whether the rights affect proposed development"
+        },
+        {
+          "id": "owner",
+          "label": "Who owns or maintains an asset"
+        },
+        {
+          "id": "agreement",
+          "label": "Whether an agreement or payment applies"
+        },
+        {
+          "id": "access",
+          "label": "Whether access can be required"
+        },
+        {
+          "id": "unsure",
+          "label": "Not sure"
+        }
+      ]
+    },
+    {
+      "id": "Q_LAND_INTEREST",
+      "prompt": "Which best describes your interest in the land?",
+      "type": "single-choice",
+      "priority": 100,
+      "showWhen": {
+        "intentIds": [
+          "I031"
+        ]
+      },
+      "options": [
+        {
+          "id": "owner",
+          "label": "Owner"
+        },
+        {
+          "id": "buyer",
+          "label": "Prospective purchaser"
+        },
+        {
+          "id": "tenant",
+          "label": "Tenant or occupier"
+        },
+        {
+          "id": "agent",
+          "label": "Land agent"
+        },
+        {
+          "id": "developer",
+          "label": "Developer or planning consultant"
+        },
+        {
+          "id": "contractor",
+          "label": "Contractor"
+        },
+        {
+          "id": "utility",
+          "label": "Utility or asset owner"
+        },
+        {
+          "id": "other",
+          "label": "Other"
+        }
+      ]
+    },
+    {
+      "id": "Q_PHYSICAL_WORKS",
+      "prompt": "Are physical works or ground disturbance planned?",
+      "type": "yes-no-unsure",
+      "priority": 90,
+      "showWhen": {
+        "intentIds": [
+          "I031"
+        ]
+      }
+    },
+    {
+      "id": "Q_EXCAVATION_PATTERN",
+      "prompt": "How will the sewer be accessed?",
+      "type": "single-choice",
+      "priority": 85,
+      "showWhen": {
+        "intentIds": [
+          "I005"
+        ]
+      },
+      "options": [
+        {
+          "id": "single",
+          "label": "One excavation"
+        },
+        {
+          "id": "multiple",
+          "label": "Several excavations"
+        },
+        {
+          "id": "linear",
+          "label": "A longer linear trench"
+        },
+        {
+          "id": "trenchless",
+          "label": "Trenchless repair"
+        },
+        {
+          "id": "unknown",
+          "label": "Not decided"
+        }
+      ]
+    },
+    {
+      "id": "Q_DEWATERING",
+      "prompt": "Is dewatering or pumping likely to be required?",
+      "type": "yes-no-unsure",
+      "priority": 75,
+      "showWhen": {
+        "intentIds": [
+          "I005",
+          "I028"
+        ]
+      }
+    },
+    {
+      "id": "Q_DEPTH",
+      "prompt": "What is the likely maximum excavation depth?",
+      "type": "single-choice",
+      "priority": 70,
+      "options": [
+        {
+          "id": "shallow",
+          "label": "1.5 metres or shallower"
+        },
+        {
+          "id": "deep",
+          "label": "Deeper than 1.5 metres"
+        },
+        {
+          "id": "unknown",
+          "label": "Not known"
+        }
+      ]
+    },
+    {
+      "id": "Q_ROUTE",
+      "prompt": "Where will most of the route be located?",
+      "type": "single-choice",
+      "priority": 80,
+      "showWhen": {
+        "intentIds": [
+          "I004",
+          "I016"
+        ]
+      },
+      "options": [
+        {
+          "id": "highway",
+          "label": "Within a highway"
+        },
+        {
+          "id": "cross-country",
+          "label": "Cross-country or off-highway"
+        },
+        {
+          "id": "site",
+          "label": "Within one defined site"
+        },
+        {
+          "id": "unknown",
+          "label": "Not known"
+        }
+      ]
+    },
+    {
+      "id": "Q_METHOD",
+      "prompt": "Which construction method is most likely?",
+      "type": "single-choice",
+      "priority": 75,
+      "showWhen": {
+        "intentIds": [
+          "I004"
+        ]
+      },
+      "options": [
+        {
+          "id": "open",
+          "label": "Open trench"
+        },
+        {
+          "id": "trenchless",
+          "label": "Drilling, moling or pipe jacking"
+        },
+        {
+          "id": "multiple",
+          "label": "Multiple separate excavations"
+        },
+        {
+          "id": "unknown",
+          "label": "Not decided"
+        }
+      ]
     }
   ]
 }

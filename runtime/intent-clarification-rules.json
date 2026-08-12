@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "genericContextTerms": [
+    "road",
+    "highway",
+    "carriageway",
+    "footway",
+    "verge",
+    "site",
+    "land",
+    "property",
+    "garden",
+    "field",
+    "development",
+    "utility",
+    "water",
+    "near",
+    "beside",
+    "working",
+    "work"
+  ],
+  "activityVerbs": [
+    "build",
+    "check",
+    "clear",
+    "demolish",
+    "dig",
+    "drill",
+    "empty",
+    "excavate",
+    "install",
+    "investigate",
+    "locate",
+    "lop",
+    "map",
+    "mole",
+    "pile",
+    "plan",
+    "plant",
+    "remove",
+    "repair",
+    "report",
+    "resurface",
+    "store",
+    "strip",
+    "survey",
+    "top",
+    "verify"
+  ],
+  "minimumConfirmation": {
+    "distinctivePhraseScore": 70,
+    "minimumActivitySignals": 1,
+    "rejectContextOnly": true
+  },
+  "contextRules": [
+    {
+      "id": "CR_ROAD",
+      "terms": [
+        "road",
+        "highway",
+        "carriageway",
+        "footway",
+        "verge",
+        "beside a road",
+        "near a road"
+      ],
+      "requiresClarificationWithoutActivity": true,
+      "question": "What activity will you be carrying out on or beside the road?",
+      "optionIntentIds": [
+        "I003",
+        "I004",
+        "I006",
+        "I007",
+        "I010",
+        "I013",
+        "I017",
+        "I026",
+        "I033"
+      ]
+    },
+    {
+      "id": "CR_LAND",
+      "terms": [
+        "land",
+        "field",
+        "site",
+        "property"
+      ],
+      "requiresClarificationWithoutActivity": true,
+      "question": "What do you need to do or find out about the land?",
+      "optionIntentIds": [
+        "I001",
+        "I002",
+        "I014",
+        "I022",
+        "I023",
+        "I024",
+        "I030",
+        "I031",
+        "I033"
+      ]
+    },
+    {
+      "id": "CR_DRAINAGE",
+      "terms": [
+        "drainage",
+        "drain",
+        "sewer",
+        "gulley",
+        "gully"
+      ],
+      "requiresClarificationWithoutActivity": true,
+      "question": "Which drainage activity best describes the work?",
+      "optionIntentIds": [
+        "I005",
+        "I013",
+        "I014",
+        "I028"
+      ]
+    }
+  ],
+  "spellingAliases": {
+    "efect": "effect",
+    "loping": "lopping",
+    "utillity": "utility",
+    "reparing": "repairing",
+    "gully": "gulley"
+  },
+  "neverInferFromContextOnly": [
+    "I006"
+  ],
+  "governance": {
+    "owner": "Product owner",
+    "lastReviewed": "2026-08-12"
+  }
+}

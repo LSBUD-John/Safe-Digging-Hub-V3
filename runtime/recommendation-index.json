@@ -1,201 +1,338 @@
 {
-  "version": 1,
-  "generatedAt": "2026-08-12T08:50:09.258Z",
+  "version": 2,
+  "generatedAt": "2026-08-12T08:54:05.572Z",
+  "relationshipMode": "controlled-explicit",
   "byIntent": {
     "I001": {
-      "personaIds": [
-        "P001",
+      "primaryPersonaIds": [
+        "P001"
+      ],
+      "secondaryPersonaIds": [
         "P002",
-        "P013",
-        "P022"
+        "P013"
       ],
       "methodIds": [],
       "riskIds": [
-        "R002",
-        "R016"
+        "R001",
+        "R005",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT002",
+        "MT003"
       ],
       "libraryIds": [
+        "L001",
+        "L002",
+        "L003",
         "L004",
         "L014"
       ],
-      "serviceIds": []
+      "legislationIds": [
+        "LG009",
+        "LG010",
+        "LG011",
+        "LG012",
+        "LG013"
+      ],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S003",
+        "S012"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_PENETRATION",
+        "Q_LOADING"
+      ],
+      "conditional": [
+        {
+          "when": {
+            "answers.Q_PENETRATION": "yes"
+          },
+          "addRiskIds": [
+            "R002",
+            "R003"
+          ],
+          "addMitigationIds": [
+            "MT004",
+            "MT005"
+          ],
+          "addServiceIds": [
+            "S006"
+          ]
+        },
+        {
+          "when": {
+            "purpose": "planned-near"
+          },
+          "addRiskIds": [
+            "R014"
+          ],
+          "addMitigationIds": [
+            "MT016"
+          ]
+        }
+      ],
+      "excludedIds": {}
     },
     "I002": {
-      "personaIds": [
+      "primaryPersonaIds": [
         "P001",
-        "P002",
-        "P003",
-        "P004",
-        "P005",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P021",
-        "P022",
-        "P027",
-        "P030",
-        "P031"
+        "P003"
       ],
-      "methodIds": [
-        "M002"
+      "secondaryPersonaIds": [
+        "P030"
       ],
+      "methodIds": [],
       "riskIds": [
-        "R002",
-        "R003"
+        "R001",
+        "R003",
+        "R005",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT003",
+        "MT004",
+        "MT005"
       ],
       "libraryIds": [
-        "L004",
-        "L014"
+        "L001",
+        "L002",
+        "L003"
       ],
-      "serviceIds": []
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S003"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_PENETRATION"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     "I003": {
-      "personaIds": [
-        "P001",
-        "P002",
-        "P003",
-        "P004",
-        "P005",
+      "primaryPersonaIds": [
+        "P009"
+      ],
+      "secondaryPersonaIds": [
         "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P010",
-        "P018",
-        "P021",
-        "P027",
-        "P031",
-        "P032",
-        "P033",
-        "P037"
+        "P007"
       ],
       "methodIds": [],
       "riskIds": [
         "R001",
-        "R004",
-        "R006",
-        "R008",
-        "R015",
-        "R016",
-        "R017"
+        "R002",
+        "R003",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT002",
+        "MT003",
+        "MT004",
+        "MT005"
       ],
       "libraryIds": [
+        "L001",
         "L002",
-        "L013"
+        "L005"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
         "S004",
-        "S010"
-      ]
+        "S006",
+        "S009"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_PENETRATION"
+      ],
+      "conditional": [
+        {
+          "when": {
+            "purpose": "emergency"
+          },
+          "addRiskIds": [
+            "R017"
+          ],
+          "addMitigationIds": [
+            "MT014"
+          ]
+        }
+      ],
+      "excludedIds": {}
     },
     "I004": {
-      "personaIds": [
-        "P001",
-        "P002",
-        "P003",
-        "P004",
-        "P005",
+      "primaryPersonaIds": [
+        "P009"
+      ],
+      "secondaryPersonaIds": [
         "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P010",
-        "P018",
-        "P021",
-        "P027",
-        "P031",
-        "P032",
-        "P033",
-        "P037"
+        "P007"
       ],
       "methodIds": [],
       "riskIds": [
         "R001",
-        "R004",
-        "R011",
-        "R016",
-        "R019"
+        "R002",
+        "R003",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT002",
+        "MT003",
+        "MT004",
+        "MT005"
       ],
       "libraryIds": [
+        "L001",
         "L002",
-        "L012",
-        "L013"
+        "L005",
+        "L006"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
         "S004",
-        "S007",
-        "S010"
-      ]
+        "S005",
+        "S006",
+        "S009"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_ROUTE",
+        "Q_METHOD",
+        "Q_DEPTH"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     "I005": {
-      "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
+      "primaryPersonaIds": [
+        "P005"
+      ],
+      "secondaryPersonaIds": [
         "P006",
         "P007",
-        "P008",
-        "P009",
-        "P021",
-        "P027",
-        "P031",
-        "P032",
-        "P033"
+        "P009"
       ],
       "methodIds": [],
       "riskIds": [
         "R001",
-        "R004",
-        "R017",
         "R018"
       ],
-      "libraryIds": [
-        "L002",
-        "L013"
+      "mitigationIds": [
+        "MT001",
+        "MT002",
+        "MT003"
       ],
+      "libraryIds": [
+        "L001",
+        "L002",
+        "L005",
+        "L012"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
         "S004",
-        "S010"
-      ]
+        "S006",
+        "S007"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_EXCAVATION_PATTERN",
+        "Q_DEPTH",
+        "Q_DEWATERING",
+        "Q_WATER"
+      ],
+      "conditional": [
+        {
+          "when": {
+            "purpose": "emergency"
+          },
+          "addRiskIds": [
+            "R017"
+          ],
+          "addMitigationIds": [
+            "MT014"
+          ]
+        },
+        {
+          "when": {
+            "answers.Q_DEWATERING": "yes"
+          },
+          "addRiskIds": [
+            "R010",
+            "R019",
+            "R020"
+          ],
+          "addMitigationIds": [
+            "MT008",
+            "MT011",
+            "MT015"
+          ]
+        },
+        {
+          "when": {
+            "answers.Q_PENETRATION": "yes"
+          },
+          "addRiskIds": [
+            "R002",
+            "R003",
+            "R013",
+            "R015"
+          ],
+          "addMitigationIds": [
+            "MT004",
+            "MT005"
+          ]
+        }
+      ],
+      "excludedIds": {
+        "riskIds": [
+          "R004"
+        ],
+        "serviceIds": [
+          "S010"
+        ]
+      }
     },
     "I006": {
-      "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
+      "primaryPersonaIds": [
+        "P008",
+        "P011"
+      ],
+      "secondaryPersonaIds": [
         "P006",
         "P007",
-        "P008",
-        "P009",
-        "P010",
-        "P011",
-        "P014",
-        "P015",
-        "P016",
-        "P020",
         "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P025",
-        "P026",
-        "P027",
-        "P029",
-        "P031",
-        "P032",
-        "P034",
-        "P035",
-        "P036",
-        "P037",
-        "P038",
-        "P039",
-        "P040"
+        "P022"
       ],
       "methodIds": [],
       "riskIds": [
@@ -203,979 +340,1186 @@
         "R007",
         "R008"
       ],
+      "mitigationIds": [
+        "MT001",
+        "MT002",
+        "MT006",
+        "MT007",
+        "MT012"
+      ],
       "libraryIds": [
+        "L001",
+        "L005",
+        "L008",
         "L009"
       ],
-      "serviceIds": []
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S004"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_PLANING",
+        "Q_DRAINAGE_CHANGES",
+        "Q_LOADING"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     "I007": {
-      "personaIds": [
-        "P006",
-        "P007",
+      "primaryPersonaIds": [
         "P008",
-        "P009",
-        "P010",
-        "P011",
-        "P012",
-        "P014",
-        "P015",
-        "P016",
-        "P020",
-        "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P025",
-        "P026",
-        "P029",
-        "P032",
-        "P034",
-        "P035",
-        "P036",
-        "P037",
-        "P038",
-        "P039",
-        "P040"
+        "P011"
       ],
-      "methodIds": [
-        "M011"
-      ],
-      "riskIds": [
-        "R011",
-        "R021"
-      ],
-      "libraryIds": [
-        "L008"
-      ],
-      "serviceIds": []
-    },
-    "I008": {
-      "personaIds": [
-        "P011",
-        "P019",
-        "P020",
-        "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P030",
-        "P035"
+      "secondaryPersonaIds": [
+        "P002",
+        "P009"
       ],
       "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
-        "R004"
+        "R005",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT003",
+        "MT004",
+        "MT005",
+        "MT012"
+      ],
+      "libraryIds": [
+        "L001",
+        "L002",
+        "L008"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S003"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_STREET_FURNITURE_TYPE",
+        "Q_CONNECTION_REQUIRED",
+        "Q_DEPTH"
+      ],
+      "conditional": [],
+      "excludedIds": {}
+    },
+    "I008": {
+      "primaryPersonaIds": [
+        "P019",
+        "P020"
+      ],
+      "secondaryPersonaIds": [
+        "P021"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R013",
+        "R014",
+        "R022",
+        "R023"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT002",
+        "MT013",
+        "MT016",
+        "MT017"
       ],
       "libraryIds": [
         "L002",
         "L007",
-        "L013"
+        "L008"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
-        "S004",
-        "S010",
-        "S014"
-      ]
+        "S003",
+        "S004"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_PROJECT_CONTEXT"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     "I009": {
-      "personaIds": [
-        "P002",
-        "P006",
-        "P017",
-        "P018",
-        "P035"
+      "primaryPersonaIds": [
+        "P018"
       ],
-      "methodIds": [
-        "M015"
-      ],
-      "riskIds": [
-        "R001",
-        "R004",
-        "R014"
-      ],
-      "libraryIds": [
-        "L002",
-        "L006",
-        "L010",
-        "L013"
-      ],
-      "serviceIds": [
-        "S002",
-        "S004",
-        "S006",
-        "S010"
-      ]
-    },
-    "I010": {
-      "personaIds": [
-        "P001",
-        "P011",
-        "P019",
-        "P020",
-        "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P025",
-        "P030",
-        "P031",
-        "P034",
-        "P035"
-      ],
-      "methodIds": [
-        "M011"
-      ],
-      "riskIds": [
-        "R002",
-        "R011",
-        "R020",
-        "R021"
-      ],
-      "libraryIds": [
-        "L004",
-        "L006",
-        "L008",
-        "L010",
-        "L011",
-        "L013",
-        "L014"
-      ],
-      "serviceIds": [
-        "S004",
-        "S012"
-      ]
-    },
-    "I011": {
-      "personaIds": [
-        "P001",
-        "P011",
-        "P019",
-        "P020",
-        "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P025",
-        "P030",
-        "P031",
-        "P034",
-        "P035"
-      ],
-      "methodIds": [
-        "M011",
-        "M012"
-      ],
-      "riskIds": [
-        "R002",
-        "R011",
-        "R020",
-        "R021"
-      ],
-      "libraryIds": [
-        "L004",
-        "L006",
-        "L008",
-        "L010",
-        "L011",
-        "L013",
-        "L014"
-      ],
-      "serviceIds": [
-        "S004",
-        "S012"
-      ]
-    },
-    "I012": {
-      "personaIds": [
-        "P001",
-        "P002",
-        "P006",
-        "P011",
-        "P012",
-        "P013",
-        "P016",
-        "P017",
-        "P019",
-        "P020",
-        "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P025",
-        "P027",
-        "P028",
-        "P030",
-        "P031",
-        "P032",
-        "P034",
-        "P035",
-        "P036",
-        "P037",
-        "P038",
-        "P040"
-      ],
-      "methodIds": [
-        "M011"
-      ],
-      "riskIds": [
-        "R002",
-        "R006",
-        "R011",
-        "R020",
-        "R021"
-      ],
-      "libraryIds": [
-        "L004",
-        "L006",
-        "L008",
-        "L009",
-        "L010",
-        "L011",
-        "L013",
-        "L014"
-      ],
-      "serviceIds": [
-        "S004",
-        "S012"
-      ]
-    },
-    "I013": {
-      "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P021",
-        "P027",
-        "P030",
-        "P031"
+      "secondaryPersonaIds": [
+        "P017"
       ],
       "methodIds": [],
       "riskIds": [
-        "R019"
-      ],
-      "libraryIds": [
-        "L012"
-      ],
-      "serviceIds": [
-        "S007"
-      ]
-    },
-    "I014": {
-      "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P021",
-        "P027",
-        "P030",
-        "P031"
-      ],
-      "methodIds": [],
-      "riskIds": [
-        "R020"
-      ],
-      "libraryIds": [
-        "L006",
-        "L008",
-        "L010",
-        "L011",
-        "L012",
-        "L013",
-        "L014"
-      ],
-      "serviceIds": [
-        "S004",
-        "S007",
-        "S012"
-      ]
-    },
-    "I015": {
-      "personaIds": [
-        "P006",
-        "P007",
-        "P008",
-        "P026"
-      ],
-      "methodIds": [
-        "M004"
-      ],
-      "riskIds": [
-        "R009",
-        "R016"
-      ],
-      "libraryIds": [],
-      "serviceIds": []
-    },
-    "I016": {
-      "personaIds": [
-        "P001",
-        "P002",
-        "P004",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P010",
-        "P018",
-        "P032",
-        "P033",
-        "P037"
-      ],
-      "methodIds": [
-        "M003"
-      ],
-      "riskIds": [
-        "R001",
-        "R003",
-        "R004",
-        "R016"
-      ],
-      "libraryIds": [
-        "L002",
-        "L013"
-      ],
-      "serviceIds": [
-        "S002",
-        "S004",
-        "S010"
-      ]
-    },
-    "I017": {
-      "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P011",
-        "P019",
-        "P020",
-        "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P027",
-        "P030",
-        "P031",
-        "P035"
-      ],
-      "methodIds": [
-        "M006"
-      ],
-      "riskIds": [
-        "R006",
-        "R014"
-      ],
-      "libraryIds": [
-        "L009"
-      ],
-      "serviceIds": []
-    },
-    "I018": {
-      "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P021",
-        "P027",
-        "P031"
-      ],
-      "methodIds": [
-        "M007",
-        "M008"
-      ],
-      "riskIds": [
-        "R006",
-        "R008",
-        "R014"
-      ],
-      "libraryIds": [
-        "L009"
-      ],
-      "serviceIds": [
-        "S002",
-        "S005",
-        "S006",
-        "S009"
-      ]
-    },
-    "I019": {
-      "personaIds": [
-        "P005",
-        "P006",
-        "P011",
-        "P018",
-        "P024",
-        "P030",
-        "P032",
-        "P037",
-        "P039"
-      ],
-      "methodIds": [
-        "M009"
-      ],
-      "riskIds": [
-        "R006",
-        "R007",
-        "R008",
-        "R010",
-        "R011",
         "R012",
-        "R018"
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT003",
+        "MT004",
+        "MT005"
       ],
       "libraryIds": [
-        "L004",
-        "L008",
-        "L009",
+        "L005",
+        "L006",
         "L010"
       ],
-      "serviceIds": []
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S006"
+      ],
+      "questionIds": [
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_SURVEY_GROUND",
+        "Q_SURFACE",
+        "Q_WEATHER",
+        "Q_TARGET_DEPTH"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
-    "I020": {
-      "personaIds": [
-        "P002",
-        "P003",
+    "I010": {
+      "primaryPersonaIds": [
+        "P031"
+      ],
+      "secondaryPersonaIds": [
+        "P001",
         "P004",
-        "P005",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P021",
-        "P026",
-        "P027",
+        "P024",
+        "P030"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R011",
+        "R021"
+      ],
+      "mitigationIds": [
+        "MT010",
+        "MT015"
+      ],
+      "libraryIds": [
+        "L001",
+        "L012"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S008"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_OVERHEAD",
+        "Q_LOADING",
+        "Q_GROUND_DISTURBANCE"
+      ],
+      "conditional": [
+        {
+          "when": {
+            "answers.Q_GROUND_DISTURBANCE": "yes"
+          },
+          "addRiskIds": [
+            "R001",
+            "R003",
+            "R005"
+          ],
+          "addMitigationIds": [
+            "MT001",
+            "MT004"
+          ],
+          "addServiceIds": [
+            "S002"
+          ]
+        }
+      ],
+      "excludedIds": {}
+    },
+    "I011": {
+      "primaryPersonaIds": [
+        "P031"
+      ],
+      "secondaryPersonaIds": [
+        "P001",
+        "P004",
+        "P024",
+        "P030"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R003",
+        "R005",
+        "R011",
+        "R016",
+        "R021"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT010",
+        "MT015"
+      ],
+      "libraryIds": [
+        "L001",
+        "L003",
+        "L012"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S006",
+        "S008"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_STUMP_REMOVAL",
+        "Q_OVERHEAD",
+        "Q_LOADING"
+      ],
+      "conditional": [],
+      "excludedIds": {}
+    },
+    "I012": {
+      "primaryPersonaIds": [
+        "P004"
+      ],
+      "secondaryPersonaIds": [
+        "P001",
+        "P024",
+        "P025",
+        "P030",
         "P031"
       ],
       "methodIds": [],
       "riskIds": [
-        "R014"
+        "R003",
+        "R005",
+        "R011",
+        "R021"
       ],
-      "libraryIds": [],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT010",
+        "MT015"
+      ],
+      "libraryIds": [
+        "L001",
+        "L003",
+        "L012"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
-        "S005",
-        "S006",
-        "S009"
-      ]
+        "S008"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_PLANTING_DEPTH",
+        "Q_OVERHEAD"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
-    "I021": {
-      "personaIds": [
-        "P001",
-        "P002",
-        "P022"
-      ],
-      "methodIds": [],
-      "riskIds": [
-        "R002"
-      ],
-      "libraryIds": [
-        "L004",
-        "L014"
-      ],
-      "serviceIds": []
-    },
-    "I022": {
-      "personaIds": [
-        "P002",
-        "P006",
-        "P009",
-        "P010",
-        "P012",
-        "P013",
-        "P016",
-        "P017",
-        "P020",
-        "P022",
-        "P023",
-        "P024",
-        "P025",
-        "P026",
-        "P027",
-        "P028",
+    "I013": {
+      "primaryPersonaIds": [
         "P030",
-        "P031",
-        "P032",
-        "P034",
-        "P036",
-        "P037",
-        "P038",
-        "P040"
+        "P005"
       ],
-      "methodIds": [
-        "M008"
-      ],
-      "riskIds": [
-        "R002",
-        "R008",
-        "R013",
-        "R020",
-        "R024"
-      ],
-      "libraryIds": [
-        "L006",
-        "L008",
-        "L010",
-        "L011",
-        "L013",
-        "L014",
-        "L015"
-      ],
-      "serviceIds": [
-        "S004",
-        "S012",
-        "S013"
-      ]
-    },
-    "I023": {
-      "personaIds": [
-        "P004",
-        "P005",
-        "P015",
-        "P016",
-        "P031",
-        "P034",
+      "secondaryPersonaIds": [
         "P038"
       ],
       "methodIds": [],
       "riskIds": [
-        "R014",
-        "R021",
-        "R024"
+        "R001",
+        "R003",
+        "R019",
+        "R020"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT011",
+        "MT015"
       ],
       "libraryIds": [
-        "L014"
+        "L001",
+        "L012"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
-        "S004",
-        "S005",
-        "S006",
-        "S008",
-        "S009",
-        "S011",
-        "S012",
-        "S014"
-      ]
+        "S007",
+        "S008"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_WATER",
+        "Q_MECHANICAL_PLANT"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
-    "I024": {
-      "personaIds": [
-        "P001",
-        "P002",
-        "P003",
-        "P004",
-        "P005",
-        "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P010",
-        "P012",
-        "P018",
-        "P021",
-        "P022",
-        "P027",
-        "P031",
-        "P032",
-        "P033",
-        "P037"
+    "I014": {
+      "primaryPersonaIds": [
+        "P030",
+        "P005"
+      ],
+      "secondaryPersonaIds": [
+        "P025"
       ],
       "methodIds": [],
       "riskIds": [
         "R001",
-        "R002",
-        "R004",
+        "R003",
         "R019",
-        "R024"
+        "R020"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT011",
+        "MT015"
       ],
       "libraryIds": [
-        "L002",
-        "L004",
-        "L011",
-        "L012",
-        "L013",
-        "L014"
+        "L001",
+        "L012"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S007",
+        "S008"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_DEPTH",
+        "Q_WATER"
+      ],
+      "conditional": [],
+      "excludedIds": {}
+    },
+    "I015": {
+      "primaryPersonaIds": [
+        "P007"
+      ],
+      "secondaryPersonaIds": [
+        "P006",
+        "P026"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R003",
+        "R006",
+        "R009",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT006",
+        "MT009",
+        "MT013"
+      ],
+      "libraryIds": [
+        "L001",
+        "L005",
+        "L006",
+        "L009"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
         "S004",
+        "S006"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_PILE_TYPE",
+        "Q_VIBRATION",
+        "Q_LOADING"
+      ],
+      "conditional": [],
+      "excludedIds": {}
+    },
+    "I016": {
+      "primaryPersonaIds": [
+        "P009",
+        "P007"
+      ],
+      "secondaryPersonaIds": [
+        "P006"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R003",
+        "R009",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT009",
+        "MT013"
+      ],
+      "libraryIds": [
+        "L001",
+        "L005",
+        "L006"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S006",
+        "S009"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_ROUTE",
+        "Q_DEPTH"
+      ],
+      "conditional": [],
+      "excludedIds": {}
+    },
+    "I017": {
+      "primaryPersonaIds": [
+        "P007"
+      ],
+      "secondaryPersonaIds": [
+        "P006",
+        "P008",
+        "P021"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R006",
+        "R008",
+        "R011"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT006",
+        "MT010",
+        "MT013"
+      ],
+      "libraryIds": [
+        "L001",
+        "L009"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S004"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_LOADING",
+        "Q_OVERHEAD"
+      ],
+      "conditional": [],
+      "excludedIds": {}
+    },
+    "I018": {
+      "primaryPersonaIds": [
+        "P006",
+        "P007"
+      ],
+      "secondaryPersonaIds": [
+        "P024"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R006",
+        "R008"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT006",
+        "MT013"
+      ],
+      "libraryIds": [
+        "L001",
+        "L009"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S004"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_LOADING",
+        "Q_ACCESS"
+      ],
+      "conditional": [],
+      "excludedIds": {}
+    },
+    "I019": {
+      "primaryPersonaIds": [
+        "P006"
+      ],
+      "secondaryPersonaIds": [
+        "P007",
+        "P030"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R003",
+        "R007",
+        "R008",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT007"
+      ],
+      "libraryIds": [
+        "L001",
+        "L009"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S006"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_LEVEL_CHANGE",
+        "Q_LOADING"
+      ],
+      "conditional": [],
+      "excludedIds": {}
+    },
+    "I020": {
+      "primaryPersonaIds": [
+        "P007"
+      ],
+      "secondaryPersonaIds": [
+        "P006",
+        "P026"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R003",
+        "R006",
+        "R009",
+        "R013",
+        "R015",
+        "R016"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005",
+        "MT006",
+        "MT009"
+      ],
+      "libraryIds": [
+        "L001",
+        "L005",
+        "L009"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S004",
+        "S006"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_DEMOLITION_METHOD",
+        "Q_LOADING"
+      ],
+      "conditional": [],
+      "excludedIds": {}
+    },
+    "I021": {
+      "primaryPersonaIds": [
+        "P001"
+      ],
+      "secondaryPersonaIds": [
+        "P002"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R003",
+        "R005",
+        "R007",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT003",
+        "MT004",
+        "MT005",
+        "MT007"
+      ],
+      "libraryIds": [
+        "L001",
+        "L002",
+        "L003",
+        "L004"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S003"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_DROPPED_KERB",
+        "Q_DEPTH"
+      ],
+      "conditional": [],
+      "excludedIds": {}
+    },
+    "I022": {
+      "primaryPersonaIds": [
+        "P026"
+      ],
+      "secondaryPersonaIds": [
+        "P014",
+        "P025"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R001",
+        "R019",
+        "R021",
+        "R024"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT015"
+      ],
+      "libraryIds": [
+        "L002",
+        "L013",
+        "L014"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S004",
         "S010",
+        "S011",
         "S012"
-      ]
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_ENERGY_TYPE",
+        "Q_CAPACITY_REQUIRED"
+      ],
+      "conditional": [],
+      "excludedIds": {}
+    },
+    "I023": {
+      "primaryPersonaIds": [
+        "P015",
+        "P016"
+      ],
+      "secondaryPersonaIds": [
+        "P014",
+        "P026"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R019",
+        "R021"
+      ],
+      "mitigationIds": [
+        "MT011",
+        "MT015"
+      ],
+      "libraryIds": [
+        "L012"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S007",
+        "S008",
+        "S011"
+      ],
+      "questionIds": [
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_WATER",
+        "Q_PROTECTED_SITE"
+      ],
+      "conditional": [],
+      "excludedIds": {}
+    },
+    "I024": {
+      "primaryPersonaIds": [
+        "P014"
+      ],
+      "secondaryPersonaIds": [
+        "P001",
+        "P012",
+        "P026",
+        "P009"
+      ],
+      "methodIds": [],
+      "riskIds": [],
+      "mitigationIds": [],
+      "libraryIds": [
+        "L014"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S011",
+        "S012"
+      ],
+      "questionIds": [
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_SEARCH_RADIUS",
+        "Q_APPLICATION_STATUS"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     "I025": {
-      "personaIds": [
+      "primaryPersonaIds": [
+        "P032"
+      ],
+      "secondaryPersonaIds": [
+        "P005",
         "P009",
-        "P032",
         "P033"
       ],
       "methodIds": [],
       "riskIds": [
         "R001",
-        "R004",
+        "R002",
+        "R003",
         "R017"
       ],
-      "libraryIds": [
-        "L002",
-        "L013"
+      "mitigationIds": [
+        "MT001",
+        "MT002",
+        "MT003",
+        "MT012",
+        "MT014"
       ],
+      "libraryIds": [
+        "L001",
+        "L005",
+        "L011"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
-        "S004",
-        "S010"
-      ]
+        "S004"
+      ],
+      "questionIds": [
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_EMERGENCY_TYPE",
+        "Q_PENETRATION"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     "I026": {
-      "personaIds": [
-        "P002",
-        "P005",
-        "P006",
-        "P011",
-        "P017",
+      "primaryPersonaIds": [
         "P018",
-        "P035",
-        "P039"
+        "P017"
       ],
-      "methodIds": [
-        "M001",
-        "M002",
-        "M013"
+      "secondaryPersonaIds": [
+        "P006"
       ],
+      "methodIds": [],
       "riskIds": [
         "R001",
-        "R002",
-        "R004",
-        "R010",
-        "R011",
-        "R012",
-        "R018"
+        "R003",
+        "R013",
+        "R015"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT004",
+        "MT005"
       ],
       "libraryIds": [
-        "L002",
-        "L010",
-        "L013"
+        "L001",
+        "L005",
+        "L006"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
-        "S004",
         "S006",
-        "S009",
-        "S010"
-      ]
+        "S009"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_DEPTH"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     "I027": {
-      "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
+      "primaryPersonaIds": [
+        "P027"
+      ],
+      "secondaryPersonaIds": [
         "P006",
         "P007",
-        "P008",
-        "P009",
-        "P021",
-        "P027",
-        "P031"
+        "P009"
       ],
-      "methodIds": [
-        "M001",
-        "M013"
-      ],
-      "riskIds": [
-        "R001",
-        "R004"
-      ],
-      "libraryIds": [
-        "L002",
-        "L013"
-      ],
-      "serviceIds": [
-        "S002",
-        "S004",
-        "S009",
-        "S010"
-      ]
-    },
-    "I028": {
-      "personaIds": [
-        "P005",
-        "P006",
-        "P011",
-        "P018",
-        "P024",
-        "P032",
-        "P037",
-        "P039"
-      ],
-      "methodIds": [
-        "M001",
-        "M013"
-      ],
+      "methodIds": [],
       "riskIds": [
         "R003",
-        "R010",
-        "R011",
-        "R012",
+        "R016",
         "R018"
       ],
+      "mitigationIds": [
+        "MT001",
+        "MT005"
+      ],
       "libraryIds": [
-        "L004",
-        "L008",
-        "L010",
+        "L001",
+        "L005"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S002",
+        "S009"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_CONTAMINATION",
+        "Q_ACCESS"
+      ],
+      "conditional": [],
+      "excludedIds": {}
+    },
+    "I028": {
+      "primaryPersonaIds": [
+        "P006",
+        "P005"
+      ],
+      "secondaryPersonaIds": [
+        "P007"
+      ],
+      "methodIds": [],
+      "riskIds": [
+        "R010",
+        "R019",
+        "R020"
+      ],
+      "mitigationIds": [
+        "MT008",
+        "MT011",
+        "MT015"
+      ],
+      "libraryIds": [
         "L012"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S007",
-        "S009"
-      ]
+        "S008"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_WATER",
+        "Q_DISCHARGE"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     "I029": {
-      "personaIds": [
-        "P002",
-        "P003",
-        "P004",
-        "P005",
+      "primaryPersonaIds": [
         "P006",
-        "P007",
-        "P008",
-        "P009",
-        "P011",
-        "P016",
-        "P017",
-        "P019",
-        "P020",
-        "P021",
-        "P022",
-        "P023",
-        "P024",
-        "P027",
-        "P030",
-        "P031",
-        "P035"
+        "P007"
       ],
-      "methodIds": [
-        "M008"
+      "secondaryPersonaIds": [
+        "P021"
       ],
+      "methodIds": [],
       "riskIds": [
         "R006",
-        "R008",
-        "R014"
+        "R008"
+      ],
+      "mitigationIds": [
+        "MT001",
+        "MT006"
       ],
       "libraryIds": [
         "L009"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
-        "S005",
-        "S006",
-        "S009"
-      ]
+        "S004"
+      ],
+      "questionIds": [
+        "Q_PURPOSE",
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_LOADING",
+        "Q_DURATION"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     "I030": {
-      "personaIds": [
-        "P001",
-        "P002",
-        "P004",
-        "P006",
-        "P008",
-        "P009",
-        "P010",
-        "P012",
+      "primaryPersonaIds": [
+        "P014",
+        "P026"
+      ],
+      "secondaryPersonaIds": [
         "P013",
-        "P016",
-        "P017",
-        "P018",
-        "P020",
-        "P022",
-        "P023",
-        "P024",
         "P025",
-        "P026",
-        "P027",
-        "P028",
-        "P030",
-        "P031",
-        "P032",
-        "P033",
-        "P034",
-        "P036",
-        "P037",
-        "P038",
-        "P040"
+        "P009"
       ],
       "methodIds": [],
-      "riskIds": [
-        "R001",
-        "R002",
-        "R004",
-        "R005",
-        "R011",
-        "R020",
-        "R024"
-      ],
+      "riskIds": [],
+      "mitigationIds": [],
       "libraryIds": [
-        "L002",
-        "L003",
-        "L006",
-        "L008",
-        "L010",
-        "L011",
-        "L013",
         "L014"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
-        "S002",
-        "S004",
         "S010",
+        "S011",
         "S012"
-      ]
+      ],
+      "questionIds": [
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_DEMAND_PROFILE",
+        "Q_CONNECTION_TIMESCALE"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     "I031": {
-      "personaIds": [
-        "P002",
-        "P006",
-        "P009",
-        "P010",
-        "P012",
-        "P013",
-        "P016",
-        "P017",
-        "P020",
-        "P022",
-        "P023",
+      "primaryPersonaIds": [
+        "P025"
+      ],
+      "secondaryPersonaIds": [
         "P024",
-        "P025",
         "P026",
-        "P027",
-        "P028",
+        "P014",
         "P030",
-        "P031",
-        "P032",
-        "P034",
-        "P036",
-        "P037",
-        "P038",
-        "P040"
+        "P010"
       ],
       "methodIds": [],
       "riskIds": [
-        "R001",
-        "R002",
-        "R004",
-        "R020",
         "R024"
       ],
+      "mitigationIds": [],
       "libraryIds": [
         "L002",
-        "L006",
-        "L008",
-        "L010",
-        "L011",
         "L013",
         "L014"
       ],
+      "legislationIds": [
+        "LG011",
+        "LG012",
+        "LG013"
+      ],
+      "externalResourceIds": [],
       "serviceIds": [
         "S002",
         "S004",
-        "S010",
-        "S012"
-      ]
+        "S011"
+      ],
+      "questionIds": [
+        "Q_LAND_RIGHT_PURPOSE",
+        "Q_LAND_INTEREST",
+        "Q_JURISDICTION",
+        "Q_PHYSICAL_WORKS"
+      ],
+      "conditional": [
+        {
+          "when": {
+            "answers.Q_PHYSICAL_WORKS": "yes"
+          },
+          "addRiskIds": [
+            "R001",
+            "R013",
+            "R015"
+          ],
+          "addMitigationIds": [
+            "MT001"
+          ],
+          "addServiceIds": [
+            "S002",
+            "S012"
+          ]
+        }
+      ],
+      "excludedIds": {
+        "riskIds": [
+          "R002",
+          "R004",
+          "R020"
+        ],
+        "serviceIds": [
+          "S010"
+        ]
+      }
     },
     "I032": {
-      "personaIds": [
-        "P001",
-        "P002",
-        "P003",
-        "P004",
-        "P005",
+      "primaryPersonaIds": [
+        "P022",
+        "P010"
+      ],
+      "secondaryPersonaIds": [
         "P006",
         "P007",
         "P008",
         "P009",
-        "P010",
-        "P018",
-        "P021",
-        "P027",
-        "P031",
-        "P032",
-        "P033",
-        "P037"
+        "P028"
       ],
       "methodIds": [],
       "riskIds": [
-        "R001",
-        "R003",
-        "R004",
-        "R005",
-        "R019"
+        "R004"
+      ],
+      "mitigationIds": [
+        "MT014"
       ],
       "libraryIds": [
-        "L002",
-        "L003",
-        "L011",
-        "L012",
-        "L013",
-        "L015"
+        "L011"
+      ],
+      "legislationIds": [],
+      "externalResourceIds": [
+        "ER001"
       ],
       "serviceIds": [
-        "S002",
-        "S004",
-        "S007",
-        "S008",
-        "S010",
-        "S013",
-        "S014"
-      ]
+        "S013"
+      ],
+      "questionIds": [
+        "Q_INCIDENT_TYPE",
+        "Q_IMMEDIATE_DANGER",
+        "Q_JURISDICTION",
+        "Q_ASSET_TYPE"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     },
     "I033": {
-      "personaIds": [
-        "P002",
-        "P006",
-        "P012",
+      "primaryPersonaIds": [
+        "P014",
         "P013",
+        "P026"
+      ],
+      "secondaryPersonaIds": [
+        "P012",
         "P017",
-        "P018",
-        "P026",
-        "P035"
+        "P025"
       ],
       "methodIds": [],
-      "riskIds": [
-        "R014",
-        "R021",
-        "R024"
-      ],
+      "riskIds": [],
+      "mitigationIds": [],
       "libraryIds": [
         "L014"
       ],
+      "legislationIds": [],
+      "externalResourceIds": [],
       "serviceIds": [
-        "S002",
-        "S004",
-        "S005",
-        "S006",
-        "S008",
-        "S009",
         "S011",
         "S012"
-      ]
+      ],
+      "questionIds": [
+        "Q_ROLE",
+        "Q_JURISDICTION",
+        "Q_MAPPING_PURPOSE",
+        "Q_OUTPUT_FORMAT"
+      ],
+      "conditional": [],
+      "excludedIds": {}
     }
   },
   "records": {

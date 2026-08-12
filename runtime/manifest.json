@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T08:50:09.258Z",
+  "generatedAt": "2026-08-12T08:54:05.577Z",
   "sourceDirectory": "matrix-data",
   "counts": {
     "intents": 33,
@@ -13,5 +13,7 @@
     "legislation": 14,
     "services": 14,
     "externalResources": 10
-  }
+  },
+  "relationshipMode": "controlled-explicit",
+  "controlledRelations": 33
 }
