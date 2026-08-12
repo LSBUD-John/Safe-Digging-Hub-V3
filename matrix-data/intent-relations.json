@@ -1,0 +1,1718 @@
+[
+  {
+    "intentId": "I001",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P001"
+    ],
+    "secondaryPersonaIds": [
+      "P002",
+      "P013"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R005",
+      "R013",
+      "R015"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT002",
+      "MT003"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L002",
+      "L003",
+      "L004",
+      "L014"
+    ],
+    "baseLegislationIds": [
+      "LG009",
+      "LG010",
+      "LG011",
+      "LG012",
+      "LG013"
+    ],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S003",
+      "S012"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_PENETRATION",
+      "Q_LOADING"
+    ],
+    "conditional": [
+      {
+        "when": {
+          "answers.Q_PENETRATION": "yes"
+        },
+        "addRiskIds": [
+          "R002",
+          "R003"
+        ],
+        "addMitigationIds": [
+          "MT004",
+          "MT005"
+        ],
+        "addServiceIds": [
+          "S006"
+        ]
+      },
+      {
+        "when": {
+          "purpose": "planned-near"
+        },
+        "addRiskIds": [
+          "R014"
+        ],
+        "addMitigationIds": [
+          "MT016"
+        ]
+      }
+    ],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I002",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P001",
+      "P003"
+    ],
+    "secondaryPersonaIds": [
+      "P030"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R003",
+      "R005",
+      "R013",
+      "R015"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT003",
+      "MT004",
+      "MT005"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L002",
+      "L003"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S003"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_PENETRATION"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I003",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P009"
+    ],
+    "secondaryPersonaIds": [
+      "P006",
+      "P007"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R002",
+      "R003",
+      "R013",
+      "R015"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT002",
+      "MT003",
+      "MT004",
+      "MT005"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L002",
+      "L005"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004",
+      "S006",
+      "S009"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_PENETRATION"
+    ],
+    "conditional": [
+      {
+        "when": {
+          "purpose": "emergency"
+        },
+        "addRiskIds": [
+          "R017"
+        ],
+        "addMitigationIds": [
+          "MT014"
+        ]
+      }
+    ],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I004",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P009"
+    ],
+    "secondaryPersonaIds": [
+      "P006",
+      "P007"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R002",
+      "R003",
+      "R013",
+      "R015"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT002",
+      "MT003",
+      "MT004",
+      "MT005"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L002",
+      "L005",
+      "L006"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004",
+      "S005",
+      "S006",
+      "S009"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_ROUTE",
+      "Q_METHOD",
+      "Q_DEPTH"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I005",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P005"
+    ],
+    "secondaryPersonaIds": [
+      "P006",
+      "P007",
+      "P009"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R018"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT002",
+      "MT003"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L002",
+      "L005",
+      "L012"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004",
+      "S006",
+      "S007"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_EXCAVATION_PATTERN",
+      "Q_DEPTH",
+      "Q_DEWATERING",
+      "Q_WATER"
+    ],
+    "conditional": [
+      {
+        "when": {
+          "purpose": "emergency"
+        },
+        "addRiskIds": [
+          "R017"
+        ],
+        "addMitigationIds": [
+          "MT014"
+        ]
+      },
+      {
+        "when": {
+          "answers.Q_DEWATERING": "yes"
+        },
+        "addRiskIds": [
+          "R010",
+          "R019",
+          "R020"
+        ],
+        "addMitigationIds": [
+          "MT008",
+          "MT011",
+          "MT015"
+        ]
+      },
+      {
+        "when": {
+          "answers.Q_PENETRATION": "yes"
+        },
+        "addRiskIds": [
+          "R002",
+          "R003",
+          "R013",
+          "R015"
+        ],
+        "addMitigationIds": [
+          "MT004",
+          "MT005"
+        ]
+      }
+    ],
+    "excludedIds": {
+      "riskIds": [
+        "R004"
+      ],
+      "serviceIds": [
+        "S010"
+      ]
+    },
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I006",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P008",
+      "P011"
+    ],
+    "secondaryPersonaIds": [
+      "P006",
+      "P007",
+      "P021",
+      "P022"
+    ],
+    "baseRiskIds": [
+      "R006",
+      "R007",
+      "R008"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT002",
+      "MT006",
+      "MT007",
+      "MT012"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L005",
+      "L008",
+      "L009"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_PLANING",
+      "Q_DRAINAGE_CHANGES",
+      "Q_LOADING"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I007",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P008",
+      "P011"
+    ],
+    "secondaryPersonaIds": [
+      "P002",
+      "P009"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R003",
+      "R005",
+      "R013",
+      "R015"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT003",
+      "MT004",
+      "MT005",
+      "MT012"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L002",
+      "L008"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S003"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_STREET_FURNITURE_TYPE",
+      "Q_CONNECTION_REQUIRED",
+      "Q_DEPTH"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I008",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P019",
+      "P020"
+    ],
+    "secondaryPersonaIds": [
+      "P021"
+    ],
+    "baseRiskIds": [
+      "R013",
+      "R014",
+      "R022",
+      "R023"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT002",
+      "MT013",
+      "MT016",
+      "MT017"
+    ],
+    "baseLibraryIds": [
+      "L002",
+      "L007",
+      "L008"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_PROJECT_CONTEXT"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I009",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P018"
+    ],
+    "secondaryPersonaIds": [
+      "P017"
+    ],
+    "baseRiskIds": [
+      "R012",
+      "R013",
+      "R015"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT003",
+      "MT004",
+      "MT005"
+    ],
+    "baseLibraryIds": [
+      "L005",
+      "L006",
+      "L010"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S006"
+    ],
+    "questionIds": [
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_SURVEY_GROUND",
+      "Q_SURFACE",
+      "Q_WEATHER",
+      "Q_TARGET_DEPTH"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I010",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P031"
+    ],
+    "secondaryPersonaIds": [
+      "P001",
+      "P004",
+      "P024",
+      "P030"
+    ],
+    "baseRiskIds": [
+      "R011",
+      "R021"
+    ],
+    "baseMitigationIds": [
+      "MT010",
+      "MT015"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L012"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S008"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_OVERHEAD",
+      "Q_LOADING",
+      "Q_GROUND_DISTURBANCE"
+    ],
+    "conditional": [
+      {
+        "when": {
+          "answers.Q_GROUND_DISTURBANCE": "yes"
+        },
+        "addRiskIds": [
+          "R001",
+          "R003",
+          "R005"
+        ],
+        "addMitigationIds": [
+          "MT001",
+          "MT004"
+        ],
+        "addServiceIds": [
+          "S002"
+        ]
+      }
+    ],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I011",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P031"
+    ],
+    "secondaryPersonaIds": [
+      "P001",
+      "P004",
+      "P024",
+      "P030"
+    ],
+    "baseRiskIds": [
+      "R003",
+      "R005",
+      "R011",
+      "R016",
+      "R021"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT004",
+      "MT005",
+      "MT010",
+      "MT015"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L003",
+      "L012"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S006",
+      "S008"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_STUMP_REMOVAL",
+      "Q_OVERHEAD",
+      "Q_LOADING"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I012",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P004"
+    ],
+    "secondaryPersonaIds": [
+      "P001",
+      "P024",
+      "P025",
+      "P030",
+      "P031"
+    ],
+    "baseRiskIds": [
+      "R003",
+      "R005",
+      "R011",
+      "R021"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT004",
+      "MT005",
+      "MT010",
+      "MT015"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L003",
+      "L012"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S008"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_PLANTING_DEPTH",
+      "Q_OVERHEAD"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I013",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P030",
+      "P005"
+    ],
+    "secondaryPersonaIds": [
+      "P038"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R003",
+      "R019",
+      "R020"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT004",
+      "MT005",
+      "MT011",
+      "MT015"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L012"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S007",
+      "S008"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_WATER",
+      "Q_MECHANICAL_PLANT"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I014",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P030",
+      "P005"
+    ],
+    "secondaryPersonaIds": [
+      "P025"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R003",
+      "R019",
+      "R020"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT004",
+      "MT005",
+      "MT011",
+      "MT015"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L012"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S007",
+      "S008"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_DEPTH",
+      "Q_WATER"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I015",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P007"
+    ],
+    "secondaryPersonaIds": [
+      "P006",
+      "P026"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R003",
+      "R006",
+      "R009",
+      "R015"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT004",
+      "MT005",
+      "MT006",
+      "MT009",
+      "MT013"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L005",
+      "L006",
+      "L009"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004",
+      "S006"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_PILE_TYPE",
+      "Q_VIBRATION",
+      "Q_LOADING"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I016",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P009",
+      "P007"
+    ],
+    "secondaryPersonaIds": [
+      "P006"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R003",
+      "R009",
+      "R013",
+      "R015"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT004",
+      "MT005",
+      "MT009",
+      "MT013"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L005",
+      "L006"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004",
+      "S006",
+      "S009"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_ROUTE",
+      "Q_DEPTH"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I017",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P007"
+    ],
+    "secondaryPersonaIds": [
+      "P006",
+      "P008",
+      "P021"
+    ],
+    "baseRiskIds": [
+      "R006",
+      "R008",
+      "R011"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT006",
+      "MT010",
+      "MT013"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L009"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_LOADING",
+      "Q_OVERHEAD"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I018",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P006",
+      "P007"
+    ],
+    "secondaryPersonaIds": [
+      "P024"
+    ],
+    "baseRiskIds": [
+      "R006",
+      "R008"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT006",
+      "MT013"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L009"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_LOADING",
+      "Q_ACCESS"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I019",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P006"
+    ],
+    "secondaryPersonaIds": [
+      "P007",
+      "P030"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R003",
+      "R007",
+      "R008",
+      "R015"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT004",
+      "MT005",
+      "MT007"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L009"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004",
+      "S006"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_LEVEL_CHANGE",
+      "Q_LOADING"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I020",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P007"
+    ],
+    "secondaryPersonaIds": [
+      "P006",
+      "P026"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R003",
+      "R006",
+      "R009",
+      "R013",
+      "R015",
+      "R016"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT004",
+      "MT005",
+      "MT006",
+      "MT009"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L005",
+      "L009"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004",
+      "S006"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_DEMOLITION_METHOD",
+      "Q_LOADING"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I021",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P001"
+    ],
+    "secondaryPersonaIds": [
+      "P002"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R003",
+      "R005",
+      "R007",
+      "R015"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT003",
+      "MT004",
+      "MT005",
+      "MT007"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L002",
+      "L003",
+      "L004"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S003"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_DROPPED_KERB",
+      "Q_DEPTH"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I022",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P026"
+    ],
+    "secondaryPersonaIds": [
+      "P014",
+      "P025"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R019",
+      "R021",
+      "R024"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT015"
+    ],
+    "baseLibraryIds": [
+      "L002",
+      "L013",
+      "L014"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S004",
+      "S010",
+      "S011",
+      "S012"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_ENERGY_TYPE",
+      "Q_CAPACITY_REQUIRED"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I023",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P015",
+      "P016"
+    ],
+    "secondaryPersonaIds": [
+      "P014",
+      "P026"
+    ],
+    "baseRiskIds": [
+      "R019",
+      "R021"
+    ],
+    "baseMitigationIds": [
+      "MT011",
+      "MT015"
+    ],
+    "baseLibraryIds": [
+      "L012"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S007",
+      "S008",
+      "S011"
+    ],
+    "questionIds": [
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_WATER",
+      "Q_PROTECTED_SITE"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I024",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P014"
+    ],
+    "secondaryPersonaIds": [
+      "P001",
+      "P012",
+      "P026",
+      "P009"
+    ],
+    "baseRiskIds": [],
+    "baseMitigationIds": [],
+    "baseLibraryIds": [
+      "L014"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S011",
+      "S012"
+    ],
+    "questionIds": [
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_SEARCH_RADIUS",
+      "Q_APPLICATION_STATUS"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I025",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P032"
+    ],
+    "secondaryPersonaIds": [
+      "P005",
+      "P009",
+      "P033"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R002",
+      "R003",
+      "R017"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT002",
+      "MT003",
+      "MT012",
+      "MT014"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L005",
+      "L011"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004"
+    ],
+    "questionIds": [
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_EMERGENCY_TYPE",
+      "Q_PENETRATION"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I026",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P018",
+      "P017"
+    ],
+    "secondaryPersonaIds": [
+      "P006"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R003",
+      "R013",
+      "R015"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT004",
+      "MT005"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L005",
+      "L006"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S006",
+      "S009"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_DEPTH"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I027",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P027"
+    ],
+    "secondaryPersonaIds": [
+      "P006",
+      "P007",
+      "P009"
+    ],
+    "baseRiskIds": [
+      "R003",
+      "R016",
+      "R018"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT005"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L005"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S009"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_CONTAMINATION",
+      "Q_ACCESS"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I028",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P006",
+      "P005"
+    ],
+    "secondaryPersonaIds": [
+      "P007"
+    ],
+    "baseRiskIds": [
+      "R010",
+      "R019",
+      "R020"
+    ],
+    "baseMitigationIds": [
+      "MT008",
+      "MT011",
+      "MT015"
+    ],
+    "baseLibraryIds": [
+      "L012"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S007",
+      "S008"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_WATER",
+      "Q_DISCHARGE"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I029",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P006",
+      "P007"
+    ],
+    "secondaryPersonaIds": [
+      "P021"
+    ],
+    "baseRiskIds": [
+      "R006",
+      "R008"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT006"
+    ],
+    "baseLibraryIds": [
+      "L009"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_LOADING",
+      "Q_DURATION"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I030",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P014",
+      "P026"
+    ],
+    "secondaryPersonaIds": [
+      "P013",
+      "P025",
+      "P009"
+    ],
+    "baseRiskIds": [],
+    "baseMitigationIds": [],
+    "baseLibraryIds": [
+      "L014"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S010",
+      "S011",
+      "S012"
+    ],
+    "questionIds": [
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_DEMAND_PROFILE",
+      "Q_CONNECTION_TIMESCALE"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I031",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P025"
+    ],
+    "secondaryPersonaIds": [
+      "P024",
+      "P026",
+      "P014",
+      "P030",
+      "P010"
+    ],
+    "baseRiskIds": [
+      "R024"
+    ],
+    "baseMitigationIds": [],
+    "baseLibraryIds": [
+      "L002",
+      "L013",
+      "L014"
+    ],
+    "baseLegislationIds": [
+      "LG011",
+      "LG012",
+      "LG013"
+    ],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004",
+      "S011"
+    ],
+    "questionIds": [
+      "Q_LAND_RIGHT_PURPOSE",
+      "Q_LAND_INTEREST",
+      "Q_JURISDICTION",
+      "Q_PHYSICAL_WORKS"
+    ],
+    "conditional": [
+      {
+        "when": {
+          "answers.Q_PHYSICAL_WORKS": "yes"
+        },
+        "addRiskIds": [
+          "R001",
+          "R013",
+          "R015"
+        ],
+        "addMitigationIds": [
+          "MT001"
+        ],
+        "addServiceIds": [
+          "S002",
+          "S012"
+        ]
+      }
+    ],
+    "excludedIds": {
+      "riskIds": [
+        "R002",
+        "R004",
+        "R020"
+      ],
+      "serviceIds": [
+        "S010"
+      ]
+    },
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I032",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P022",
+      "P010"
+    ],
+    "secondaryPersonaIds": [
+      "P006",
+      "P007",
+      "P008",
+      "P009",
+      "P028"
+    ],
+    "baseRiskIds": [
+      "R004"
+    ],
+    "baseMitigationIds": [
+      "MT014"
+    ],
+    "baseLibraryIds": [
+      "L011"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [
+      "ER001"
+    ],
+    "baseServiceIds": [
+      "S013"
+    ],
+    "questionIds": [
+      "Q_INCIDENT_TYPE",
+      "Q_IMMEDIATE_DANGER",
+      "Q_JURISDICTION",
+      "Q_ASSET_TYPE"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  },
+  {
+    "intentId": "I033",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P014",
+      "P013",
+      "P026"
+    ],
+    "secondaryPersonaIds": [
+      "P012",
+      "P017",
+      "P025"
+    ],
+    "baseRiskIds": [],
+    "baseMitigationIds": [],
+    "baseLibraryIds": [
+      "L014"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S011",
+      "S012"
+    ],
+    "questionIds": [
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_MAPPING_PURPOSE",
+      "Q_OUTPUT_FORMAT"
+    ],
+    "conditional": [],
+    "excludedIds": {},
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  }
+]
