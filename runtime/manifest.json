@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generatedAt": "2026-08-12T08:54:05.577Z",
+  "version": 3,
+  "generatedAt": "2026-08-12T12:35:57.409Z",
   "sourceDirectory": "matrix-data",
   "counts": {
     "intents": 33,
@@ -15,5 +15,7 @@
     "externalResources": 10
   },
   "relationshipMode": "controlled-explicit",
-  "controlledRelations": 33
+  "controlledRelations": 33,
+  "intentFamilies": 9,
+  "flowModel": "understand-plan-locate-excavate-safely"
 }

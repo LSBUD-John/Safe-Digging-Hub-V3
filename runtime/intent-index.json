@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "generatedAt": "2026-08-12T08:54:05.573Z",
+  "version": 3,
+  "generatedAt": "2026-08-12T12:35:57.406Z",
   "relationshipMode": "controlled-explicit",
   "intents": [
     {
@@ -14,7 +14,6 @@
       ],
       "context": "Domestic/development",
       "physicalEffect": "Likely",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P001"
       ],
@@ -27,7 +26,6 @@
         "P002",
         "P013"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R005",
@@ -109,7 +107,6 @@
       ],
       "context": "Domestic/agricultural",
       "physicalEffect": "Yes",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P001",
         "P003"
@@ -122,7 +119,6 @@
         "P003",
         "P030"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -167,7 +163,6 @@
       ],
       "context": "Utility",
       "physicalEffect": "Yes",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P009"
       ],
@@ -180,7 +175,6 @@
         "P006",
         "P007"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R002",
@@ -240,7 +234,6 @@
       ],
       "context": "Utility",
       "physicalEffect": "Yes",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P009"
       ],
@@ -253,7 +246,6 @@
         "P006",
         "P007"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R002",
@@ -305,7 +297,6 @@
       ],
       "context": "Utility/drainage",
       "physicalEffect": "Yes",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P005"
       ],
@@ -320,7 +311,6 @@
         "P007",
         "P009"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R018"
@@ -382,7 +372,12 @@
         },
         {
           "when": {
-            "answers.Q_PENETRATION": "yes"
+            "answers.Q_EXCAVATION_PATTERN": [
+              "single",
+              "multiple",
+              "linear",
+              "trenchless"
+            ]
           },
           "addRiskIds": [
             "R002",
@@ -415,7 +410,6 @@
       ],
       "context": "Highways",
       "physicalEffect": "Cover change",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P008",
         "P011"
@@ -434,7 +428,6 @@
         "P021",
         "P022"
       ],
-      "methodIds": [],
       "riskIds": [
         "R006",
         "R007",
@@ -487,7 +480,6 @@
       ],
       "context": "Highways",
       "physicalEffect": "Yes",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P008",
         "P011"
@@ -502,7 +494,6 @@
         "P002",
         "P009"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -550,7 +541,6 @@
       ],
       "context": "Underlying project",
       "physicalEffect": "Indirect",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P019",
         "P020"
@@ -563,7 +553,6 @@
         "P020",
         "P021"
       ],
-      "methodIds": [],
       "riskIds": [
         "R013",
         "R014",
@@ -610,7 +599,6 @@
       ],
       "context": "Survey",
       "physicalEffect": "Conditional",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P018"
       ],
@@ -621,7 +609,6 @@
         "P018",
         "P017"
       ],
-      "methodIds": [],
       "riskIds": [
         "R012",
         "R013",
@@ -666,7 +653,6 @@
       ],
       "context": "Woodland/domestic",
       "physicalEffect": "Conditional",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P031"
       ],
@@ -683,7 +669,6 @@
         "P024",
         "P030"
       ],
-      "methodIds": [],
       "riskIds": [
         "R011",
         "R021"
@@ -741,7 +726,6 @@
       ],
       "context": "Woodland/domestic",
       "physicalEffect": "Yes",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P031"
       ],
@@ -758,7 +742,6 @@
         "P024",
         "P030"
       ],
-      "methodIds": [],
       "riskIds": [
         "R003",
         "R005",
@@ -807,7 +790,6 @@
       ],
       "context": "Domestic/agricultural/woodland",
       "physicalEffect": "Yes",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P004"
       ],
@@ -826,7 +808,6 @@
         "P030",
         "P031"
       ],
-      "methodIds": [],
       "riskIds": [
         "R003",
         "R005",
@@ -870,7 +851,6 @@
       ],
       "context": "Agricultural/watercourse",
       "physicalEffect": "Likely",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P030",
         "P005"
@@ -883,7 +863,6 @@
         "P005",
         "P038"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -928,7 +907,6 @@
       ],
       "context": "Agricultural/watercourse",
       "physicalEffect": "Yes",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P030",
         "P005"
@@ -941,7 +919,6 @@
         "P005",
         "P025"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -986,7 +963,6 @@
       ],
       "context": "Development/highways",
       "physicalEffect": "Yes",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P007"
       ],
@@ -999,7 +975,6 @@
         "P006",
         "P026"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -1050,7 +1025,6 @@
       ],
       "context": "Utility/development",
       "physicalEffect": "Yes",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P009",
         "P007"
@@ -1063,7 +1037,6 @@
         "P007",
         "P006"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -1112,7 +1085,6 @@
       ],
       "context": "Context-led",
       "physicalEffect": "Loading",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P007"
       ],
@@ -1127,7 +1099,6 @@
         "P008",
         "P021"
       ],
-      "methodIds": [],
       "riskIds": [
         "R006",
         "R008",
@@ -1170,7 +1141,6 @@
       ],
       "context": "Context-led",
       "physicalEffect": "Loading/access",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P006",
         "P007"
@@ -1183,7 +1153,6 @@
         "P007",
         "P024"
       ],
-      "methodIds": [],
       "riskIds": [
         "R006",
         "R008"
@@ -1224,7 +1193,6 @@
       ],
       "context": "Development/agricultural",
       "physicalEffect": "Cover change",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P006"
       ],
@@ -1237,7 +1205,6 @@
         "P007",
         "P030"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -1282,7 +1249,6 @@
       ],
       "context": "Development",
       "physicalEffect": "Likely",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P007"
       ],
@@ -1295,7 +1261,6 @@
         "P006",
         "P026"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -1344,7 +1309,6 @@
       ],
       "context": "Domestic",
       "physicalEffect": "Yes",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P001"
       ],
@@ -1355,7 +1319,6 @@
         "P001",
         "P002"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -1404,7 +1367,6 @@
       ],
       "context": "Development/planning",
       "physicalEffect": "Likely",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P026"
       ],
@@ -1417,7 +1379,6 @@
         "P014",
         "P025"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R019",
@@ -1462,7 +1423,6 @@
       ],
       "context": "Environment/planning",
       "physicalEffect": "No initially",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P015",
         "P016"
@@ -1477,7 +1437,6 @@
         "P014",
         "P026"
       ],
-      "methodIds": [],
       "riskIds": [
         "R019",
         "R021"
@@ -1515,7 +1474,6 @@
       ],
       "context": "Planning",
       "physicalEffect": "No",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P014"
       ],
@@ -1532,7 +1490,6 @@
         "P026",
         "P009"
       ],
-      "methodIds": [],
       "riskIds": [],
       "mitigationIds": [],
       "libraryIds": [
@@ -1564,7 +1521,6 @@
       ],
       "context": "Utility",
       "physicalEffect": "Yes",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P032"
       ],
@@ -1579,7 +1535,6 @@
         "P009",
         "P033"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R002",
@@ -1624,7 +1579,6 @@
       ],
       "context": "Utility/excavation",
       "physicalEffect": "Yes",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P018",
         "P017"
@@ -1637,7 +1591,6 @@
         "P017",
         "P006"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -1680,7 +1633,6 @@
       ],
       "context": "Utility/highways",
       "physicalEffect": "Yes",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P027"
       ],
@@ -1695,7 +1647,6 @@
         "P007",
         "P009"
       ],
-      "methodIds": [],
       "riskIds": [
         "R003",
         "R016",
@@ -1736,7 +1687,6 @@
       ],
       "context": "Context-led",
       "physicalEffect": "Indirect",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P006",
         "P005"
@@ -1749,7 +1699,6 @@
         "P005",
         "P007"
       ],
-      "methodIds": [],
       "riskIds": [
         "R010",
         "R019",
@@ -1790,7 +1739,6 @@
       ],
       "context": "Context-led",
       "physicalEffect": "Loading",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P006",
         "P007"
@@ -1803,7 +1751,6 @@
         "P007",
         "P021"
       ],
-      "methodIds": [],
       "riskIds": [
         "R006",
         "R008"
@@ -1843,7 +1790,6 @@
       ],
       "context": "Planning/energy",
       "physicalEffect": "No",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P014",
         "P026"
@@ -1860,7 +1806,6 @@
         "P025",
         "P009"
       ],
-      "methodIds": [],
       "riskIds": [],
       "mitigationIds": [],
       "libraryIds": [
@@ -1894,7 +1839,6 @@
       ],
       "context": "Land rights",
       "physicalEffect": "No",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P025"
       ],
@@ -1913,7 +1857,6 @@
         "P030",
         "P010"
       ],
-      "methodIds": [],
       "riskIds": [
         "R024"
       ],
@@ -1954,7 +1897,6 @@
             "MT001"
           ],
           "addServiceIds": [
-            "S002",
             "S012"
           ]
         }
@@ -1981,7 +1923,6 @@
       ],
       "context": "Incident",
       "physicalEffect": "N/A",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P022",
         "P010"
@@ -2002,7 +1943,6 @@
         "P009",
         "P028"
       ],
-      "methodIds": [],
       "riskIds": [
         "R004"
       ],
@@ -2039,7 +1979,6 @@
       ],
       "context": "Planning/geospatial",
       "physicalEffect": "No",
-      "relationStatus": "draft-reviewed",
       "primaryPersonaIds": [
         "P014",
         "P013",
@@ -2058,7 +1997,6 @@
         "P017",
         "P025"
       ],
-      "methodIds": [],
       "riskIds": [],
       "mitigationIds": [],
       "libraryIds": [
@@ -2485,7 +2423,7 @@
     ]
   },
   "clarificationRules": {
-    "version": 1,
+    "version": 3,
     "genericContextTerms": [
       "road",
       "highway",
@@ -2502,8 +2440,8 @@
       "water",
       "near",
       "beside",
-      "working",
-      "work"
+      "alongside",
+      "adjacent"
     ],
     "activityVerbs": [
       "build",
@@ -2533,49 +2471,68 @@
       "top",
       "verify"
     ],
-    "minimumConfirmation": {
-      "distinctivePhraseScore": 70,
-      "minimumActivitySignals": 1,
-      "rejectContextOnly": true
+    "spellingAliases": {
+      "efect": "effect",
+      "loping": "lopping",
+      "utillity": "utility",
+      "reparing": "repairing",
+      "gully": "gulley"
     },
     "contextRules": [
       {
-        "id": "CR_ROAD",
-        "terms": [
-          "road",
-          "highway",
-          "carriageway",
-          "footway",
-          "verge",
+        "id": "CR_ROADSIDE",
+        "patterns": [
           "beside a road",
-          "near a road"
+          "beside the road",
+          "near a road",
+          "near the road",
+          "alongside a road",
+          "adjacent to a road",
+          "next to a road"
         ],
-        "requiresClarificationWithoutActivity": true,
-        "question": "What activity will you be carrying out on or beside the road?",
+        "question": "What activity will you be carrying out beside the road?",
+        "optionIntentIds": [
+          "I003",
+          "I004",
+          "I007",
+          "I010",
+          "I013",
+          "I017",
+          "I026"
+        ],
+        "excludeIntentIds": [
+          "I006"
+        ]
+      },
+      {
+        "id": "CR_ON_ROAD",
+        "patterns": [
+          "on the road",
+          "in the road",
+          "within the carriageway",
+          "road surface"
+        ],
+        "question": "What activity will you be carrying out on the road?",
         "optionIntentIds": [
           "I003",
           "I004",
           "I006",
           "I007",
-          "I010",
           "I013",
           "I017",
-          "I026",
-          "I033"
+          "I026"
         ]
       },
       {
         "id": "CR_LAND",
-        "terms": [
-          "land",
-          "field",
-          "site",
-          "property"
+        "patterns": [
+          "working on land",
+          "work on land",
+          "information about land",
+          "about my land"
         ],
-        "requiresClarificationWithoutActivity": true,
         "question": "What do you need to do or find out about the land?",
         "optionIntentIds": [
-          "I001",
           "I002",
           "I014",
           "I022",
@@ -2588,14 +2545,10 @@
       },
       {
         "id": "CR_DRAINAGE",
-        "terms": [
-          "drainage",
-          "drain",
-          "sewer",
-          "gulley",
-          "gully"
+        "patterns": [
+          "drainage work",
+          "working on drainage"
         ],
-        "requiresClarificationWithoutActivity": true,
         "question": "Which drainage activity best describes the work?",
         "optionIntentIds": [
           "I005",
@@ -2605,13 +2558,6 @@
         ]
       }
     ],
-    "spellingAliases": {
-      "efect": "effect",
-      "loping": "lopping",
-      "utillity": "utility",
-      "reparing": "repairing",
-      "gully": "gulley"
-    },
     "neverInferFromContextOnly": [
       "I006"
     ],
@@ -2619,5 +2565,124 @@
       "owner": "Product owner",
       "lastReviewed": "2026-08-12"
     }
-  }
+  },
+  "families": [
+    {
+      "id": "F001",
+      "label": "Plan or build major infrastructure",
+      "icon": "infrastructure",
+      "candidateIntentIds": [
+        "I001",
+        "I004",
+        "I015",
+        "I016",
+        "I017",
+        "I018",
+        "I019",
+        "I020",
+        "I022"
+      ],
+      "clarificationQuestionId": "Q_INFRA_ACTIVITY"
+    },
+    {
+      "id": "F002",
+      "label": "Repair or maintain a utility",
+      "icon": "repair",
+      "candidateIntentIds": [
+        "I003",
+        "I005",
+        "I025"
+      ],
+      "clarificationQuestionId": "Q_UTILITY_ACTIVITY"
+    },
+    {
+      "id": "F003",
+      "label": "Check property, land or legal rights",
+      "icon": "property",
+      "candidateIntentIds": [
+        "I024",
+        "I031"
+      ],
+      "clarificationQuestionId": "Q_PROPERTY_ACTIVITY"
+    },
+    {
+      "id": "F004",
+      "label": "Survey, drill or investigate the ground",
+      "icon": "survey",
+      "candidateIntentIds": [
+        "I009",
+        "I026",
+        "I027",
+        "I028"
+      ],
+      "clarificationQuestionId": "Q_INVESTIGATION_ACTIVITY"
+    },
+    {
+      "id": "F005",
+      "label": "Install energy, EV or low-carbon infrastructure",
+      "icon": "energy",
+      "candidateIntentIds": [
+        "I007",
+        "I022",
+        "I030"
+      ],
+      "clarificationQuestionId": "Q_ENERGY_ACTIVITY"
+    },
+    {
+      "id": "F006",
+      "label": "Carry out agricultural or rural land work",
+      "icon": "agriculture",
+      "candidateIntentIds": [
+        "I002",
+        "I012",
+        "I013",
+        "I014",
+        "I019",
+        "I022"
+      ],
+      "clarificationQuestionId": "Q_RURAL_ACTIVITY"
+    },
+    {
+      "id": "F007",
+      "label": "Install telecoms or broadband infrastructure",
+      "icon": "telecoms",
+      "candidateIntentIds": [
+        "I003",
+        "I004",
+        "I007",
+        "I016"
+      ],
+      "clarificationQuestionId": "Q_TELECOM_ACTIVITY"
+    },
+    {
+      "id": "F008",
+      "label": "Work on a road, footway or public space",
+      "icon": "road",
+      "candidateIntentIds": [
+        "I003",
+        "I004",
+        "I006",
+        "I007",
+        "I010",
+        "I013",
+        "I017",
+        "I026"
+      ],
+      "clarificationQuestionId": "Q_ROAD_ACTIVITY"
+    },
+    {
+      "id": "F009",
+      "label": "Carry out home, garden or small building work",
+      "icon": "home",
+      "candidateIntentIds": [
+        "I001",
+        "I002",
+        "I005",
+        "I011",
+        "I012",
+        "I021"
+      ],
+      "clarificationQuestionId": "Q_HOME_ACTIVITY"
+    }
+  ]
 }

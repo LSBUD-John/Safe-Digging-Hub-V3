@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "generatedAt": "2026-08-12T08:54:05.572Z",
+  "version": 3,
+  "generatedAt": "2026-08-12T12:35:57.405Z",
   "relationshipMode": "controlled-explicit",
   "byIntent": {
     "I001": {
@@ -11,7 +11,6 @@
         "P002",
         "P013"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R005",
@@ -89,7 +88,6 @@
       "secondaryPersonaIds": [
         "P030"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -131,7 +129,6 @@
         "P006",
         "P007"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R002",
@@ -188,7 +185,6 @@
         "P006",
         "P007"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R002",
@@ -238,7 +234,6 @@
         "P007",
         "P009"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R018"
@@ -300,7 +295,12 @@
         },
         {
           "when": {
-            "answers.Q_PENETRATION": "yes"
+            "answers.Q_EXCAVATION_PATTERN": [
+              "single",
+              "multiple",
+              "linear",
+              "trenchless"
+            ]
           },
           "addRiskIds": [
             "R002",
@@ -334,7 +334,6 @@
         "P021",
         "P022"
       ],
-      "methodIds": [],
       "riskIds": [
         "R006",
         "R007",
@@ -379,7 +378,6 @@
         "P002",
         "P009"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -424,7 +422,6 @@
       "secondaryPersonaIds": [
         "P021"
       ],
-      "methodIds": [],
       "riskIds": [
         "R013",
         "R014",
@@ -466,7 +463,6 @@
       "secondaryPersonaIds": [
         "P017"
       ],
-      "methodIds": [],
       "riskIds": [
         "R012",
         "R013",
@@ -510,7 +506,6 @@
         "P024",
         "P030"
       ],
-      "methodIds": [],
       "riskIds": [
         "R011",
         "R021"
@@ -567,7 +562,6 @@
         "P024",
         "P030"
       ],
-      "methodIds": [],
       "riskIds": [
         "R003",
         "R005",
@@ -616,7 +610,6 @@
         "P030",
         "P031"
       ],
-      "methodIds": [],
       "riskIds": [
         "R003",
         "R005",
@@ -659,7 +652,6 @@
       "secondaryPersonaIds": [
         "P038"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -702,7 +694,6 @@
       "secondaryPersonaIds": [
         "P025"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -745,7 +736,6 @@
         "P006",
         "P026"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -793,7 +783,6 @@
       "secondaryPersonaIds": [
         "P006"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -840,7 +829,6 @@
         "P008",
         "P021"
       ],
-      "methodIds": [],
       "riskIds": [
         "R006",
         "R008",
@@ -880,7 +868,6 @@
       "secondaryPersonaIds": [
         "P024"
       ],
-      "methodIds": [],
       "riskIds": [
         "R006",
         "R008"
@@ -918,7 +905,6 @@
         "P007",
         "P030"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -961,7 +947,6 @@
         "P006",
         "P026"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -1007,7 +992,6 @@
       "secondaryPersonaIds": [
         "P002"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -1052,7 +1036,6 @@
         "P014",
         "P025"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R019",
@@ -1095,7 +1078,6 @@
         "P014",
         "P026"
       ],
-      "methodIds": [],
       "riskIds": [
         "R019",
         "R021"
@@ -1133,7 +1115,6 @@
         "P026",
         "P009"
       ],
-      "methodIds": [],
       "riskIds": [],
       "mitigationIds": [],
       "libraryIds": [
@@ -1163,7 +1144,6 @@
         "P009",
         "P033"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R002",
@@ -1205,7 +1185,6 @@
       "secondaryPersonaIds": [
         "P006"
       ],
-      "methodIds": [],
       "riskIds": [
         "R001",
         "R003",
@@ -1247,7 +1226,6 @@
         "P007",
         "P009"
       ],
-      "methodIds": [],
       "riskIds": [
         "R003",
         "R016",
@@ -1285,7 +1263,6 @@
       "secondaryPersonaIds": [
         "P007"
       ],
-      "methodIds": [],
       "riskIds": [
         "R010",
         "R019",
@@ -1323,7 +1300,6 @@
       "secondaryPersonaIds": [
         "P021"
       ],
-      "methodIds": [],
       "riskIds": [
         "R006",
         "R008"
@@ -1361,7 +1337,6 @@
         "P025",
         "P009"
       ],
-      "methodIds": [],
       "riskIds": [],
       "mitigationIds": [],
       "libraryIds": [
@@ -1394,7 +1369,6 @@
         "P030",
         "P010"
       ],
-      "methodIds": [],
       "riskIds": [
         "R024"
       ],
@@ -1435,7 +1409,6 @@
             "MT001"
           ],
           "addServiceIds": [
-            "S002",
             "S012"
           ]
         }
@@ -1463,7 +1436,6 @@
         "P009",
         "P028"
       ],
-      "methodIds": [],
       "riskIds": [
         "R004"
       ],
@@ -1500,7 +1472,6 @@
         "P017",
         "P025"
       ],
-      "methodIds": [],
       "riskIds": [],
       "mitigationIds": [],
       "libraryIds": [

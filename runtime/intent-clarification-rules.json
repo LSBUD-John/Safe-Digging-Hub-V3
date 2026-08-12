@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 3,
   "genericContextTerms": [
     "road",
     "highway",
@@ -16,8 +16,8 @@
     "water",
     "near",
     "beside",
-    "working",
-    "work"
+    "alongside",
+    "adjacent"
   ],
   "activityVerbs": [
     "build",
@@ -47,49 +47,68 @@
     "top",
     "verify"
   ],
-  "minimumConfirmation": {
-    "distinctivePhraseScore": 70,
-    "minimumActivitySignals": 1,
-    "rejectContextOnly": true
+  "spellingAliases": {
+    "efect": "effect",
+    "loping": "lopping",
+    "utillity": "utility",
+    "reparing": "repairing",
+    "gully": "gulley"
   },
   "contextRules": [
     {
-      "id": "CR_ROAD",
-      "terms": [
-        "road",
-        "highway",
-        "carriageway",
-        "footway",
-        "verge",
+      "id": "CR_ROADSIDE",
+      "patterns": [
         "beside a road",
-        "near a road"
+        "beside the road",
+        "near a road",
+        "near the road",
+        "alongside a road",
+        "adjacent to a road",
+        "next to a road"
       ],
-      "requiresClarificationWithoutActivity": true,
-      "question": "What activity will you be carrying out on or beside the road?",
+      "question": "What activity will you be carrying out beside the road?",
+      "optionIntentIds": [
+        "I003",
+        "I004",
+        "I007",
+        "I010",
+        "I013",
+        "I017",
+        "I026"
+      ],
+      "excludeIntentIds": [
+        "I006"
+      ]
+    },
+    {
+      "id": "CR_ON_ROAD",
+      "patterns": [
+        "on the road",
+        "in the road",
+        "within the carriageway",
+        "road surface"
+      ],
+      "question": "What activity will you be carrying out on the road?",
       "optionIntentIds": [
         "I003",
         "I004",
         "I006",
         "I007",
-        "I010",
         "I013",
         "I017",
-        "I026",
-        "I033"
+        "I026"
       ]
     },
     {
       "id": "CR_LAND",
-      "terms": [
-        "land",
-        "field",
-        "site",
-        "property"
+      "patterns": [
+        "working on land",
+        "work on land",
+        "information about land",
+        "about my land"
       ],
-      "requiresClarificationWithoutActivity": true,
       "question": "What do you need to do or find out about the land?",
       "optionIntentIds": [
-        "I001",
         "I002",
         "I014",
         "I022",
@@ -102,14 +121,10 @@
     },
     {
       "id": "CR_DRAINAGE",
-      "terms": [
-        "drainage",
-        "drain",
-        "sewer",
-        "gulley",
-        "gully"
+      "patterns": [
+        "drainage work",
+        "working on drainage"
       ],
-      "requiresClarificationWithoutActivity": true,
       "question": "Which drainage activity best describes the work?",
       "optionIntentIds": [
         "I005",
@@ -119,13 +134,6 @@
       ]
     }
   ],
-  "spellingAliases": {
-    "efect": "effect",
-    "loping": "lopping",
-    "utillity": "utility",
-    "reparing": "repairing",
-    "gully": "gulley"
-  },
   "neverInferFromContextOnly": [
     "I006"
   ],
