@@ -1,0 +1,30 @@
+[
+  {
+    "intentId": "I002",
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_FENCE_TYPE",
+      "Q_POST_DEPTH",
+      "Q_POST_METHOD",
+      "Q_SITE_CONSIDERATIONS"
+    ]
+  },
+  {
+    "intentId": "I003",
+    "questionIds": [
+      "Q_UTILITY_ASSET_TYPE",
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_REPAIR_ACCESS",
+      "Q_DEPTH",
+      "Q_SITE_CONSIDERATIONS"
+    ]
+  },
+  {
+    "intentId": "I034",
+    "relationFromAddition": true
+  }
+]

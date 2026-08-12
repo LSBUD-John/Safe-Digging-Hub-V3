@@ -1,0 +1,437 @@
+[
+  {
+    "id": "Q_UTILITY_ASSET_TYPE",
+    "prompt": "Which utility asset are you repairing or maintaining?",
+    "type": "single-choice",
+    "showWhen": {
+      "intentIds": [
+        "I003"
+      ]
+    },
+    "options": [
+      {
+        "id": "gas",
+        "label": "Gas asset",
+        "sets": {
+          "assetType": "gas"
+        }
+      },
+      {
+        "id": "electricity",
+        "label": "Electricity cable or equipment",
+        "sets": {
+          "assetType": "electricity"
+        }
+      },
+      {
+        "id": "telecom",
+        "label": "Telecommunications cable, duct or equipment",
+        "sets": {
+          "assetType": "telecommunications"
+        }
+      },
+      {
+        "id": "pipeline",
+        "label": "Pipeline or fuel network",
+        "sets": {
+          "assetType": "pipeline"
+        }
+      },
+      {
+        "id": "unknown",
+        "label": "Unknown or unidentified service",
+        "sets": {
+          "assetType": "unknown"
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q_REPAIR_ACCESS",
+    "prompt": "How will the asset be accessed or repaired?",
+    "type": "single-choice",
+    "showWhen": {
+      "intentIds": [
+        "I003"
+      ]
+    },
+    "options": [
+      {
+        "id": "single",
+        "label": "One local excavation",
+        "sets": {}
+      },
+      {
+        "id": "multiple",
+        "label": "Several separate excavations",
+        "sets": {}
+      },
+      {
+        "id": "linear",
+        "label": "A longer linear trench",
+        "sets": {}
+      },
+      {
+        "id": "chamber",
+        "label": "Existing chamber or access point",
+        "sets": {}
+      },
+      {
+        "id": "trenchless",
+        "label": "Trenchless repair",
+        "sets": {}
+      },
+      {
+        "id": "none",
+        "label": "No excavation required",
+        "sets": {}
+      },
+      {
+        "id": "unknown",
+        "label": "Not decided",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_FENCE_TYPE",
+    "prompt": "What are you installing?",
+    "type": "single-choice",
+    "showWhen": {
+      "intentIds": [
+        "I002"
+      ]
+    },
+    "options": [
+      {
+        "id": "fence-posts",
+        "label": "Fence posts",
+        "sets": {}
+      },
+      {
+        "id": "gate-posts",
+        "label": "Gate posts",
+        "sets": {}
+      },
+      {
+        "id": "structural",
+        "label": "Structural or load-bearing posts",
+        "sets": {}
+      },
+      {
+        "id": "temporary",
+        "label": "Temporary fencing",
+        "sets": {}
+      },
+      {
+        "id": "unknown",
+        "label": "Not decided",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_POST_DEPTH",
+    "prompt": "What is the likely maximum post or foundation depth?",
+    "type": "single-choice",
+    "showWhen": {
+      "intentIds": [
+        "I002"
+      ]
+    },
+    "options": [
+      {
+        "id": "under-05",
+        "label": "0.5 metres or shallower",
+        "sets": {}
+      },
+      {
+        "id": "05-to-15",
+        "label": "More than 0.5 metres and up to 1.5 metres",
+        "sets": {}
+      },
+      {
+        "id": "over-15",
+        "label": "Deeper than 1.5 metres",
+        "sets": {}
+      },
+      {
+        "id": "unknown",
+        "label": "Not known",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_POST_METHOD",
+    "prompt": "How will the posts or foundations be installed?",
+    "type": "single-choice",
+    "showWhen": {
+      "intentIds": [
+        "I002"
+      ]
+    },
+    "options": [
+      {
+        "id": "hand",
+        "label": "Hand dug",
+        "sets": {}
+      },
+      {
+        "id": "auger",
+        "label": "Mechanical post-hole auger",
+        "sets": {}
+      },
+      {
+        "id": "driver",
+        "label": "Post driver",
+        "sets": {}
+      },
+      {
+        "id": "excavator",
+        "label": "Excavator",
+        "sets": {}
+      },
+      {
+        "id": "concrete",
+        "label": "Concrete foundation",
+        "sets": {}
+      },
+      {
+        "id": "unknown",
+        "label": "Not decided",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_SITE_CONSIDERATIONS",
+    "prompt": "Are any of these site considerations relevant?",
+    "type": "multi-choice",
+    "options": [
+      {
+        "id": "overhead",
+        "label": "Overhead lines",
+        "sets": {}
+      },
+      {
+        "id": "trees",
+        "label": "Trees or hedges",
+        "sets": {}
+      },
+      {
+        "id": "water",
+        "label": "Open water, ditch or drainage channel",
+        "sets": {}
+      },
+      {
+        "id": "highway",
+        "label": "Highway or public footway",
+        "sets": {}
+      },
+      {
+        "id": "environment",
+        "label": "Protected or environmentally sensitive land",
+        "sets": {}
+      },
+      {
+        "id": "neighbour",
+        "label": "Access across neighbouring land",
+        "sets": {}
+      },
+      {
+        "id": "none",
+        "label": "None known",
+        "sets": {}
+      },
+      {
+        "id": "unsure",
+        "label": "Not sure",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_TRANSACTION_TYPE",
+    "prompt": "What is the information needed for?",
+    "type": "single-choice",
+    "showWhen": {
+      "intentIds": [
+        "I034"
+      ]
+    },
+    "options": [
+      {
+        "id": "res-buy",
+        "label": "Buying a residential property",
+        "sets": {}
+      },
+      {
+        "id": "res-sell",
+        "label": "Selling a residential property",
+        "sets": {}
+      },
+      {
+        "id": "commercial",
+        "label": "Commercial property transaction",
+        "sets": {}
+      },
+      {
+        "id": "land",
+        "label": "Buying or selling land",
+        "sets": {}
+      },
+      {
+        "id": "finance",
+        "label": "Remortgage or refinancing",
+        "sets": {}
+      },
+      {
+        "id": "development",
+        "label": "Development due diligence",
+        "sets": {}
+      },
+      {
+        "id": "other",
+        "label": "Other property transaction",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_CONVEYANCING_ROLE",
+    "prompt": "Which best describes your role?",
+    "type": "single-choice",
+    "showWhen": {
+      "intentIds": [
+        "I034"
+      ]
+    },
+    "options": [
+      {
+        "id": "conveyancer",
+        "label": "Conveyancer or solicitor",
+        "sets": {}
+      },
+      {
+        "id": "search-provider",
+        "label": "Property-search provider",
+        "sets": {}
+      },
+      {
+        "id": "buyer",
+        "label": "Buyer or prospective buyer",
+        "sets": {}
+      },
+      {
+        "id": "seller",
+        "label": "Seller",
+        "sets": {}
+      },
+      {
+        "id": "owner",
+        "label": "Landowner or land agent",
+        "sets": {}
+      },
+      {
+        "id": "developer",
+        "label": "Developer or planning consultant",
+        "sets": {}
+      },
+      {
+        "id": "estate",
+        "label": "Estate or facilities manager",
+        "sets": {}
+      },
+      {
+        "id": "other",
+        "label": "Other",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_INFORMATION_REQUIRED",
+    "prompt": "What information are you trying to obtain?",
+    "type": "single-choice",
+    "showWhen": {
+      "intentIds": [
+        "I034"
+      ]
+    },
+    "options": [
+      {
+        "id": "drainage-water",
+        "label": "Drainage and water information",
+        "sets": {}
+      },
+      {
+        "id": "utility-assets",
+        "label": "Utility assets near or beneath the property",
+        "sets": {}
+      },
+      {
+        "id": "rights",
+        "label": "Wayleaves, easements or utility rights",
+        "sets": {}
+      },
+      {
+        "id": "title",
+        "label": "Title, boundary or ownership information",
+        "sets": {}
+      },
+      {
+        "id": "planning",
+        "label": "Nearby planning applications",
+        "sets": {}
+      },
+      {
+        "id": "constraints",
+        "label": "Development or infrastructure constraints",
+        "sets": {}
+      },
+      {
+        "id": "combined",
+        "label": "A combined property-information pack",
+        "sets": {}
+      },
+      {
+        "id": "unsure",
+        "label": "Not sure",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_DEVELOPMENT_WORKS",
+    "prompt": "Are physical works or development also being considered?",
+    "type": "single-choice",
+    "showWhen": {
+      "intentIds": [
+        "I034"
+      ]
+    },
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes, works are planned",
+        "sets": {}
+      },
+      {
+        "id": "feasibility",
+        "label": "Development feasibility only",
+        "sets": {}
+      },
+      {
+        "id": "no",
+        "label": "No, this is for the transaction only",
+        "sets": {}
+      },
+      {
+        "id": "unsure",
+        "label": "Not sure",
+        "sets": {}
+      }
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "intentId": "I034",
+    "status": "draft-reviewed",
+    "primaryPersonaIds": [
+      "P025"
+    ],
+    "secondaryPersonaIds": [
+      "P014",
+      "P026",
+      "P024"
+    ],
+    "baseRiskIds": [
+      "R024"
+    ],
+    "baseMitigationIds": [],
+    "baseLibraryIds": [
+      "L002",
+      "L013",
+      "L014"
+    ],
+    "baseLegislationIds": [
+      "LG012"
+    ],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S011",
+      "S012"
+    ],
+    "questionIds": [
+      "Q_TRANSACTION_TYPE",
+      "Q_CONVEYANCING_ROLE",
+      "Q_JURISDICTION",
+      "Q_INFORMATION_REQUIRED",
+      "Q_DEVELOPMENT_WORKS"
+    ],
+    "conditional": [
+      {
+        "when": {
+          "answers.Q_DEVELOPMENT_WORKS": "yes"
+        },
+        "addRiskIds": [
+          "R001",
+          "R013",
+          "R015"
+        ],
+        "addMitigationIds": [
+          "MT001"
+        ],
+        "addServiceIds": [
+          "S002",
+          "S004",
+          "S006"
+        ]
+      },
+      {
+        "when": {
+          "answers.Q_INFORMATION_REQUIRED": "utility-assets"
+        },
+        "addServiceIds": [
+          "S002",
+          "S004"
+        ]
+      },
+      {
+        "when": {
+          "answers.Q_INFORMATION_REQUIRED": "planning"
+        },
+        "addServiceIds": [
+          "S012"
+        ]
+      }
+    ],
+    "excludedIds": {
+      "serviceIds": [
+        "S010"
+      ]
+    },
+    "governance": {
+      "owner": "Product owner",
+      "technicalReviewRequired": true,
+      "lastReviewed": "2026-08-12"
+    }
+  }
+]

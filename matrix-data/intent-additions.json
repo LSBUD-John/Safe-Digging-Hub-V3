@@ -1,0 +1,10 @@
+[
+  {
+    "ID": "I034",
+    "Intent": "Obtain property and utility information for conveyancing",
+    "Match phrases": "conveyancing|conveyancing plans|property transaction|property purchase|property sale|buying land|commercial property search|residential property search|property due diligence|drainage and water search|utility plans for conveyancing|collating plans for conveyancing",
+    "Personas": "Conveyancer or solicitor; Property search provider; Buyer; Seller; Landowner; Developer",
+    "Context": "Property transaction / land information",
+    "Ground / physical effect": "No ground disturbance unless development or works are also planned"
+  }
+]
