@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build:runtime": "node engine/build-runtime.mjs && node engine/build-runtime-relations-patch.mjs",
+    "validate:runtime": "node engine/validate-runtime.mjs",
+    "phase-a": "npm run build:runtime && npm run validate:runtime"
+  }
+}
