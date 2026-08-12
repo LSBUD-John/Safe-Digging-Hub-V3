@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "generatedAt": "2026-08-12T12:35:57.406Z",
+  "version": 4,
+  "generatedAt": "2026-08-12T13:14:49.370Z",
   "relationshipMode": "controlled-explicit",
   "intents": [
     {
@@ -147,7 +147,10 @@
         "Q_PURPOSE",
         "Q_ROLE",
         "Q_JURISDICTION",
-        "Q_PENETRATION"
+        "Q_FENCE_TYPE",
+        "Q_POST_DEPTH",
+        "Q_POST_METHOD",
+        "Q_SITE_CONSIDERATIONS"
       ],
       "conditional": [],
       "excludedIds": {}
@@ -203,10 +206,13 @@
         "S009"
       ],
       "questionIds": [
+        "Q_UTILITY_ASSET_TYPE",
         "Q_PURPOSE",
         "Q_ROLE",
         "Q_JURISDICTION",
-        "Q_PENETRATION"
+        "Q_REPAIR_ACCESS",
+        "Q_DEPTH",
+        "Q_SITE_CONSIDERATIONS"
       ],
       "conditional": [
         {
@@ -2016,6 +2022,57 @@
       ],
       "conditional": [],
       "excludedIds": {}
+    },
+    {
+      "id": "I034",
+      "label": "Obtain property and utility information for conveyancing",
+      "matchPhrases": [
+        "Obtain property and utility information for conveyancing",
+        "conveyancing",
+        "conveyancing plans",
+        "property transaction",
+        "property purchase",
+        "property sale",
+        "buying land",
+        "commercial property search",
+        "residential property search",
+        "property due diligence",
+        "drainage and water search",
+        "utility plans for conveyancing",
+        "collating plans for conveyancing"
+      ],
+      "context": "Property transaction / land information",
+      "physicalEffect": "No ground disturbance unless development or works are also planned",
+      "personaIds": [
+        "P025",
+        "P014",
+        "P026",
+        "P024"
+      ],
+      "riskIds": [
+        "R024"
+      ],
+      "mitigationIds": [],
+      "libraryIds": [
+        "L002",
+        "L013",
+        "L014"
+      ],
+      "legislationIds": [
+        "LG012"
+      ],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S011",
+        "S012"
+      ],
+      "questionIds": [
+        "Q_TRANSACTION_TYPE",
+        "Q_CONVEYANCING_ROLE",
+        "Q_JURISDICTION",
+        "Q_INFORMATION_REQUIRED",
+        "Q_DEVELOPMENT_WORKS"
+      ]
     }
   ],
   "phraseMap": {

@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "spatialRule": "The user-drawn WKT defines the full work/search area. Do not use post count to select a Work Type.",
+  "rules": [
+    {
+      "intentId": "I002",
+      "default": {
+        "workCategory": "Domestic Works (General public)",
+        "workType": "Fencing / gates"
+      },
+      "alternatives": [
+        {
+          "when": {
+            "personaId": "P030"
+          },
+          "workCategory": "Agricultural Works",
+          "workType": "Fencing / gates"
+        },
+        {
+          "when": {
+            "answers.Q_POST_DEPTH": "over-15"
+          },
+          "workCategory": "Excavations Non Utility",
+          "workType": "Single excavation site (deeper than 1.5m)"
+        },
+        {
+          "when": {
+            "answers.Q_POST_DEPTH": [
+              "under-05",
+              "05-to-15",
+              "unknown"
+            ]
+          },
+          "workCategory": "Excavations Non Utility",
+          "workType": "Single excavation site (1.5m or shallower)"
+        }
+      ]
+    },
+    {
+      "intentId": "I003",
+      "default": {
+        "workCategory": "Utility Works",
+        "workType": "Single excavation site (1.5m or shallower)"
+      },
+      "accessMap": {
+        "single": "Single excavation site (1.5m or shallower)",
+        "multiple": "Multiple excavations site (1.5m or shallower)",
+        "linear": "Linear project in highway",
+        "trenchless": "Horizontal drilling/moling/tunnelling/pipe jacking"
+      },
+      "depthMap": {
+        "deep": "Single excavation site (deeper than 1.5m)",
+        "shallow": "Single excavation site (1.5m or shallower)"
+      }
+    },
+    {
+      "intentId": "I005",
+      "default": {
+        "workCategory": "Utility Works",
+        "workType": "Single excavation site (1.5m or shallower)"
+      },
+      "accessMap": {
+        "single": "Single excavation site (1.5m or shallower)",
+        "multiple": "Multiple excavations site (1.5m or shallower)",
+        "linear": "Linear project in highway",
+        "trenchless": "Horizontal drilling/moling/tunnelling/pipe jacking"
+      }
+    }
+  ],
+  "selectionMethods": [
+    "user-selected-suggestion",
+    "user-selected-after-help",
+    "user-selected-manually"
+  ]
+}

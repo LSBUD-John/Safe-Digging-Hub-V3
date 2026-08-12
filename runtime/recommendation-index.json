@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "generatedAt": "2026-08-12T12:35:57.405Z",
+  "version": 4,
+  "generatedAt": "2026-08-12T13:14:49.369Z",
   "relationshipMode": "controlled-explicit",
   "byIntent": {
     "I001": {
@@ -116,7 +116,10 @@
         "Q_PURPOSE",
         "Q_ROLE",
         "Q_JURISDICTION",
-        "Q_PENETRATION"
+        "Q_FENCE_TYPE",
+        "Q_POST_DEPTH",
+        "Q_POST_METHOD",
+        "Q_SITE_CONSIDERATIONS"
       ],
       "conditional": [],
       "excludedIds": {}
@@ -157,10 +160,13 @@
         "S009"
       ],
       "questionIds": [
+        "Q_UTILITY_ASSET_TYPE",
         "Q_PURPOSE",
         "Q_ROLE",
         "Q_JURISDICTION",
-        "Q_PENETRATION"
+        "Q_REPAIR_ACCESS",
+        "Q_DEPTH",
+        "Q_SITE_CONSIDERATIONS"
       ],
       "conditional": [
         {
@@ -1491,6 +1497,82 @@
       ],
       "conditional": [],
       "excludedIds": {}
+    },
+    "I034": {
+      "primaryPersonaIds": [
+        "P025"
+      ],
+      "secondaryPersonaIds": [
+        "P014",
+        "P026",
+        "P024"
+      ],
+      "riskIds": [
+        "R024"
+      ],
+      "mitigationIds": [],
+      "libraryIds": [
+        "L002",
+        "L013",
+        "L014"
+      ],
+      "legislationIds": [
+        "LG012"
+      ],
+      "externalResourceIds": [],
+      "serviceIds": [
+        "S011",
+        "S012"
+      ],
+      "questionIds": [
+        "Q_TRANSACTION_TYPE",
+        "Q_CONVEYANCING_ROLE",
+        "Q_JURISDICTION",
+        "Q_INFORMATION_REQUIRED",
+        "Q_DEVELOPMENT_WORKS"
+      ],
+      "conditional": [
+        {
+          "when": {
+            "answers.Q_DEVELOPMENT_WORKS": "yes"
+          },
+          "addRiskIds": [
+            "R001",
+            "R013",
+            "R015"
+          ],
+          "addMitigationIds": [
+            "MT001"
+          ],
+          "addServiceIds": [
+            "S002",
+            "S004",
+            "S006"
+          ]
+        },
+        {
+          "when": {
+            "answers.Q_INFORMATION_REQUIRED": "utility-assets"
+          },
+          "addServiceIds": [
+            "S002",
+            "S004"
+          ]
+        },
+        {
+          "when": {
+            "answers.Q_INFORMATION_REQUIRED": "planning"
+          },
+          "addServiceIds": [
+            "S012"
+          ]
+        }
+      ],
+      "excludedIds": {
+        "serviceIds": [
+          "S010"
+        ]
+      }
     }
   },
   "records": {

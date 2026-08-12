@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "generatedAt": "2026-08-12T12:35:57.409Z",
+  "version": 4,
+  "generatedAt": "2026-08-12T13:14:49.386Z",
   "sourceDirectory": "matrix-data",
   "counts": {
     "intents": 33,
@@ -17,5 +17,10 @@
   "relationshipMode": "controlled-explicit",
   "controlledRelations": 33,
   "intentFamilies": 9,
-  "flowModel": "understand-plan-locate-excavate-safely"
+  "flowModel": "understand-plan-locate-excavate-safely",
+  "intents": 34,
+  "hubValueEnhancement": true,
+  "recommendationPresentation": "personalised-explained-actionable",
+  "oneCallSuggestions": true,
+  "wktPrimarySpatialInput": true
 }

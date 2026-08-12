@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T12:35:57.408Z",
+  "generatedAt": "2026-08-12T13:14:49.372Z",
   "families": [
     {
       "id": "F001",
@@ -35,6 +35,7 @@
       "label": "Check property, land or legal rights",
       "icon": "property",
       "candidateIntentIds": [
+        "I034",
         "I024",
         "I031"
       ],

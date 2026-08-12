@@ -1,0 +1,121 @@
+{
+  "riskFamilies": [
+    {
+      "id": "RF_UTILITY",
+      "label": "Underground utility risks"
+    },
+    {
+      "id": "RF_OVERHEAD",
+      "label": "Overhead utility risks"
+    },
+    {
+      "id": "RF_METHOD",
+      "label": "Work-method risks"
+    },
+    {
+      "id": "RF_ENV",
+      "label": "Environmental and water constraints"
+    },
+    {
+      "id": "RF_PLANNING",
+      "label": "Planning and consent requirements"
+    },
+    {
+      "id": "RF_RIGHTS",
+      "label": "Land rights and access constraints"
+    },
+    {
+      "id": "RF_GROUND",
+      "label": "Site and ground conditions"
+    },
+    {
+      "id": "RF_PUBLIC",
+      "label": "Highway, public and transport interfaces"
+    },
+    {
+      "id": "RF_INFO",
+      "label": "Information-quality risks"
+    },
+    {
+      "id": "RF_INCIDENT",
+      "label": "Emergency and incident risks"
+    }
+  ],
+  "answerEffects": {
+    "Q_SITE_CONSIDERATIONS": {
+      "overhead": {
+        "addRiskIds": [
+          "R011"
+        ],
+        "addMitigationIds": [
+          "MT010"
+        ],
+        "addLibraryIds": [
+          "L012"
+        ],
+        "consideration": "Overhead-line controls may be needed."
+      },
+      "water": {
+        "addRiskIds": [
+          "R019",
+          "R020"
+        ],
+        "addMitigationIds": [
+          "MT011",
+          "MT015"
+        ],
+        "addLibraryIds": [
+          "L012"
+        ],
+        "addServiceIds": [
+          "S007"
+        ],
+        "consideration": "Open-water, bank stability, flooding and pollution controls may apply."
+      },
+      "environment": {
+        "addRiskIds": [
+          "R021"
+        ],
+        "addMitigationIds": [
+          "MT015"
+        ],
+        "addServiceIds": [
+          "S008"
+        ],
+        "consideration": "Environmental designations, protected habitats or seasonal controls may apply."
+      },
+      "highway": {
+        "addMitigationIds": [
+          "MT012"
+        ],
+        "addLibraryIds": [
+          "L008"
+        ],
+        "consideration": "Highway permission, notices or traffic-management requirements may apply."
+      },
+      "neighbour": {
+        "addLegislationIds": [
+          "LG011",
+          "LG013"
+        ],
+        "consideration": "Neighbour access, boundaries or land rights may need checking."
+      },
+      "trees": {
+        "addRiskIds": [
+          "R021"
+        ],
+        "addMitigationIds": [
+          "MT015"
+        ],
+        "consideration": "Tree, hedge, root or ecology controls may apply."
+      }
+    }
+  },
+  "copy": {
+    "R003": "Posts, augers, drivers or excavators can puncture a buried cable or pipe. Confirm the service position before penetrating the ground.",
+    "R005": "Private gas, electricity, water, drainage or telecom services may be shallow and may not appear on asset-owner plans.",
+    "R015": "Utility plans are indicative and may not show the precise position or depth of an asset.",
+    "MT004": "Use competent detection appropriate to the site and ground conditions before intrusive work.",
+    "MT005": "Carefully expose or otherwise verify critical assets before mechanical excavation or driving posts."
+  }
+}
