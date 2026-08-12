@@ -1,0 +1,119 @@
+[
+  {
+    "id": "F001",
+    "label": "Plan or build major infrastructure",
+    "icon": "infrastructure",
+    "candidateIntentIds": [
+      "I001",
+      "I004",
+      "I015",
+      "I016",
+      "I017",
+      "I018",
+      "I019",
+      "I020",
+      "I022"
+    ],
+    "clarificationQuestionId": "Q_INFRA_ACTIVITY"
+  },
+  {
+    "id": "F002",
+    "label": "Repair or maintain a utility",
+    "icon": "repair",
+    "candidateIntentIds": [
+      "I003",
+      "I005",
+      "I025"
+    ],
+    "clarificationQuestionId": "Q_UTILITY_ACTIVITY"
+  },
+  {
+    "id": "F003",
+    "label": "Check property, land or legal rights",
+    "icon": "property",
+    "candidateIntentIds": [
+      "I024",
+      "I031"
+    ],
+    "clarificationQuestionId": "Q_PROPERTY_ACTIVITY"
+  },
+  {
+    "id": "F004",
+    "label": "Survey, drill or investigate the ground",
+    "icon": "survey",
+    "candidateIntentIds": [
+      "I009",
+      "I026",
+      "I027",
+      "I028"
+    ],
+    "clarificationQuestionId": "Q_INVESTIGATION_ACTIVITY"
+  },
+  {
+    "id": "F005",
+    "label": "Install energy, EV or low-carbon infrastructure",
+    "icon": "energy",
+    "candidateIntentIds": [
+      "I007",
+      "I022",
+      "I030"
+    ],
+    "clarificationQuestionId": "Q_ENERGY_ACTIVITY"
+  },
+  {
+    "id": "F006",
+    "label": "Carry out agricultural or rural land work",
+    "icon": "agriculture",
+    "candidateIntentIds": [
+      "I002",
+      "I012",
+      "I013",
+      "I014",
+      "I019",
+      "I022"
+    ],
+    "clarificationQuestionId": "Q_RURAL_ACTIVITY"
+  },
+  {
+    "id": "F007",
+    "label": "Install telecoms or broadband infrastructure",
+    "icon": "telecoms",
+    "candidateIntentIds": [
+      "I003",
+      "I004",
+      "I007",
+      "I016"
+    ],
+    "clarificationQuestionId": "Q_TELECOM_ACTIVITY"
+  },
+  {
+    "id": "F008",
+    "label": "Work on a road, footway or public space",
+    "icon": "road",
+    "candidateIntentIds": [
+      "I003",
+      "I004",
+      "I006",
+      "I007",
+      "I010",
+      "I013",
+      "I017",
+      "I026"
+    ],
+    "clarificationQuestionId": "Q_ROAD_ACTIVITY"
+  },
+  {
+    "id": "F009",
+    "label": "Carry out home, garden or small building work",
+    "icon": "home",
+    "candidateIntentIds": [
+      "I001",
+      "I002",
+      "I005",
+      "I011",
+      "I012",
+      "I021"
+    ],
+    "clarificationQuestionId": "Q_HOME_ACTIVITY"
+  }
+]

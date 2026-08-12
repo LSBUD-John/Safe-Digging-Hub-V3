@@ -1,0 +1,591 @@
+[
+  {
+    "id": "Q_PURPOSE",
+    "prompt": "What do you need the information for?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "information",
+        "label": "Information gathering or early planning",
+        "sets": {
+          "purpose": "information",
+          "enquiryType": "Information Only"
+        }
+      },
+      {
+        "id": "planned-28",
+        "label": "Works starting within the next 28 days",
+        "sets": {
+          "purpose": "planned-near",
+          "enquiryType": "Planned Works"
+        }
+      },
+      {
+        "id": "planned-future",
+        "label": "Works starting more than 28 days away",
+        "sets": {
+          "purpose": "planned-future",
+          "enquiryType": "Information Only",
+          "repeatSearchAdvisory": true
+        }
+      },
+      {
+        "id": "emergency",
+        "label": "Emergency works",
+        "sets": {
+          "purpose": "emergency",
+          "enquiryType": "Emergency"
+        }
+      },
+      {
+        "id": "unsure",
+        "label": "Not sure",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_ROLE",
+    "prompt": "Which best describes your role?",
+    "type": "single-choice",
+    "deriveOptionsFrom": "personas"
+  },
+  {
+    "id": "Q_JURISDICTION",
+    "prompt": "Where will the activity take place?",
+    "type": "single-choice",
+    "deriveOptionsFrom": "jurisdictions"
+  },
+  {
+    "id": "Q_EXCAVATION_PATTERN",
+    "prompt": "How will the sewer be accessed?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "single",
+        "label": "One excavation",
+        "sets": {}
+      },
+      {
+        "id": "multiple",
+        "label": "Several excavations",
+        "sets": {}
+      },
+      {
+        "id": "linear",
+        "label": "A longer linear trench",
+        "sets": {}
+      },
+      {
+        "id": "trenchless",
+        "label": "Trenchless repair",
+        "sets": {}
+      },
+      {
+        "id": "unknown",
+        "label": "Not decided",
+        "sets": {}
+      }
+    ],
+    "showWhen": {
+      "intentIds": [
+        "I005"
+      ]
+    }
+  },
+  {
+    "id": "Q_DEPTH",
+    "prompt": "What is the likely maximum excavation depth?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "shallow",
+        "label": "1.5 metres or shallower",
+        "sets": {}
+      },
+      {
+        "id": "deep",
+        "label": "Deeper than 1.5 metres",
+        "sets": {}
+      },
+      {
+        "id": "unknown",
+        "label": "Not known",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_DEWATERING",
+    "prompt": "Is dewatering or pumping likely to be required?",
+    "type": "yes-no-unsure",
+    "showWhen": {
+      "intentIds": [
+        "I005",
+        "I028"
+      ]
+    }
+  },
+  {
+    "id": "Q_WATER",
+    "prompt": "Is the work close to open water, drainage or a risk of flooding?",
+    "type": "yes-no-unsure"
+  },
+  {
+    "id": "Q_PLANING",
+    "prompt": "Will the existing road surface be planed or removed?",
+    "type": "yes-no-unsure",
+    "showWhen": {
+      "intentIds": [
+        "I006"
+      ]
+    }
+  },
+  {
+    "id": "Q_DRAINAGE_CHANGES",
+    "prompt": "Will the work alter gullies, covers, chambers, kerbs or drainage levels?",
+    "type": "yes-no-unsure",
+    "showWhen": {
+      "intentIds": [
+        "I006"
+      ]
+    }
+  },
+  {
+    "id": "Q_LOADING",
+    "prompt": "Will heavy plant, rollers, outriggers, spoil or stored materials load the ground?",
+    "type": "yes-no-unsure"
+  },
+  {
+    "id": "Q_LAND_RIGHT_PURPOSE",
+    "prompt": "What are you trying to establish?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "existence",
+        "label": "Whether a wayleave or easement exists",
+        "sets": {}
+      },
+      {
+        "id": "rights",
+        "label": "What rights a utility company has over the land",
+        "sets": {}
+      },
+      {
+        "id": "development",
+        "label": "Whether the rights affect proposed development",
+        "sets": {}
+      },
+      {
+        "id": "owner",
+        "label": "Who owns or maintains an asset",
+        "sets": {}
+      },
+      {
+        "id": "agreement",
+        "label": "Whether an agreement or payment applies",
+        "sets": {}
+      },
+      {
+        "id": "access",
+        "label": "Whether access can be required",
+        "sets": {}
+      },
+      {
+        "id": "unsure",
+        "label": "Not sure",
+        "sets": {}
+      }
+    ],
+    "showWhen": {
+      "intentIds": [
+        "I031"
+      ]
+    }
+  },
+  {
+    "id": "Q_LAND_INTEREST",
+    "prompt": "Which best describes your interest in the land?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "owner",
+        "label": "Owner",
+        "sets": {}
+      },
+      {
+        "id": "buyer",
+        "label": "Prospective purchaser",
+        "sets": {}
+      },
+      {
+        "id": "tenant",
+        "label": "Tenant or occupier",
+        "sets": {}
+      },
+      {
+        "id": "agent",
+        "label": "Land agent",
+        "sets": {}
+      },
+      {
+        "id": "developer",
+        "label": "Developer or planning consultant",
+        "sets": {}
+      },
+      {
+        "id": "contractor",
+        "label": "Contractor",
+        "sets": {}
+      },
+      {
+        "id": "utility",
+        "label": "Utility or asset owner",
+        "sets": {}
+      },
+      {
+        "id": "other",
+        "label": "Other",
+        "sets": {}
+      }
+    ],
+    "showWhen": {
+      "intentIds": [
+        "I031"
+      ]
+    }
+  },
+  {
+    "id": "Q_PHYSICAL_WORKS",
+    "prompt": "Are physical works or ground disturbance planned?",
+    "type": "yes-no-unsure",
+    "showWhen": {
+      "intentIds": [
+        "I031"
+      ]
+    }
+  },
+  {
+    "id": "Q_INFRA_ACTIVITY",
+    "prompt": "What type of infrastructure or construction work are you planning?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "I006",
+        "label": "Road or highway project",
+        "sets": {}
+      },
+      {
+        "id": "I033",
+        "label": "Rail or transport project",
+        "sets": {}
+      },
+      {
+        "id": "I020",
+        "label": "Commercial or industrial development",
+        "sets": {}
+      },
+      {
+        "id": "I001",
+        "label": "Housing or mixed-use development",
+        "sets": {}
+      },
+      {
+        "id": "I015",
+        "label": "Deep foundations or piling",
+        "sets": {}
+      },
+      {
+        "id": "I004",
+        "label": "Linear utility or pipeline route",
+        "sets": {}
+      },
+      {
+        "id": "I018",
+        "label": "Site compound or heavy plant access",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_UTILITY_ACTIVITY",
+    "prompt": "Which utility or service are you working on?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "I004",
+        "label": "Water main or new pipework",
+        "sets": {}
+      },
+      {
+        "id": "I005",
+        "label": "Sewer or drainage",
+        "sets": {}
+      },
+      {
+        "id": "I003",
+        "label": "Gas, electricity or telecom asset",
+        "sets": {}
+      },
+      {
+        "id": "I025",
+        "label": "Emergency repair",
+        "sets": {}
+      },
+      {
+        "id": "I003",
+        "label": "Pipeline or fuel network",
+        "sets": {}
+      },
+      {
+        "id": "I003",
+        "label": "Unknown or unidentified service",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_PROPERTY_ACTIVITY",
+    "prompt": "What are you trying to establish?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "I031",
+        "label": "Wayleave, easement or utility rights",
+        "sets": {}
+      },
+      {
+        "id": "I024",
+        "label": "Nearby planning applications",
+        "sets": {}
+      },
+      {
+        "id": "I031",
+        "label": "Whether utility assets affect the property",
+        "sets": {}
+      },
+      {
+        "id": "I031",
+        "label": "Who owns or maintains an asset",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_INVESTIGATION_ACTIVITY",
+    "prompt": "What type of investigation will be carried out?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "I009",
+        "label": "Utility detection survey",
+        "sets": {}
+      },
+      {
+        "id": "I026",
+        "label": "Trial holes or vacuum excavation",
+        "sets": {}
+      },
+      {
+        "id": "I026",
+        "label": "Geotechnical boreholes",
+        "sets": {}
+      },
+      {
+        "id": "I026",
+        "label": "Environmental boreholes or sampling",
+        "sets": {}
+      },
+      {
+        "id": "I028",
+        "label": "Groundwater or dewatering investigation",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_ENERGY_ACTIVITY",
+    "prompt": "What are you planning to install or assess?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "I022",
+        "label": "Solar, wind or battery project",
+        "sets": {}
+      },
+      {
+        "id": "I007",
+        "label": "Public EV chargers",
+        "sets": {}
+      },
+      {
+        "id": "I030",
+        "label": "Electricity capacity or connection",
+        "sets": {}
+      },
+      {
+        "id": "I004",
+        "label": "District heating or underground connection",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_RURAL_ACTIVITY",
+    "prompt": "What work will be carried out on the land?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "I014",
+        "label": "Field drainage",
+        "sets": {}
+      },
+      {
+        "id": "I013",
+        "label": "Ditch clearance",
+        "sets": {}
+      },
+      {
+        "id": "I019",
+        "label": "Deep cultivation or subsoiling",
+        "sets": {}
+      },
+      {
+        "id": "I002",
+        "label": "Fencing or gates",
+        "sets": {}
+      },
+      {
+        "id": "I022",
+        "label": "Renewable-energy project",
+        "sets": {}
+      },
+      {
+        "id": "I012",
+        "label": "Tree or hedge work",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_TELECOM_ACTIVITY",
+    "prompt": "What telecoms work are you planning?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "I007",
+        "label": "Install a cabinet",
+        "sets": {}
+      },
+      {
+        "id": "I003",
+        "label": "Install or repair a chamber",
+        "sets": {}
+      },
+      {
+        "id": "I004",
+        "label": "Install new duct",
+        "sets": {}
+      },
+      {
+        "id": "I016",
+        "label": "Micro-trench or drill a route",
+        "sets": {}
+      },
+      {
+        "id": "I003",
+        "label": "Repair an existing telecom asset",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_ROAD_ACTIVITY",
+    "prompt": "What activity will be carried out?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "I006",
+        "label": "Resurface or plane a road",
+        "sets": {}
+      },
+      {
+        "id": "I003",
+        "label": "Repair or install a utility",
+        "sets": {}
+      },
+      {
+        "id": "I013",
+        "label": "Empty a gulley or maintain drainage",
+        "sets": {}
+      },
+      {
+        "id": "I013",
+        "label": "Clear a roadside ditch",
+        "sets": {}
+      },
+      {
+        "id": "I007",
+        "label": "Install street furniture or a cabinet",
+        "sets": {}
+      },
+      {
+        "id": "I010",
+        "label": "Plant, remove or maintain vegetation",
+        "sets": {}
+      },
+      {
+        "id": "I026",
+        "label": "Carry out trial holes or a survey",
+        "sets": {}
+      },
+      {
+        "id": "I017",
+        "label": "Set up a crane, MEWP or work area",
+        "sets": {}
+      }
+    ]
+  },
+  {
+    "id": "Q_HOME_ACTIVITY",
+    "prompt": "What work are you planning at the property?",
+    "type": "single-choice",
+    "options": [
+      {
+        "id": "I001",
+        "label": "House extension",
+        "sets": {}
+      },
+      {
+        "id": "I021",
+        "label": "Driveway or dropped kerb",
+        "sets": {}
+      },
+      {
+        "id": "I002",
+        "label": "Fence, gate or structural posts",
+        "sets": {}
+      },
+      {
+        "id": "I005",
+        "label": "Drainage or sewer repair",
+        "sets": {}
+      },
+      {
+        "id": "I011",
+        "label": "Tree or stump removal",
+        "sets": {}
+      },
+      {
+        "id": "I012",
+        "label": "Tree or hedge planting",
+        "sets": {}
+      },
+      {
+        "id": "I007",
+        "label": "EV charger or new service",
+        "sets": {}
+      }
+    ]
+  }
+]

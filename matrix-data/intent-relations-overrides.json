@@ -1,0 +1,215 @@
+[
+  {
+    "intentId": "I005",
+    "primaryPersonaIds": [
+      "P005"
+    ],
+    "secondaryPersonaIds": [
+      "P006",
+      "P007",
+      "P009"
+    ],
+    "baseRiskIds": [
+      "R001",
+      "R018"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT002",
+      "MT003"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L002",
+      "L005",
+      "L012"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004",
+      "S006",
+      "S007"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_EXCAVATION_PATTERN",
+      "Q_DEPTH",
+      "Q_DEWATERING",
+      "Q_WATER"
+    ],
+    "conditional": [
+      {
+        "when": {
+          "purpose": "emergency"
+        },
+        "addRiskIds": [
+          "R017"
+        ],
+        "addMitigationIds": [
+          "MT014"
+        ]
+      },
+      {
+        "when": {
+          "answers.Q_DEWATERING": "yes"
+        },
+        "addRiskIds": [
+          "R010",
+          "R019",
+          "R020"
+        ],
+        "addMitigationIds": [
+          "MT008",
+          "MT011",
+          "MT015"
+        ]
+      },
+      {
+        "when": {
+          "answers.Q_EXCAVATION_PATTERN": [
+            "single",
+            "multiple",
+            "linear",
+            "trenchless"
+          ]
+        },
+        "addRiskIds": [
+          "R002",
+          "R003",
+          "R013",
+          "R015"
+        ],
+        "addMitigationIds": [
+          "MT004",
+          "MT005"
+        ]
+      }
+    ],
+    "excludedIds": {
+      "riskIds": [
+        "R004"
+      ],
+      "serviceIds": [
+        "S010"
+      ]
+    }
+  },
+  {
+    "intentId": "I006",
+    "primaryPersonaIds": [
+      "P008",
+      "P011"
+    ],
+    "secondaryPersonaIds": [
+      "P006",
+      "P007",
+      "P021",
+      "P022"
+    ],
+    "baseRiskIds": [
+      "R006",
+      "R007",
+      "R008"
+    ],
+    "baseMitigationIds": [
+      "MT001",
+      "MT002",
+      "MT006",
+      "MT007",
+      "MT012"
+    ],
+    "baseLibraryIds": [
+      "L001",
+      "L005",
+      "L008",
+      "L009"
+    ],
+    "baseLegislationIds": [],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004"
+    ],
+    "questionIds": [
+      "Q_PURPOSE",
+      "Q_ROLE",
+      "Q_JURISDICTION",
+      "Q_PLANING",
+      "Q_DRAINAGE_CHANGES",
+      "Q_LOADING"
+    ],
+    "conditional": [],
+    "excludedIds": {}
+  },
+  {
+    "intentId": "I031",
+    "primaryPersonaIds": [
+      "P025"
+    ],
+    "secondaryPersonaIds": [
+      "P024",
+      "P026",
+      "P014",
+      "P030",
+      "P010"
+    ],
+    "baseRiskIds": [
+      "R024"
+    ],
+    "baseMitigationIds": [],
+    "baseLibraryIds": [
+      "L002",
+      "L013",
+      "L014"
+    ],
+    "baseLegislationIds": [
+      "LG011",
+      "LG012",
+      "LG013"
+    ],
+    "baseExternalResourceIds": [],
+    "baseServiceIds": [
+      "S002",
+      "S004",
+      "S011"
+    ],
+    "questionIds": [
+      "Q_LAND_RIGHT_PURPOSE",
+      "Q_LAND_INTEREST",
+      "Q_JURISDICTION",
+      "Q_PHYSICAL_WORKS"
+    ],
+    "conditional": [
+      {
+        "when": {
+          "answers.Q_PHYSICAL_WORKS": "yes"
+        },
+        "addRiskIds": [
+          "R001",
+          "R013",
+          "R015"
+        ],
+        "addMitigationIds": [
+          "MT001"
+        ],
+        "addServiceIds": [
+          "S012"
+        ]
+      }
+    ],
+    "excludedIds": {
+      "riskIds": [
+        "R002",
+        "R004",
+        "R020"
+      ],
+      "serviceIds": [
+        "S010"
+      ]
+    }
+  }
+]

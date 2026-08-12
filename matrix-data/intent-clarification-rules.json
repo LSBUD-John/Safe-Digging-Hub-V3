@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "genericContextTerms": [
+    "road",
+    "highway",
+    "carriageway",
+    "footway",
+    "verge",
+    "site",
+    "land",
+    "property",
+    "garden",
+    "field",
+    "development",
+    "utility",
+    "water",
+    "near",
+    "beside",
+    "alongside",
+    "adjacent"
+  ],
+  "activityVerbs": [
+    "build",
+    "check",
+    "clear",
+    "demolish",
+    "dig",
+    "drill",
+    "empty",
+    "excavate",
+    "install",
+    "investigate",
+    "locate",
+    "lop",
+    "map",
+    "mole",
+    "pile",
+    "plan",
+    "plant",
+    "remove",
+    "repair",
+    "report",
+    "resurface",
+    "store",
+    "strip",
+    "survey",
+    "top",
+    "verify"
+  ],
+  "spellingAliases": {
+    "efect": "effect",
+    "loping": "lopping",
+    "utillity": "utility",
+    "reparing": "repairing",
+    "gully": "gulley"
+  },
+  "contextRules": [
+    {
+      "id": "CR_ROADSIDE",
+      "patterns": [
+        "beside a road",
+        "beside the road",
+        "near a road",
+        "near the road",
+        "alongside a road",
+        "adjacent to a road",
+        "next to a road"
+      ],
+      "question": "What activity will you be carrying out beside the road?",
+      "optionIntentIds": [
+        "I003",
+        "I004",
+        "I007",
+        "I010",
+        "I013",
+        "I017",
+        "I026"
+      ],
+      "excludeIntentIds": [
+        "I006"
+      ]
+    },
+    {
+      "id": "CR_ON_ROAD",
+      "patterns": [
+        "on the road",
+        "in the road",
+        "within the carriageway",
+        "road surface"
+      ],
+      "question": "What activity will you be carrying out on the road?",
+      "optionIntentIds": [
+        "I003",
+        "I004",
+        "I006",
+        "I007",
+        "I013",
+        "I017",
+        "I026"
+      ]
+    },
+    {
+      "id": "CR_LAND",
+      "patterns": [
+        "working on land",
+        "work on land",
+        "information about land",
+        "about my land"
+      ],
+      "question": "What do you need to do or find out about the land?",
+      "optionIntentIds": [
+        "I002",
+        "I014",
+        "I022",
+        "I023",
+        "I024",
+        "I030",
+        "I031",
+        "I033"
+      ]
+    },
+    {
+      "id": "CR_DRAINAGE",
+      "patterns": [
+        "drainage work",
+        "working on drainage"
+      ],
+      "question": "Which drainage activity best describes the work?",
+      "optionIntentIds": [
+        "I005",
+        "I013",
+        "I014",
+        "I028"
+      ]
+    }
+  ],
+  "neverInferFromContextOnly": [
+    "I006"
+  ],
+  "governance": {
+    "owner": "Product owner",
+    "lastReviewed": "2026-08-12"
+  }
+}
